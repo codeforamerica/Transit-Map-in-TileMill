@@ -1,0 +1,244 @@
+{
+  "bounds": [
+    -180,
+    -85.05112877980659,
+    180,
+    85.05112877980659
+  ],
+  "center": [
+    -83.64774785935862,
+    32.831264592927276,
+    19
+  ],
+  "format": "png",
+  "interactivity": false,
+  "minzoom": 0,
+  "maxzoom": 22,
+  "srs": "+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over",
+  "Stylesheet": [
+    "style.mss"
+  ],
+  "Layer": [
+    {
+      "geometry": "polygon",
+      "name": "bibb",
+      "id": "bibb",
+      "srs": "",
+      "class": "coBoundry",
+      "Datasource": {
+        "file": "/Users/jessicalord/Desktop/Macon Map Files/Bib County Census 2010/tl_2010_13021_tract10.shp"
+      }
+    },
+    {
+      "geometry": "multipolygon",
+      "name": "water",
+      "id": "water",
+      "srs": "",
+      "class": "water",
+      "Datasource": {
+        "file": "/Users/jessicalord/Desktop/Macon Map Files/Tiger Lines/13021_Bibb_County/tl_2008_13021_areawater/tl_2008_13021_areawater.shp"
+      }
+    },
+    {
+      "geometry": "multipolygon",
+      "name": "macon",
+      "id": "macon",
+      "srs": "",
+      "class": "ciBoundry",
+      "Datasource": {
+        "file": "/Users/jessicalord/Desktop/Macon Map Files/From Water/MaconCityLimits.shp"
+      }
+    },
+    {
+      "geometry": "linestring",
+      "name": "bibbSts",
+      "id": "bibbSts",
+      "srs": "",
+      "class": "streets",
+      "Datasource": {
+        "file": "/Users/jessicalord/Desktop/Macon Map Files/Open Street Maps/bibb-roads.shp",
+        "id": "bibbSts",
+        "project": "mta",
+        "srs": null
+      }
+    },
+    {
+      "geometry": "point",
+      "name": "2Bstops",
+      "id": "2Bstops",
+      "srs": "",
+      "class": "stops",
+      "Datasource": {
+        "file": "/Users/jessicalord/Desktop/Macon Map Files/Bus Stops/Route2Bstops.kml"
+      }
+    },
+    {
+      "geometry": "point",
+      "name": "2stops",
+      "id": "2stops",
+      "srs": "",
+      "class": "stops",
+      "Datasource": {
+        "file": "/Users/jessicalord/Desktop/Macon Map Files/Bus Stops/Route2stops.kml"
+      }
+    },
+    {
+      "geometry": "point",
+      "name": "1stops",
+      "id": "1stops",
+      "srs": "",
+      "class": "stops",
+      "Datasource": {
+        "file": "/Users/jessicalord/Desktop/Macon Map Files/Bus Stops/Route1stops.kml"
+      }
+    },
+    {
+      "geometry": "point",
+      "name": "3stops",
+      "id": "3stops",
+      "srs": "",
+      "class": "stops",
+      "Datasource": {
+        "file": "/Users/jessicalord/Desktop/Macon Map Files/Bus Stops/Route3stops.kml"
+      }
+    },
+    {
+      "geometry": "point",
+      "name": "4stops",
+      "id": "4stops",
+      "srs": "",
+      "class": "stops",
+      "Datasource": {
+        "file": "/Users/jessicalord/Desktop/Macon Map Files/Bus Stops/Route4stops.kml"
+      }
+    },
+    {
+      "geometry": "point",
+      "name": "5stops",
+      "id": "5stops",
+      "srs": "",
+      "class": "stops",
+      "Datasource": {
+        "file": "/Users/jessicalord/Desktop/Macon Map Files/Bus Stops/Route5stops.kml"
+      }
+    },
+    {
+      "geometry": "point",
+      "name": "6stops",
+      "id": "6stops",
+      "srs": "",
+      "class": "stops",
+      "Datasource": {
+        "file": "/Users/jessicalord/Desktop/Macon Map Files/Bus Stops/Route6stops.kml"
+      }
+    },
+    {
+      "geometry": "point",
+      "name": "7stops",
+      "id": "7stops",
+      "srs": "",
+      "class": "stops",
+      "Datasource": {
+        "file": "/Users/jessicalord/Desktop/Macon Map Files/Bus Stops/Route7stops.kml"
+      }
+    },
+    {
+      "geometry": "point",
+      "name": "9stops",
+      "id": "9stops",
+      "srs": "",
+      "class": "stops",
+      "Datasource": {
+        "file": "/Users/jessicalord/Desktop/Macon Map Files/Bus Stops/Route9stops.kml"
+      }
+    },
+    {
+      "geometry": "point",
+      "name": "11stops",
+      "id": "11stops",
+      "srs": "",
+      "class": "stops",
+      "Datasource": {
+        "file": "/Users/jessicalord/Desktop/Macon Map Files/Bus Stops/Route11stops.kml"
+      }
+    },
+    {
+      "geometry": "point",
+      "name": "12stops",
+      "id": "12stops",
+      "srs": "",
+      "class": "stops",
+      "Datasource": {
+        "file": "/Users/jessicalord/Desktop/Macon Map Files/Bus Stops/Route12stops.kml"
+      }
+    },
+    {
+      "geometry": "point",
+      "name": "12Bstops",
+      "id": "12Bstops",
+      "srs": "",
+      "class": "stops",
+      "Datasource": {
+        "file": "/Users/jessicalord/Desktop/Macon Map Files/Bus Stops/Route12Bstops.kml"
+      }
+    },
+    {
+      "geometry": "point",
+      "name": "12Cstops",
+      "id": "12Cstops",
+      "srs": "",
+      "class": "stops",
+      "Datasource": {
+        "file": "/Users/jessicalord/Desktop/Macon Map Files/Bus Stops/Route12Cstops.kml"
+      }
+    },
+    {
+      "geometry": "point",
+      "name": "13stops",
+      "id": "13stops",
+      "srs": "",
+      "class": "stops",
+      "Datasource": {
+        "file": "/Users/jessicalord/Desktop/Macon Map Files/Bus Stops/Route13stops.kml"
+      }
+    },
+    {
+      "geometry": "linestring",
+      "name": "busRoutes",
+      "id": "busRoutes",
+      "srs": "",
+      "class": "routes",
+      "Datasource": {
+        "file": "/Users/jessicalord/Desktop/Macon Map Files/transit_routes/transit_routes.shp",
+        "id": "busRoutes",
+        "project": "mta",
+        "srs": null
+      }
+    },
+    {
+      "geometry": "linestring",
+      "name": "bibbStsNames",
+      "id": "bibbStsNames",
+      "srs": "",
+      "class": "stNames",
+      "Datasource": {
+        "file": "/Users/jessicalord/Desktop/Macon Map Files/Open Street Maps/bibb-roads.shp"
+      }
+    },
+    {
+      "geometry": "point",
+      "name": "pInterest",
+      "id": "pInterest",
+      "srs": "",
+      "class": "local",
+      "Datasource": {
+        "file": "/Users/jessicalord/Desktop/Macon Map Files/Macon Transit Map Points of Interest.kml",
+        "id": "pInterest",
+        "project": "mta",
+        "srs": null
+      }
+    }
+  ],
+  "name": "MTA Transit Map",
+  "description": "Map of Macon Bus Routes"
+}
