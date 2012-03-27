@@ -6,9 +6,9 @@
     85.05112877980659
   ],
   "center": [
-    -83.64774785935862,
-    32.831264592927276,
-    19
+    -83.65942083299144,
+    32.839585166715544,
+    15
   ],
   "format": "png",
   "interactivity": false,
@@ -36,7 +36,10 @@
       "srs": "",
       "class": "water",
       "Datasource": {
-        "file": "/Users/jessicalord/Desktop/Macon Map Files/Tiger Lines/13021_Bibb_County/tl_2008_13021_areawater/tl_2008_13021_areawater.shp"
+        "file": "/Users/jessicalord/Desktop/Macon Map Files/Tiger Lines/13021_Bibb_County/tl_2008_13021_areawater/tl_2008_13021_areawater.shp",
+        "id": "water",
+        "project": "mta",
+        "srs": null
       }
     },
     {
