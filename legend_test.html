@@ -1,0 +1,193 @@
+<html>
+<head>
+</head>
+
+<style>
+#container{
+	position: absolute;
+	height: 400px;
+	width: 500px;
+	background: #fff;
+}
+#route_nos {
+	position: absolute;
+	top: 20px;
+	width: 75px;
+	height: 400px;
+	background: #fff;
+}
+
+#route_nos ul {
+	list-style-type: none;
+	margin: 0px;
+	
+}
+#route_nos ul li {
+	margin-bottom: 16px;
+}
+#line_container {
+	position: absolute;
+	left: 100px;
+	top: 30px;
+}
+.box {
+	position: relative;
+	height: 25px;
+	width: 75px;
+	background: #fff; 
+}
+
+.rt2, .rt2B, .rt12, .rt12B { height: 11px; }
+
+.rt1   {border-top: 2px solid #E99A3D;}
+.rt2   {border-top: 2px solid #048FC8;}
+.rt2B  {border-top: 2px dotted #048FC8; }
+.rt3   {border-top: 2px solid #048FC8;}
+.rt4   {border-top: 2px solid #985C16;}
+.rt5   {border-top: 2px solid #D40E89;}
+.rt6   {border-top: 2px solid #007E3E;}
+.rt9   {border-top: 2px solid #D40E89;}
+.rt11  {border-top: 2px solid #85568D;}
+.rt12  {border-top: 2px solid #DD83A7; }
+.rt12B {border-top: 2px solid #DD83A7;}
+.rt12C {border-top: 2px solid #DD83A7;}
+.rt13  {border-top: 2px solid #000;}
+
+.rt1 .circle  , .rt1::before, .rt1::after     {background: #E99A3D;}
+.rt2 .circle  , .rt2::before, .rt2::after     {background: #048FC8; }
+.rt2B .circle , .rt2B::before, .rt2B::after   {background: #048FC8;}
+.rt3 .circle  , .rt3::before, .rt3::after     {background: #048FC8;}
+.rt4 .circle  , .rt4::before, .rt4::after     {background: #985C16;}
+.rt5 .circle  , .rt5::before, .rt5::after     {background: #D40E89;}
+.rt6 .circle  , .rt6::before, .rt6::after     {background: #007E3E;}
+.rt9 .circle  , .rt9::before, .rt9::after     {background: #D40E89;}
+.rt11 .circle , .rt11::before, .rt11::after   {background: #85568D;}
+.rt12 .circle , .rt12::before, .rt12:after    {background: #DD83A7;}
+.rt12B .circle, .rt12B::before, .rt12B::after {background: #DD83A7;}
+.rt12C .circle, .rt12C::before, .rt12C::after {background: #DD83A7;}
+.rt13 .circle , .rt13::before, .rt13::after   {background: #000;}
+
+.box::before {
+	content: " ";
+	position: absolute;
+	height: 2px;
+	width: 1px;
+	border-radius: 90px 0 0 90px;
+	top: -2px;
+	left: -1px;
+}
+
+.box::after {
+	content: " ";
+	position: absolute;
+	height: 2px;
+	width: 1px;
+	border-radius: 0px 90px 90px 0px;
+	top: -2px;
+	right: -1px;
+}
+
+.circle {
+	position: relative;
+	left: 33;
+	top: -5px;
+	width: 8px;
+	height: 8px;
+    -webkit-border-radius: 999px;
+    -moz-border-radius: 999px;
+    border-radius: 999px;
+}
+
+
+</style>
+
+<body>
+	<div id="container">
+	<div id="route_nos">
+	<ul>
+		<li>1</li>
+		<li>2</li>
+		<li>3</li>
+		<li>4</li>
+		<li>5</li>
+		<li>6</li>
+		<li>9</li>
+		<li>11</li>
+		<li>12</li>
+		<li>13</li>
+	</ul>	
+	</div>
+	<div id="line_container">
+	<!-- ROUTE 1 -->	
+	<div class="box rt1">
+		<div class="circle"></div>
+	</div>
+	<!-- ROUTE 2 -->
+	<div class="box rt2">
+		<div class="circle"></div>
+	</div>
+	<!-- ROUTE 2B -->
+	<div class="box rt2B">
+		<div class="circle"></div>
+	</div>
+	<!-- ROUTE 3 -->
+	<div class="box rt3">
+		<div class="circle"></div>
+	</div>
+	<!-- ROUTE 4 -->
+	<div class="box rt4">
+		<div class="circle"></div>
+	</div>
+	<!-- ROUTE 5 -->
+	<div class="box rt5">
+		<div class="circle"></div>
+	</div>
+	<!-- ROUTE 6 -->
+	<div class="box rt6">
+		<div class="circle"></div>
+	</div>
+	<!-- ROUTE 9 -->
+	<div class="box rt9">
+		<div class="circle"></div>
+	</div>
+	<!-- ROUTE 11 -->
+	<div class="box rt11">
+		<div class="circle"></div>
+	</div>
+	<!-- ROUTE 12 -->
+	<div class="box rt12">
+		<div class="circle"></div>
+	</div>
+	<!-- ROUTE 12B -->
+	<div class="box rt12B">
+		<div class="circle"></div>
+	</div>
+	<!-- ROUTE 12C -->
+	<div class="box rt12C">
+		<div class="circle"></div>
+	</div>
+	<!-- ROUTE 13 -->
+	<div class="box rt13">
+		<div class="circle"></div>
+	</div>
+</div>
+	<div id="route_nos" style="left: 200px; float: left; width: 300px;">
+	<ul>
+		<li>Vineville/Zebulon</li>
+		<li>Bellevue/Log Cabin/Zebulon</li>
+		<li>West Macon/Thomaston Rd</li>
+		<li>North Highland</li>
+		<li>Ocmulgee/Tom Hill Sr. Blvd</li>
+		<li>Westgate/Bloomfield </li>
+		<li>Macon Mall/Chambers Rd</li>
+		<li>East Macon/King Park</li>
+		<li>Houston/Peach Orchard </li>
+		<li>North Macon/Industial</li>
+	</ul>	
+	</div>
+	
+</div>
+	
+</body>
+
+</html>
