@@ -3,73 +3,95 @@
 </head>
 
 <style>
+
+h1 {font-family: arial; font-size: 18px; color: #333; margin: 0px;}
+
 #container{
-	position: absolute;
-	height: 400px;
-	width: 500px;
-	background: #fff;
-}
-#route_nos {
-	position: absolute;
-	top: 20px;
-	width: 75px;
-	height: 400px;
-	background: #fff;
-}
-
-#route_nos ul {
-	list-style-type: none;
-	margin: 0px;
-	
-}
-#route_nos ul li {
-	margin-bottom: 16px;
-}
-#line_container {
-	position: absolute;
-	left: 100px;
-	top: 30px;
-}
-.box {
 	position: relative;
-	height: 25px;
-	width: 75px;
-	background: #fff; 
+	height: 290px;
+	width: 264px;
+	padding: 15px;
+	border-top: 4px solid #333;
+	border-bottom: 4px solid #333;
+}
+#route_nos {width: 30px;float: left;}
+#route_nas {width: 160px; float: left;}
+
+
+#route_nos ul, #route_nas ul{
+  position: relative;
+  list-style-type: none;
+  margin: 5px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
+  font-family: arial;
+  font-size: 12px;
+  color: #333;
 }
 
-.rt2, .rt2B, .rt12, .rt12B { height: 11px; }
+#route_nos ul li{
+  text-align: right;
+  margin-bottom: 10px;
+}
+
+#route_nas ul li {
+  margin-bottom: 10px;
+  text-align: left;
+  
+}
+
+#route_nas ul .pin {
+  margin-top: 22px;
+  text-align: left;
+  
+}
+
+#line_container {
+  position: relative;
+	float: left;
+	padding: 0px 12px 0px 12px;
+	margin-top: 32px;
+}
+
+.box {position: relative; height: 22px; width: 50px;}
+.sub_contain {position: relative; height: 24px; width: 50px;}
+.sub_box {position: absolute; top: 7px; height: 9px; width: 50px;}
+.subsub_box {position: absolute; top: 13px; height: 9px; width: 50px;}
+
 
 .rt1   {border-top: 2px solid #E99A3D;}
 .rt2   {border-top: 2px solid #048FC8;}
-.rt2B  {border-top: 2px dotted #048FC8; }
-.rt3   {border-top: 2px solid #048FC8;}
+.rt2B  {border-top: 2px dotted #048FC8;}
+.rt3   {border-top: 2px solid #b0a545;}
 .rt4   {border-top: 2px solid #985C16;}
 .rt5   {border-top: 2px solid #D40E89;}
 .rt6   {border-top: 2px solid #007E3E;}
 .rt9   {border-top: 2px solid #D40E89;}
 .rt11  {border-top: 2px solid #85568D;}
-.rt12  {border-top: 2px solid #DD83A7; }
-.rt12B {border-top: 2px solid #DD83A7;}
-.rt12C {border-top: 2px solid #DD83A7;}
+.rt12  {border-top: 2px solid #DD83A7;}
+.rt12B {border-top: 2px dotted #DD83A7;}
+.rt12C {border-top: 2px dashed #DD83A7;}
 .rt13  {border-top: 2px solid #000;}
+.nort  {border-top: 2px solid #fff; padding-top: 10px;}
 
-.rt1 .circle  , .rt1::before, .rt1::after     {background: #E99A3D;}
-.rt2 .circle  , .rt2::before, .rt2::after     {background: #048FC8; }
-.rt2B .circle , .rt2B::before, .rt2B::after   {background: #048FC8;}
-.rt3 .circle  , .rt3::before, .rt3::after     {background: #048FC8;}
-.rt4 .circle  , .rt4::before, .rt4::after     {background: #985C16;}
-.rt5 .circle  , .rt5::before, .rt5::after     {background: #D40E89;}
-.rt6 .circle  , .rt6::before, .rt6::after     {background: #007E3E;}
-.rt9 .circle  , .rt9::before, .rt9::after     {background: #D40E89;}
-.rt11 .circle , .rt11::before, .rt11::after   {background: #85568D;}
-.rt12 .circle , .rt12::before, .rt12:after    {background: #DD83A7;}
-.rt12B .circle, .rt12B::before, .rt12B::after {background: #DD83A7;}
-.rt12C .circle, .rt12C::before, .rt12C::after {background: #DD83A7;}
-.rt13 .circle , .rt13::before, .rt13::after   {background: #000;}
+.rt1 .circle  , .rt1::before,   .rt1::after     {background: #E99A3D;}
+.rt2 .circle  , .rt2::before,   .rt2::after     {background: #048FC8;}
+.rt2B .circle , .rt2B::before,  .rt2B::after    {background: #048FC8;}
+.rt3 .circle  , .rt3::before,   .rt3::after     {background: #b0a545;}
+.rt4 .circle  , .rt4::before,   .rt4::after     {background: #985C16;}
+.rt5 .circle  , .rt5::before,   .rt5::after     {background: #D40E89;}
+.rt6 .circle  , .rt6::before,   .rt6::after     {background: #007E3E;}
+.rt9 .circle  , .rt9::before,   .rt9::after     {background: #D40E89;}
+.rt11 .circle , .rt11::before,  .rt11::after    {background: #85568D;}
+.rt12 .circle , .rt12::before,  .rt12:after     {background: #DD83A7;}
+.rt12B .circle, .rt12B::before, .rt12B::after   {background: #DD83A7;}
+.rt12C .circle, .rt12C::before, .rt12C::after   {background: #DD83A7;}
+.rt13 .circle , .rt13::before,  .rt13::after    {background: #000;}
+.nort .circle {background: #000}
 
-.box::before {
+.box::before, .sub_box::before, .subsub_box::before {
 	content: " ";
-	position: absolute;
+	position: relative;
+	float: left;
 	height: 2px;
 	width: 1px;
 	border-radius: 90px 0 0 90px;
@@ -77,33 +99,35 @@
 	left: -1px;
 }
 
-.box::after {
+
+.box::after, .sub_box::after, .subsub_box::after {
 	content: " ";
-	position: absolute;
+	position: relative;
+	float: left;
 	height: 2px;
 	width: 1px;
 	border-radius: 0px 90px 90px 0px;
-	top: -2px;
-	right: -1px;
+	top: -10px;
+	right: -50px;
 }
 
 .circle {
 	position: relative;
-	left: 33;
+	left: 21;
 	top: -5px;
 	width: 8px;
 	height: 8px;
-    -webkit-border-radius: 999px;
-    -moz-border-radius: 999px;
-    border-radius: 999px;
+  -webkit-border-radius: 999px;
+  -moz-border-radius: 999px;
+  border-radius: 999px;
 }
-
 
 </style>
 
 <body>
 	<div id="container">
 	<div id="route_nos">
+	  <h1>No.</h1>
 	<ul>
 		<li>1</li>
 		<li>2</li>
@@ -116,19 +140,22 @@
 		<li>12</li>
 		<li>13</li>
 	</ul>	
-	</div>
+	</div><!-- END ROUTE NUMBERS -->
+	
 	<div id="line_container">
 	<!-- ROUTE 1 -->	
 	<div class="box rt1">
 		<div class="circle"></div>
 	</div>
 	<!-- ROUTE 2 -->
-	<div class="box rt2">
-		<div class="circle"></div>
-	</div>
-	<!-- ROUTE 2B -->
-	<div class="box rt2B">
-		<div class="circle"></div>
+	<div class="sub_contain">
+	  <div class="box rt2">
+		  <div class="circle"></div>
+	  </div>
+	  <!-- ROUTE 2B -->
+	  <div class="sub_box rt2B">
+		  <div class="circle"></div>
+	  </div>
 	</div>
 	<!-- ROUTE 3 -->
 	<div class="box rt3">
@@ -155,23 +182,30 @@
 		<div class="circle"></div>
 	</div>
 	<!-- ROUTE 12 -->
+	<div class="sub_contain">
 	<div class="box rt12">
 		<div class="circle"></div>
-	</div>
-	<!-- ROUTE 12B -->
-	<div class="box rt12B">
+		</div>
+	  <!-- ROUTE 12B -->
+	  <div class="sub_box rt12B">
+		  <div class="circle"></div>
+	  </div>
+	  <!-- ROUTE 12C -->
+	 <div class="subsub_box rt12C">
 		<div class="circle"></div>
-	</div>
-	<!-- ROUTE 12C -->
-	<div class="box rt12C">
-		<div class="circle"></div>
-	</div>
+	 </div>
+	 </div>
 	<!-- ROUTE 13 -->
 	<div class="box rt13">
 		<div class="circle"></div>
 	</div>
-</div>
-	<div id="route_nos" style="left: 200px; float: left; width: 300px;">
+	<div class="box nort">
+		<div class="circle"></div>
+	</div>
+</div><!-- END LINE CONTAINER -->
+
+<div id="route_nas">
+  <h1>Route Name</h1>
 	<ul>
 		<li>Vineville/Zebulon</li>
 		<li>Bellevue/Log Cabin/Zebulon</li>
@@ -182,11 +216,13 @@
 		<li>Macon Mall/Chambers Rd</li>
 		<li>East Macon/King Park</li>
 		<li>Houston/Peach Orchard </li>
-		<li>North Macon/Industial</li>
+		<li>North Macon/Industrial</li>
 	</ul>	
-	</div>
-	
-</div>
+	<ul>
+  <li class="pin">Points of Intereset</li>
+	</ul>
+</div><!-- END ROUTE NAMES -->
+</div><!-- END CONTAINER-->
 	
 </body>
 
