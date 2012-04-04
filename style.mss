@@ -2,7 +2,7 @@
 /* ----CITY STYLES----- */ 
 
 Map {
-  background-color: #333;
+  background-color: #666;
 }
 
 #water {
@@ -25,10 +25,11 @@ Map {
 }
 
 #bibb{
-  line-color:#DDC8A5;
-  line-width:0.5;
+  line-color:#333;
+  line-width: .5; 
   polygon-opacity:1;
-  polygon-fill:#EBEBEB
+  polygon-fill:#ebebeb
+
 }
 
 
@@ -89,7 +90,7 @@ Map {
 @rt9color: #BD1B40;
 @rt11color: #85568D;
 @rt12color: #DD83A7;
-@rt13color: #000;
+@rt13color: #000; 
 
 #busRoutes {
   line-width:2;
@@ -151,12 +152,15 @@ Map {
   text-halo-fill: @rt6color;
   }
 }
+/* actually they stopped this route! 
 #busRoutes[Route_No="7"]{
   line-color: #3A3790;
   ::labels {
   text-halo-fill: #3A3790; 
   }
 }
+*/
+
 #busRoutes[Route_No="9"]{
   line-color: @rt9color;
   ::labels {
@@ -191,7 +195,6 @@ Map {
 }
 #busRoutes[Route_No="13"]{
   line-color: @rt13color;
-  line-dasharray: 5,5;
   ::labels {
   text-halo-fill: @rt13color;
   }
@@ -243,7 +246,7 @@ Map {
   ::labels {
   text-size: @stNameSize;
   }
-}
+} 
 
 #bibbSts[TYPE="residential"][zoom > 14] {
   line-width: @street * 2.5;
@@ -273,6 +276,7 @@ Map {
     }
 }
 
+
 #bibbSts[TYPE="residential"][zoom > 16] {
   line-width:  @street * 3.5;
 }
@@ -300,6 +304,7 @@ Map {
   text-size: @stNameSize + 6;
     }
 }
+
 
 #bibbSts[TYPE="residential"][zoom > 18] {
   line-width: @street * 5;
@@ -405,5 +410,14 @@ Map {
   } 
 
 .stops[zoom > 15] {
-  marker-width: 5;
+   marker-width: 5;
+}
+
+#stopssched[zoom > 13]{
+  marker-fill: #3CD895;
+  marker-line-color: #fff;
+  marker-width:5;
  }
+
+
+  

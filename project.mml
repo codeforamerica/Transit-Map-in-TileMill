@@ -1,24 +1,42 @@
 {
   "bounds": [
-    -180,
-    -85.05112877980659,
-    180,
-    85.05112877980659
+    -83.8957,
+    32.6434,
+    -83.4879,
+    32.9574
   ],
   "center": [
-    -83.65942083299144,
-    32.839585166715544,
-    15
+    -83.6886,
+    32.8381,
+    14
   ],
   "format": "png",
-  "interactivity": false,
-  "minzoom": 0,
-  "maxzoom": 22,
+  "interactivity": {
+    "fields": [
+      "OBJECTID",
+      "Route",
+      "Location"
+    ],
+    "layer": "stopssched",
+    "template_teaser": "<html>\n<head>\n<link href='http://fonts.googleapis.com/css?family=Quicksand' rel='stylesheet' type='text/css'><link href='http://fonts.googleapis.com/css?family=IM+Fell+French+Canon:400italic' rel='stylesheet' type='text/css'>\n</head>\n<style>\np {font-family: 'Quicksand', Gotham Rounded, Arial; font-size: 13px; margin-top: 5px; }\ni {font-family: 'IM Fell French Canon', Garamond, Baskerville, Times New Roman; font-style: italic; font-size: 16px; font-weight: 400;}\n\n#teaserbox {border-top: 3px solid #333;}\n</style>\n<body>\n<div id=\"teaserbox\">\n<p>\nstop number <b>{{{OBJECTID}}}</b><br/>\n<i>on</i> route <b>{{{Route}}}</b><br/>\n<i>at</i> <b>{{{Location}}}</b>\n</p>\n</div>\n</body>\n</html>"
+  },
+  "minzoom": 14,
+  "maxzoom": 17,
   "srs": "+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over",
   "Stylesheet": [
     "style.mss"
   ],
   "Layer": [
+    {
+      "geometry": "multipolygon",
+      "name": "macon",
+      "id": "macon",
+      "srs": "",
+      "class": "ciBoundry",
+      "Datasource": {
+        "file": "/Users/jessicalord/Desktop/Macon Map Files/From Water/MaconCityLimits.shp"
+      }
+    },
     {
       "geometry": "polygon",
       "name": "bibb",
@@ -43,16 +61,6 @@
       }
     },
     {
-      "geometry": "multipolygon",
-      "name": "macon",
-      "id": "macon",
-      "srs": "",
-      "class": "ciBoundry",
-      "Datasource": {
-        "file": "/Users/jessicalord/Desktop/Macon Map Files/From Water/MaconCityLimits.shp"
-      }
-    },
-    {
       "geometry": "linestring",
       "name": "bibbSts",
       "id": "bibbSts",
@@ -72,7 +80,10 @@
       "srs": "",
       "class": "stops",
       "Datasource": {
-        "file": "/Users/jessicalord/Desktop/Macon Map Files/Bus Stops/Route2Bstops.kml"
+        "file": "/Users/jessicalord/Desktop/Macon Map Files/Bus Stops/Route2Bstops.kml",
+        "id": "2Bstops",
+        "project": "mta",
+        "srs": null
       }
     },
     {
@@ -82,7 +93,10 @@
       "srs": "",
       "class": "stops",
       "Datasource": {
-        "file": "/Users/jessicalord/Desktop/Macon Map Files/Bus Stops/Route2stops.kml"
+        "file": "/Users/jessicalord/Desktop/Macon Map Files/Bus Stops/Route2stops.kml",
+        "id": "2stops",
+        "project": "mta",
+        "srs": null
       }
     },
     {
@@ -162,7 +176,10 @@
       "srs": "",
       "class": "stops",
       "Datasource": {
-        "file": "/Users/jessicalord/Desktop/Macon Map Files/Bus Stops/Route11stops.kml"
+        "file": "/Users/jessicalord/Desktop/Macon Map Files/Bus Stops/Route11stops.kml",
+        "id": "11stops",
+        "project": "mta",
+        "srs": null
       }
     },
     {
@@ -202,8 +219,25 @@
       "srs": "",
       "class": "stops",
       "Datasource": {
-        "file": "/Users/jessicalord/Desktop/Macon Map Files/Bus Stops/Route13stops.kml"
+        "file": "/Users/jessicalord/Desktop/Macon Map Files/Bus Stops/Route13stops.kml",
+        "id": "13stops",
+        "project": "mta",
+        "srs": null
       }
+    },
+    {
+      "geometry": "point",
+      "id": "stopssched",
+      "class": "sched",
+      "Datasource": {
+        "file": "/Users/jessicalord/Desktop/Macon Map Files/bus_stops_pointdata/bus_stops_pointdata.shp",
+        "id": "stopssched",
+        "project": "mta",
+        "srs": null
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "name": "stopssched"
     },
     {
       "geometry": "linestring",
@@ -243,5 +277,7 @@
     }
   ],
   "name": "MTA Transit Map",
-  "description": "Map of Macon Bus Routes"
+  "description": "Map of Macon Bus Routes,\ngithub: https://github.com/codeforamerica/Transit-Map-in-TileMill",
+  "attribution": "",
+  "legend": "<img src=\"http://jlord.us/legend.png\">"
 }
