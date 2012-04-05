@@ -1,9 +1,19 @@
 This is the story of the style I'm creating in TileMill that will eventually be an online transit map for Macon, Georgia's bus system.
 
-I'll keep this screenshot current: <img src="https://github.com/codeforamerica/Transit-Map-in-TileMill/raw/master/mta_1.png"> showing the progress because I haven't added the data files -- seemed like that would be a lot of files, yo -- and you can't actually pull this and do this -- but you could see how it's styled.  
+Here is a current screenshot from TileMill: <img src="https://github.com/codeforamerica/Transit-Map-in-TileMill/raw/master/mta_1.png"> showing the where the project is at.
+
+The map is also online at: <a href="http://tiles.mapbox.com/jllord/map/mta">http://tiles.mapbox.com/jllord/map/mta</a> Exciting!
+
+I've made a lovely css/html transit legend but am having trouble getting it to drop in and be read as I intended by mapbox online so it's currently being replaced with an image until I sort that out. The markup for the legend is the repo, photos as well.
+
+The newest of new is the tooltips with a fun bus icon. 
+
+In progress/the future:
+-bus times in the tooltips (when available)
+-it's own special web site and address searching. 
 
 
 <3
-jlord
+@jllord
 
 jessica@codeforamerica.org
