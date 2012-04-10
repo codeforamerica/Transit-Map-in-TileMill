@@ -1,0 +1,67 @@
+/* Page */
+#route_nos h1, #route_nas h1 {font-family: arial; font-size: 18px; color: #333; margin: 0px;}
+
+/* Main Container */
+#container {position: absolute;	bottom: 25px; right: 25px; height: 290px; width: 264px; padding: 15px; 
+  border-top: 4px solid #333; border-bottom: 4px solid #333;}
+  
+/* Route Number and Route Name columns */  
+#route_nos {width: 30px;float: left;}
+#route_nas {width: 160px; float: left;}
+#route_nos ul, #route_nas ul{position: relative; list-style-type: none; margin: 5px 0px 0px 0px; 
+  padding: 0px 0px 0px 0px; font-family: arial; font-size: 12px; color: #333;}
+#route_nos ul li{text-align: right; margin-bottom: 10px;}
+#route_nas ul li {margin-bottom: 10px;text-align: left;}
+#route_nas ul .pin {margin-top: 22px; text-align: left;}
+
+/* Column of Route Lines */
+#line_container {position: relative; float: left; padding: 0px 12px 0px 12px; margin-top: 32px;}
+.box {position: relative; height: 22px; width: 50px;}
+/* For route lines with up to two extensions, ie Route 12, 12B and 12C */
+.sub_contain {position: relative; height: 24px; width: 50px;}
+.sub_box {position: absolute; top: 7px; height: 9px; width: 50px;}
+.subsub_box {position: absolute; top: 13px; height: 9px; width: 50px;}
+
+/* Route lines are a border-top on a div, colors are defined here */
+.rt1   {border-top: 2px solid #E99A3D;}
+.rt2   {border-top: 2px solid #048FC8;}
+.rt2B  {border-top: 2px dotted #048FC8;} /* route extensions */
+.rt3   {border-top: 2px solid #b0a545;}
+.rt4   {border-top: 2px solid #985C16;}
+.rt5   {border-top: 2px solid #D40E89;}
+.rt6   {border-top: 2px solid #007E3E;}
+.rt9   {border-top: 2px solid #D40E89;}
+.rt11  {border-top: 2px solid #85568D;}
+.rt12  {border-top: 2px solid #DD83A7;}
+.rt12B {border-top: 2px dotted #DD83A7;} /* route extensions */
+.rt12C {border-top: 2px dashed #DD83A7;} /* route extensions */
+.rt13  {border-top: 2px solid #000;}
+/* This is a faux route that has a white (hidden) line */
+.nort  {border-top: 2px solid #fff; padding-top: 10px;}
+
+/* sets the color for each route's circle and half circle endcaps at the end of the border-top line */
+.rt1 .circle  , .rt1::before,   .rt1::after     {background: #E99A3D;}
+.rt2 .circle  , .rt2::before,   .rt2::after     {background: #048FC8;}
+.rt2B .circle , .rt2B::before,  .rt2B::after    {background: #048FC8;}
+.rt3 .circle  , .rt3::before,   .rt3::after     {background: #b0a545;}
+.rt4 .circle  , .rt4::before,   .rt4::after     {background: #985C16;}
+.rt5 .circle  , .rt5::before,   .rt5::after     {background: #D40E89;}
+.rt6 .circle  , .rt6::before,   .rt6::after     {background: #007E3E;}
+.rt9 .circle  , .rt9::before,   .rt9::after     {background: #D40E89;}
+.rt11 .circle , .rt11::before,  .rt11::after    {background: #85568D;}
+.rt12 .circle , .rt12::before,  .rt12:after     {background: #DD83A7;}
+.rt12B .circle, .rt12B::before, .rt12B::after   {background: #DD83A7;}
+.rt12C .circle, .rt12C::before, .rt12C::after   {background: #DD83A7;}
+.rt13 .circle , .rt13::before,  .rt13::after    {background: #000;}
+/* This sits on top of the white line, is "points of interest" dot */
+.nort .circle {background: #000}
+
+/* Defines the circle */
+.circle {position: relative; left: 21px; top: -5px; width: 8px;	height: 8px; -webkit-border-radius: 999px;
+  -moz-border-radius: 999px; border-radius: 999px;}
+  
+/* before and afters to achieve the endcaps you can barely see at 100% scale, also a no-go for IE, duh */
+.box::before, .sub_box::before, .subsub_box::before {content: " "; position: relative; float: left; 
+  height: 2px; width: 1px; border-radius: 90px 0 0 90px; top: -2px; left: -1px;}
+.box::after, .sub_box::after, .subsub_box::after {content: " "; position: relative; float: left;
+	height: 2px; width: 1px; border-radius: 0px 90px 90px 0px; top: -10px; right: -50px;}

@@ -1,0 +1,57 @@
+<html>
+<head>
+<title>The Macon-Bibb Transit System</title>
+<link href='http://fonts.googleapis.com/css?family=Arvo:300,400,700' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=IM+Fell+French+Canon:400italic' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Arvo:400,300,700' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Alfa+Slab+One' rel='stylesheet' type='text/css'>
+<link href="legend.css" rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Josefin+Slab:100,300,400,600,700,100italic,300italic,400italic,600italic,700italic' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Arvo:700,400italic,700italic,400' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Radley:400italic' rel='stylesheet' type='text/css'></head>
+<style>
+/* ///////////// PAGE ///////////// */
+body {margin: 0px; padding: 0px; text-align: center; background-image: url('http://subtlepatterns.com/patterns/furley_bg.png');}
+p {margin: 0px 0px 0px 0px; padding: 0px 0px 0px 0px; font-weight: 300;}
+a {color: #222; text-decoration: none; border-bottom:1px dotted;}
+i {font-family: 'Radley'; font-style: italic; font-weight: 400;}
+h1 {position: relative; font-family: 'Arvo'; font-size: 34px; font-weight: 700; text-align: left; padding: 60px 0px 0px 25px; text-shadow: 0px 2px 3px #fff; color: #333; letter-spacing: 1px;}
+
+/* ///////////// CFA TOP BAR ///////////// */
+#topbar {position: fixed; top: 0px, left: 0px; height: 30px; width: 100%; background: #419ED8; -moz-box-shadow: 0px 0px 5px 0px #888; -webkit-box-shadow: 0px 0px 9px 0px #888; box-shadow: 0px 0px 5px 0px #888; z-index: 99999;}
+#topbar p {color: #fff; font-family: 'Arvo'; font-size: 12px; margin-top: 5px; font-weight: bold;
+vertical-align: middle; font-weight: 300; letter-spacing: 2px;}
+#topbar img {vertical-align: middle; margin-right: 15px;}
+#topbar a {color: #fff; text-decoration: none; border-bottom:1px dotted #fff;}
+
+/* ///////////// CONTAINERS AND COLUMN ///////////// */
+#contain_all {position: absolute; top: 110px; bottom: 25px; left: 25px; right: 25px; float: left; min-width: 484px; padding: 0px 300px 6px 0px;}
+#map_container {min-width: 400px; height: 100%; width: 100%; position: relative; }
+#map_container iframe {border: 3px solid #333;}
+
+#right_col {position: absolute; right: 0px; float: right; height: 425px; width: 260px; bottom: 0px; }
+#right_col h3 {text-align: left; font-family: 'Arvo'; margin: 0px 0px 15px 0px; color: #333; text-shadow: 0px 2px 3px #fff;}
+#right_col h4 {text-align: left; font-family: 'Arvo'; padding: 0px 0px 7px 0px; color: #333; text-shadow: 0px 2px 3px #fff; border-bottom: 3px solid #333;}
+#right_col img {position: absolute; bottom: 0px;}
+#right_col p {font-family: 'Arvo'; font-weight: 400; text-align: left; color: #333;}
+
+#ribbon {position: fixed; top: 0; left: 0; border: 0; background-image: url('http://jlord.us/wr/progressribbon2.png'); z-index: 9999999;}
+</style>
+
+<body>
+  <div id="topbar"><p><img src="http://jlord.us/code_flag.png" height="20px"/>This website was created for residents by Code for America in their partnership with the City of Macon. Learn more <a href="www.codeforamerica.org" target="_blank">here.</a></p></div>
+  <h1><i>the</i> MACON <i>and</i> BIBB COUNTY TRANSIT SYSTEM</h1>
+  <div id="contain_all">
+  <div id="map_container">
+    <iframe width='100%' height='100%' frameBorder='0' src='http://a.tiles.mapbox.com/v3/jllord.mta.html#14/32.838/-83.689'></iframe>
+  </div>
+  <div id="right_col">
+    <h3>Use the map on the left to locate bus stops.</h3>
+    <p>For bus schedules, click <a href="http://www.mta-mac.com/schedules.html" target="blank">here.</a></p>
+    <h4>LEGEND</h4>
+    <img src="http://jlord.us/legend.png"/>
+    
+</div>
+</div>
+</body>
+</html>
