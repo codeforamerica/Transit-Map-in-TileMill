@@ -12,6 +12,8 @@ In progress/the future:
 -bus times in the tooltips (when available)
 -it's own special web site and address searching. 
 
+Extra Goodies: The awesome <a href="https://gist.github.com/vlandham" target="_blank">Vallandingham</a> created this <a href="https://gist.github.com/2364140" target="_blank">gist</a>, using Raphael to create the legend. View it <a href="http://bl.ocks.org/2364140" target="_blank">here</a>.
+
 
 <3
 @jllord
