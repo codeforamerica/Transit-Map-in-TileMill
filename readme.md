@@ -18,4 +18,4 @@ Extra Goodies: The awesome <a href="https://gist.github.com/vlandham" target="_b
 <3
 @jllord
 
-jessica@codeforamerica.org
+jessica@codeforamerica.org @jllord
