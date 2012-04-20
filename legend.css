@@ -1,0 +1,95 @@
+/* Page */
+body {margin: 0px; padding: 0px; text-align: center; background-image: url('http://subtlepatterns.com/patterns/furley_bg.png');}
+p {margin: 0px 0px 0px 0px; padding: 0px 0px 0px 0px; font-weight: 300;}
+a {color: #222; text-decoration: none; border-bottom:1px dotted;}
+i {font-family: 'Radley'; font-style: italic; font-weight: 400;}
+h1 {position: relative; font-family: 'Arvo'; font-size: 34px; font-weight: 700; text-align: left; padding: 60px 0px 0px 25px; text-shadow: 0px 2px 3px #fff; color: #333; letter-spacing: 1px;}
+
+/* CFA Top Bar */
+#topbar {position: fixed; top: 0px, left: 0px; height: 30px; width: 100%; background: #419ED8; -moz-box-shadow: 0px 0px 5px 0px #888; -webkit-box-shadow: 0px 0px 9px 0px #888; box-shadow: 0px 0px 5px 0px #888; z-index: 99999;}
+#topbar p {color: #fff; font-family: 'Arvo'; font-size: 12px; margin-top: 5px; font-weight: bold;
+vertical-align: middle; font-weight: 300; letter-spacing: 2px;}
+#topbar img {vertical-align: middle; margin-right: 15px;}
+#topbar a {color: #fff; text-decoration: none; border-bottom:1px dotted #fff;}
+
+/* Containers and Column*/
+#contain_all {position: absolute; top: 110px; bottom: 25px; left: 25px; right: 25px; float: left; min-width: 484px; padding: 0px 300px 6px 0px;}
+#map_container {min-width: 400px; height: 100%; width: 100%; position: relative; }
+#map_container iframe {border: 3px solid #333;}
+
+#right_col {position: absolute; right: 0px; float: right; height: 459px; width: 260px; bottom: 0px; border-bottom: 3px solid #333;}
+#right_col h3 {text-align: left; font-family: 'Arvo'; margin: 0px 0px 15px 0px; color: #333; text-shadow: 0px 2px 3px #fff;}
+#right_col h4 {text-align: left; font-family: 'Arvo'; padding: 0px 0px 7px 0px; color: #333; text-shadow: 0px 2px 3px #fff; border-bottom: 3px solid #333;}
+#right_col img {position: absolute; bottom: 0px;}
+#right_col p {font-family: 'Arvo'; font-weight: 400; text-align: left; color: #333;}
+
+#ribbon {position: fixed; top: 0; left: 0; border: 0; background-image: url('http://jlord.us/cfa_ribbon.png'); width: 150px; z-index: 9999999;}
+#tag {position: fixed; top: -5px; right: 25px; width: 100px; z-index: 999999999999;}
+#tag a {text-decoration: none; border-bottom: none;}
+
+/* THE LEGEND */
+#route_nos h6, #route_nas h6 {font-family: 'Arvo'; font-size: 13px; font-weight: 700; color: #333; margin: 0px; padding: 0px; text-align: left; text-shadow: 0px 2px 3px #fff;}
+
+/* Main Container */
+#leg_container {position: relative; height: 302px; width: 264px;}
+  
+/* Route Number and Route Name columns */  
+#route_nos {width: 30px;float: left;}
+#route_nas {width: 160px; float: left;}
+#route_nos ul, #route_nas ul{position: relative; list-style-type: none; margin: 5px 0px 0px 0px; 
+  padding: 0px 0px 0px 0px; font-family: 'Arvo'; font-weight: 300px; font-size: 11px; color: #333;}
+#route_nos ul li{text-align: center; margin: 0px 0px 10px 0px;}
+#route_nas ul li {margin: 0px 0px 10px 0px; text-align: left;}
+#route_nas ul .pin {margin-top: 18px; text-align: left;}
+
+/* Column of Route Lines */
+#line_container {position: relative; float: left; margin: 26px 12px 0px 6px;}
+.box {position: relative; height: 22px; width: 50px;}
+/* For route lines with up to two extensions, ie Route 12, 12B and 12C */
+.sub_contain {position: relative; height: 24px; width: 50px;}
+.sub_box {position: absolute; top: 7px; height: 9px; width: 50px;}
+.subsub_box {position: absolute; top: 13px; height: 9px; width: 50px;}
+
+/* Route lines are a border-top on a div, colors are defined here */
+.rt1   {border-top: 2px solid #E99A3D;}
+.rt2   {border-top: 2px solid #048FC8;}
+.rt2B  {border-top: 2px dotted #048FC8;} /* route extensions */
+.rt3   {border-top: 2px solid #b0a545;}
+.rt4   {border-top: 2px solid #985C16;}
+.rt5   {border-top: 2px solid #D40E89;}
+.rt6   {border-top: 2px solid #007E3E;}
+.rt9   {border-top: 2px solid #D40E89;}
+.rt11  {border-top: 2px solid #85568D;}
+.rt12  {border-top: 2px solid #DD83A7;}
+.rt12B {border-top: 2px dotted #DD83A7;} /* route extensions */
+.rt12C {border-top: 2px dashed #DD83A7;} /* route extensions */
+.rt13  {border-top: 2px solid #000;}
+/* This is a faux route that has a white (hidden) line */
+.nort  {padding-top: 10px;}
+
+/* sets the color for each route's circle and half circle endcaps at the end of the border-top line */
+.rt1 .circle  , .rt1::before,   .rt1::after     {background: #E99A3D;}
+.rt2 .circle  , .rt2::before,   .rt2::after     {background: #048FC8;}
+.rt2B .circle , .rt2B::before,  .rt2B::after    {background: #048FC8;}
+.rt3 .circle  , .rt3::before,   .rt3::after     {background: #b0a545;}
+.rt4 .circle  , .rt4::before,   .rt4::after     {background: #985C16;}
+.rt5 .circle  , .rt5::before,   .rt5::after     {background: #D40E89;}
+.rt6 .circle  , .rt6::before,   .rt6::after     {background: #007E3E;}
+.rt9 .circle  , .rt9::before,   .rt9::after     {background: #D40E89;}
+.rt11 .circle , .rt11::before,  .rt11::after    {background: #85568D;}
+.rt12 .circle , .rt12::before,  .rt12:after     {background: #DD83A7;}
+.rt12B .circle, .rt12B::before, .rt12B::after   {background: #DD83A7;}
+.rt12C .circle, .rt12C::before, .rt12C::after   {background: #DD83A7;}
+.rt13 .circle , .rt13::before,  .rt13::after    {background: #000;}
+/* This sits on top of the white line, is "points of interest" dot */
+.nort .circle {background: #000}
+
+/* Defines the circle */
+.circle {position: relative; left: 21px; top: -5px; width: 8px;	height: 8px; -webkit-border-radius: 999px;
+  -moz-border-radius: 999px; border-radius: 999px;}
+  
+/* before and afters to achieve the endcaps you can barely see at 100% scale, also a no-go for IE, duh */
+.box::before, .sub_box::before, .subsub_box::before {content: " "; position: relative; float: left; 
+  height: 2px; width: 1px; border-radius: 90px 0 0 90px; top: -2px; left: -1px;}
+.box::after, .sub_box::after, .subsub_box::after {content: " "; position: relative; float: left;
+	height: 2px; width: 1px; border-radius: 0px 90px 90px 0px; top: -10px; right: -50px;}
