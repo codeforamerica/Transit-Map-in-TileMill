@@ -5,6 +5,14 @@ Map {
   background-color: #666;
 }
 
+#macon {
+  line-color: #333;
+  line-width:2;
+  line-dasharray: 2, 2, 4;
+  polygon-opacity:1;
+  polygon-fill:#EEEEEE;
+}
+
 #water {
   line-color:#b8dee6;
   line-width:0.5;
@@ -28,39 +36,8 @@ Map {
   line-color:#333;
   line-width: .5; 
   polygon-opacity:1;
-  polygon-fill:#ebebeb
+  polygon-fill:#E0E0E0                                                                
 
-}
-
-
-#macon {
-  line-color: #333;
-  line-width:2;
-  line-dasharray: 2, 2, 4;
-  polygon-opacity:1;
-  polygon-fill:#EEEEEE;
-}
-
-/* -----POINTS OF INTEREST----- */
-
-#pInterest {
-   ::labels {
-     text-name: "[Name]";
-     text-face-name: "Arial Regular";
-     text-placement: point;
-     text-opacity: 0;
-     text-fill: #ffffff;
-     text-halo-fill: #333;
-     text-halo-radius: 3px; 
-     text-placement-type: simple;
-     text-dy: 8;
-     text-vertical-alignment: bottom;
-     text-allow-overlap: true;
-    }
-  marker-width:3;
-  marker-fill:#333;
-  marker-line-color:#ffffff;
-  marker-allow-overlap:true; 
 }
 
 /* -----STREET NAMES----- */
@@ -76,7 +53,6 @@ Map {
     text-size: 8px;
     }
 }
-
 
 /* ---- BUS ROUTES ---- */
 
@@ -212,7 +188,6 @@ Map {
 #bibbSts {
   line-width:@street;
   line-color:@stColor;
-  
   } 
 
 #bibbSts[TYPE="primary"] {
@@ -225,102 +200,8 @@ Map {
   line-width: @motorway;
 }
 
-/* ------ZOOOMING!------ */
-
-/* -----ZOOM LEVEL 2----- */
-
-#busRoutes.routes[zoom < 13] {
-  ::labels {
-  text-size: 0;
-  }
-}
-
-#pInterest[zoom > 14] {
-  ::labels {
-    text-opacity: 1;
-    text-size: 11;
-    }
-  }
-
-#bibbStsNames[zoom > 14] {
-  ::labels {
-  text-size: @stNameSize;
-  }
-} 
-
-#bibbSts[TYPE="residential"][zoom > 14] {
-  line-width: @street * 2.5;
-}
-
-#bibbSts[TYPE="primary"][zoom > 14] {
-  line-width: @street * 4;
-  }
-
-#bibbSts[TYPE="motorway_link"][zoom > 14], #bibbSts[TYPE="motorway"][zoom > 14] {
-  line-width: @motorway * 2;
-}
-
-/* -----ZOOM LEVEL 3----- */
-
-#pInterest[zoom > 16] {
-  marker-width: 5;
-  ::labels {
-    text-opacity: 1;
-    text-size: 13;
-    }
-  }
-
-#bibbStsNames[zoom > 16] {
-  ::labels {
-  text-size: @stNameSize + 3;
-    }
-}
-
-
-#bibbSts[TYPE="residential"][zoom > 16] {
-  line-width:  @street * 3.5;
-}
-
-#bibbSts[TYPE="primary"][zoom > 16] {
-  line-width: @street * 6;
-}
-
-#bibbSts[TYPE="motorway_link"][zoom > 16], #bibbSts[TYPE="motorway"][zoom > 16] {
-  line-width: @street * 6;
-}
-
-/* -----ZOOM LEVEL 4 (HIGHEST)----- */
-
-#pInterest[zoom > 18] {
-  /* marker-file: url('markerMINE.png'); */
-  ::labels {
-    text-opacity: 1;
-    text-size: 16;
-    }
-  }
-
-#bibbStsNames[zoom > 18] {
-  ::labels {
-  text-size: @stNameSize + 6;
-    }
-}
-
-
-#bibbSts[TYPE="residential"][zoom > 18] {
-  line-width: @street * 5;
-}
-
-#bibbSts[TYPE="primary"][zoom > 18] {
-  line-width: @street * 8;
-}
-
-#bibbSts[TYPE="motorway_link"][zoom > 18], #bibbSts[TYPE="motorway"][zoom > 18] {
-  line-width: @street * 8;
-}
-
-
 /* -----BUS STOPS----- */
-
+/* Bus stops do not appear below zoom 13. */
 
 #busStops {
   marker-width:3;
@@ -403,6 +284,154 @@ Map {
   marker-line-color: #fff;
 }
 
+/* -----ZOOM ZOOOM ZOOOOOM ZOOOOOOOM----- */
+
+/* -----ZOOM LEVEL 1----- */
+
+/* BUS ROUTES */
+
+#busRoutes.routes[zoom < 13] {
+  line-width: 1px;
+  ::labels {
+  text-size: 0;
+  text-halo-radius: 0px; 
+  }
+}
+
+/* STREET NAMES */
+
+#bibbStsNames[zoom < 14] {
+  ::labels {
+  text-opacity: 0;
+  }
+} 
+
+#bibbStsNames[TYPE="residential"][zoom < 15] {
+  ::labels {
+  text-opacity: 0;
+  }
+} 
+
+/* -----ZOOM LEVEL 2----- */
+  
+
+/* STREET NAMES */
+
+#bibbStsNames[zoom > 14] {
+  ::labels {
+  text-size: @stNameSize;
+  }
+} 
+
+/* STREET LINES */
+
+#bibbSts[TYPE="residential"][zoom < 14],#bibbSts[TYPE="service"][zoom < 14]  {
+ /* line-width: @street * 2.5; */
+  line-width: 0;
+}
+
+#bibbSts[TYPE="residential"][zoom > 14] {
+ line-width: @street * 2.5;
+}
+
+#bibbSts[TYPE="primary"][zoom > 14] {
+  line-width: @street * 4;
+  }
+
+#bibbSts[TYPE="motorway_link"][zoom > 14], #bibbSts[TYPE="motorway"][zoom > 14] {
+  line-width: @motorway * 2;
+}
+
+/* POINTS OF INTEREST */
+#pInterest[zoom > 14] {
+::labels {
+     text-name: "[Name]";
+     text-face-name: "Arial Regular";
+     text-placement: point;
+     text-halo-radius: 3px; 
+     text-placement-type: simple;
+     text-dy: 8;
+     text-vertical-alignment: bottom;
+     text-allow-overlap: true;
+     text-halo-fill: #333;
+     text-fill: #fff;
+     text-size: 12;
+} 
+  marker-width: 4;
+  marker-fill:#333;
+  marker-line-color:#ffffff;
+  marker-allow-overlap:true; 
+}
+
+/* -----ZOOM LEVEL 3----- */
+
+
+#pInterest[zoom > 16] {
+::labels {
+     text-name: "[Name]";
+     text-face-name: "Arial Regular";
+     text-placement: point;
+     text-halo-radius: 3px; 
+     text-placement-type: simple;
+     text-dy: 8;
+     text-vertical-alignment: bottom;
+     text-allow-overlap: true;
+     text-halo-fill: #333;
+     text-fill: #fff;
+     text-size: 16;
+} 
+  marker-width: 5;
+  marker-fill:#333;
+  marker-line-color:#ffffff;
+  marker-allow-overlap:true; 
+}
+
+/* STREET NAMES */
+
+#bibbStsNames[zoom > 16] {
+  ::labels {
+  text-size: @stNameSize + 3;
+    }
+}
+
+/* STREET LINES */
+
+#bibbSts[TYPE="residential"][zoom > 16] {
+  line-width:  @street * 3.5;
+}
+
+#bibbSts[TYPE="primary"][zoom > 16] {
+  line-width: @street * 6;
+}
+
+#bibbSts[TYPE="motorway_link"][zoom > 16], #bibbSts[TYPE="motorway"][zoom > 16] {
+  line-width: @street * 6;
+}
+
+/* -----ZOOM LEVEL 4 (HIGHEST)----- */
+
+/* STREET NAMES */
+
+#bibbStsNames[zoom > 18] {
+  ::labels {
+  text-size: @stNameSize + 6;
+    }
+}
+
+/* STREET LINES */
+
+#bibbSts[TYPE="residential"][zoom > 18] {
+  line-width: @street * 5;
+}
+
+#bibbSts[TYPE="primary"][zoom > 18] {
+  line-width: @street * 8;
+}
+
+#bibbSts[TYPE="motorway_link"][zoom > 18], #bibbSts[TYPE="motorway"][zoom > 18] {
+  line-width: @street * 8;
+}
+
 /* -----BUS STOP MARKER ZOOM----- */
 
 .stops[zoom > 13] {
@@ -418,6 +447,7 @@ Map {
   marker-line-color: #fff;
   marker-width:5;
  }
+
 
 
   

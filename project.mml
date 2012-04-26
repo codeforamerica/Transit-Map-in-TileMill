@@ -6,8 +6,8 @@
     32.9574
   ],
   "center": [
-    -83.6886,
-    32.8381,
+    -83.649,
+    32.8311,
     14
   ],
   "format": "png",
@@ -28,16 +28,6 @@
   ],
   "Layer": [
     {
-      "geometry": "multipolygon",
-      "name": "macon",
-      "id": "macon",
-      "srs": "",
-      "class": "ciBoundry",
-      "Datasource": {
-        "file": "/Users/jessicalord/Desktop/Macon Map Files/From Water/MaconCityLimits.shp"
-      }
-    },
-    {
       "geometry": "polygon",
       "name": "bibb",
       "id": "bibb",
@@ -45,6 +35,16 @@
       "class": "coBoundry",
       "Datasource": {
         "file": "/Users/jessicalord/Desktop/Macon Map Files/Bib County Census 2010/tl_2010_13021_tract10.shp"
+      }
+    },
+    {
+      "geometry": "multipolygon",
+      "name": "macon",
+      "id": "macon",
+      "srs": "",
+      "class": "ciBoundry",
+      "Datasource": {
+        "file": "/Users/jessicalord/Desktop/Macon Map Files/From Water/MaconCityLimits.shp"
       }
     },
     {
@@ -259,7 +259,10 @@
       "srs": "",
       "class": "stNames",
       "Datasource": {
-        "file": "/Users/jessicalord/Desktop/Macon Map Files/Open Street Maps/bibb-roads.shp"
+        "file": "/Users/jessicalord/Desktop/Macon Map Files/Open Street Maps/bibb-roads.shp",
+        "id": "bibbStsNames",
+        "project": "mta",
+        "srs": null
       }
     },
     {
@@ -279,5 +282,5 @@
   "name": "MTA Transit Map",
   "description": "Map of Macon Bus Routes,\ngithub: https://github.com/codeforamerica/Transit-Map-in-TileMill",
   "attribution": "",
-  "legend": "<img src=\"http://jlord.us/legend.png\">"
+  "legend": ""
 }
