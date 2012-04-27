@@ -6,7 +6,7 @@ i {font-family: 'Radley'; font-style: italic; font-weight: 400;}
 h1 {position: relative; font-family: 'Arvo'; font-size: 34px; font-weight: 700; text-align: left; padding: 60px 0px 0px 25px; text-shadow: 0px 2px 3px #fff; color: #333; letter-spacing: 1px;}
 
 /* CFA Top Bar */
-#topbar {position: fixed; top: 0px, left: 0px; height: 30px; width: 100%; background: #419ED8; -moz-box-shadow: 0px 0px 5px 0px #888; -webkit-box-shadow: 0px 0px 9px 0px #888; box-shadow: 0px 0px 5px 0px #888; z-index: 99999;}
+#topbar {position: fixed; top: 0px; left: 0px; height: 30px; width: 100%; background: #419ED8; -moz-box-shadow: 0px 0px 5px 0px #888; -webkit-box-shadow: 0px 0px 9px 0px #888; box-shadow: 0px 0px 5px 0px #888; z-index: 99999;}
 #topbar p {color: #fff; font-family: 'Arvo'; font-size: 12px; margin-top: 5px; font-weight: bold;
 vertical-align: middle; font-weight: 300; letter-spacing: 2px;}
 #topbar img {vertical-align: middle; margin-right: 15px;}
