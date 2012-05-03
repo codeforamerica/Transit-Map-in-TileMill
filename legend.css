@@ -1,6 +1,7 @@
 /* Page */
 body {margin: 0px; padding: 0px; text-align: center; background-image: url('http://subtlepatterns.com/patterns/furley_bg.png');}
 p {margin: 0px 0px 0px 0px; padding: 0px 0px 0px 0px; font-weight: 300;}
+.browser {margin: 0px 0px 10px 0px; padding: 0px 0px 10px 0px; font-weight: 300; font-size: 11px}
 a {color: #222; text-decoration: none; border-bottom:1px dotted;}
 i {font-family: 'Radley'; font-style: italic; font-weight: 400;}
 h1 {position: relative; font-family: 'Arvo'; font-size: 34px; font-weight: 700; text-align: left; padding: 60px 0px 0px 25px; text-shadow: 0px 2px 3px #fff; color: #333; letter-spacing: 1px;}
@@ -12,12 +13,17 @@ vertical-align: middle; font-weight: 300; letter-spacing: 2px;}
 #topbar img {vertical-align: middle; margin-right: 15px;}
 #topbar a {color: #fff; text-decoration: none; border-bottom:1px dotted #fff;}
 
+/* IF IE 7 below */
+.lt-ie7 topbar {position: absolute; top: 0px; left: 0px; z-index: 99999; height: 30px; width: 100%; background: #419ED8;}
+.lt-ie7 topbar {position: absolute; top: 0px; left: 0px; z-index: 99999; height: 30px; width: 100%; background: #419ED8;}
+.lt-ie7 tag {display: hidden;}
+
 /* Containers and Column*/
 #contain_all {position: absolute; top: 110px; bottom: 25px; left: 25px; right: 25px; float: left; min-width: 484px; padding: 0px 300px 6px 0px;}
 #map_container {min-width: 400px; height: 100%; width: 100%; position: relative; }
 #map_container iframe {border: 3px solid #333;}
 
-#right_col {position: absolute; right: 0px; float: right; height: 459px; width: 260px; bottom: 0px; border-bottom: 3px solid #333;}
+#right_col {position: absolute; right: 0px; float: right; height: 500 px; width: 260px; bottom: 0px; border-bottom: 3px solid #333;}
 #right_col h3 {text-align: left; font-family: 'Arvo'; margin: 0px 0px 15px 0px; color: #333; text-shadow: 0px 2px 3px #fff;}
 #right_col h4 {text-align: left; font-family: 'Arvo'; padding: 0px 0px 7px 0px; color: #333; text-shadow: 0px 2px 3px #fff; border-bottom: 3px solid #333;}
 #right_col img {position: absolute; bottom: 0px;}
