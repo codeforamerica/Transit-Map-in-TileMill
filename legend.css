@@ -4,7 +4,7 @@ p {margin: 0px 0px 0px 0px; padding: 0px 0px 0px 0px; font-weight: 300;}
 .browser {margin: 0px 0px 10px 0px; padding: 0px 0px 10px 0px; font-weight: 300; font-size: 11px}
 a {color: #222; text-decoration: none; border-bottom:1px dotted;}
 i {font-family: 'Radley'; font-style: italic; font-weight: 400;}
-h1 {position: relative; font-family: 'Arvo'; font-size: 34px; font-weight: 700; text-align: left; padding: 60px 0px 0px 25px; text-shadow: 0px 2px 3px #fff; color: #333; letter-spacing: 1px;}
+h1 {position: relative; font-family: 'Arvo'; font-size: 34px; font-weight: 700; text-align: left; padding: 60px 0px 0px 25px; text-shadow: 0px 2px 3px #fff; color: #333; letter-spacing: 1px; margin: 0px;}
 
 /* CFA Top Bar */
 #topbar {position: fixed; top: 0px; left: 0px; height: 30px; width: 100%; background: #419ED8; -moz-box-shadow: 0px 0px 5px 0px #888; -webkit-box-shadow: 0px 0px 9px 0px #888; box-shadow: 0px 0px 5px 0px #888; z-index: 99999;}
