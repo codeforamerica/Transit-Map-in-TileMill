@@ -48,6 +48,20 @@
       }
     },
     {
+      "geometry": "polygon",
+      "id": "parks",
+      "class": "parks",
+      "Datasource": {
+        "file": "/Users/jessicalord/Desktop/Macon Map Files/TotalMap.kml",
+        "id": "parks",
+        "project": "mta",
+        "srs": null
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "name": "parks"
+    },
+    {
       "geometry": "multipolygon",
       "name": "water",
       "id": "water",
@@ -277,6 +291,28 @@
         "project": "mta",
         "srs": null
       }
+    },
+    {
+      "geometry": "linestring",
+      "id": "real13",
+      "class": "rea13",
+      "Datasource": {
+        "file": "/Users/jessicalord/Desktop/Macon Map Files/Bus13.kml"
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "name": "real13"
+    },
+    {
+      "geometry": "linestring",
+      "id": "real1",
+      "class": "real1",
+      "Datasource": {
+        "file": "/Users/jessicalord/Desktop/Macon Map Files/RouteLessSimple (1).kml"
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "name": "real1"
     }
   ],
   "name": "MTA Transit Map",
