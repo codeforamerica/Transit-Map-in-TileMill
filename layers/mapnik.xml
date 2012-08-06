@@ -691,11 +691,13 @@ github: https://github.com/codeforamerica/Transit-Map-in-TileMill]]></Parameter>
     <MinScaleDenominator>100000</MinScaleDenominator>
     <Filter>([Route_No] = '1')</Filter>
     <TextSymbolizer size="0" halo-radius="0" halo-fill="#e99a3d" face-name="Trebuchet MS Regular" placement="line" fill="#ffffff" ><![CDATA[[Route_No]]]></TextSymbolizer>
+    
   </Rule>
   <Rule>
     <MaxScaleDenominator>100000</MaxScaleDenominator>
     <Filter>([Route_No] = '1')</Filter>
     <TextSymbolizer halo-fill="#e99a3d" face-name="Trebuchet MS Regular" placement="line" size="14" fill="#ffffff" halo-radius="3" ><![CDATA[[Route_No]]]></TextSymbolizer>
+    
   </Rule>
   <Rule>
     <MinScaleDenominator>100000</MinScaleDenominator>
@@ -830,12 +832,14 @@ github: https://github.com/codeforamerica/Transit-Map-in-TileMill]]></Parameter>
   <Rule>
     <MinScaleDenominator>100000</MinScaleDenominator>
     <Filter>([Route_No] = '1')</Filter>
-    <LineSymbolizer stroke-width="1" stroke="#e99a3d" />
+    <LineSymbolizer stroke-width="1" stroke="#e99a3d"  />
+   
   </Rule>
   <Rule>
     <MaxScaleDenominator>100000</MaxScaleDenominator>
     <Filter>([Route_No] = '1')</Filter>
-    <LineSymbolizer stroke="#e99a3d" stroke-width="3" />
+    <LineSymbolizer stroke="#e99a3d" stroke-width="3"/>
+    
   </Rule>
   <Rule>
     <MinScaleDenominator>100000</MinScaleDenominator>

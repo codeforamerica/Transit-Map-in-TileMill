@@ -1,0 +1,104 @@
+<html>
+<head>
+<style>
+html, body {
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  background-color:#ccc;
+}
+#map{
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
+.wax-tooltip {
+  z-index:999999;
+  position:absolute;
+  background:#FFF;
+  color:#000;
+  padding:10px;
+  top:10px;
+  right:10px;
+  max-width:300px;
+  opacity:1;
+  -webkit-transition:opacity .5s;
+  -moz-transition:opacity .5s;
+  }
+
+.wax-movetip {
+  position:absolute;
+  z-index:999999;
+  background:#333;
+  color:#fff;
+  padding:10px;
+  max-width:300px;
+}
+
+
+.wax-tooltip.hide { opacity:0; }
+
+.wax-tooltip .close {
+  display:block;
+  position:absolute;
+  top:0px;
+  right:0px;
+  }
+
+.wax-mobile-body .wax-tooltip {
+  position:absolute;
+  top:50px;
+}
+#popopper{
+  position:fixed;
+  top:10px;
+  right:10px;
+  background-color: #fff;
+  border: 1px dotted #E4E7E4;
+  max-width: 400px;
+  padding: 10px;
+  
+}
+
+.wax-tooltip {max-width: 600px !important;}
+p, li {font-family: 'Quicksand', Gotham Rounded, Arial; font-size: 13px; color: #333;}
+i {font-family: 'IM Fell French Canon', Garamond, Baskerville, Times New Roman; font-style: italic; font-size: 16px; font-weight: 400;}
+#teaserbox {float: left;}
+#icon {float: left;  margin: 10px 10px;}
+#info {float: left; margin: 10px 10px;}
+#timebox {float: left; margin: 0px 10px;}
+ul, li {line-height: 1em; list-style: none; margin: 0px 0px 0px 8px; padding: 0px;}
+.directionstyle {text-transform: uppercase; font-size: 10px;}
+</style>
+</head>
+<body>
+<div id="popopper" style="display: block; ">
+        <div id="teaserbox">
+            <div id="icon">
+                <img src="bus.png" height="75px">
+            </div><!-- #icon -->
+            <div id="info">
+                <p>
+                    stop number <b>129</b><br>
+                    <i>on</i> route <b></b><br>
+                    <i>at</i> <b>Ogletorpe Street and 3rd Street</b>
+                </p>
+            </div><!-- #info -->
+            <div style="clear:both;"></div>
+            <div id="timebox">
+            <p>
+              <b>The next buses at this stop:</b>
+                <ul>
+                    <li><b>Route 3 buses:</b> 5:16 pm <span class="directionstyle">inbound</span>, 5:28 pm <span class="directionstyle">outbound</span></li>
+                    <li><b>Route 12 buses:</b> 5:40 pm <span class="directionstyle">inbound</span>, 5:09 pm <span class="directionstyle">outbound</span></li>
+                </ul>
+            </p>
+            <p>An <span class="directionstyle">inbound</span> bus's direction is towards Terminal Station, 
+            <span class="directionstyle">outbound</span> bus's is leaving Terminal Station.</p>
+            </div><!-- #timebox -->
+        </div><!-- #teaserbox -->
+</div>​<!-- #popopper -->
+</body>
+</html>

@@ -18,7 +18,7 @@
       "Location"
     ],
     "layer": "stopssched",
-    "template_teaser": "<html>\n<head>\n<link href='http://fonts.googleapis.com/css?family=Quicksand' rel='stylesheet' type='text/css'><link href='http://fonts.googleapis.com/css?family=IM+Fell+French+Canon:400italic' rel='stylesheet' type='text/css'>\n</head>\n<style>\n.wax-tooltip {max-width: 600px !important;}\np {font-family: 'Quicksand', Gotham Rounded, Arial; font-size: 13px;}\ni {font-family: 'IM Fell French Canon', Garamond, Baskerville, Times New Roman; font-style: italic; font-size: 16px; font-weight: 400;}\n\n#teaserbox {border-top: 3px solid #333; }\n#icon {float: left;  margin: 2px 10px 0px 0px;}\n#info {float: left; margin: 7px 10px 0px 0px;)\n\n</style>\n<body>\n<div id=\"teaserbox\">\n<div id=\"icon\"><img src=\"http://jlord.us/map/bus.png\" height=\"75px\"/></div>\n<div id=\"info\">\n<p>\nstop number <b>{{{OBJECTID}}}</b><br/>\n<i>on</i> route <b>{{{Route}}}</b><br/>\n<i>at</i> <b>{{{Location}}}</b>\n</p>\n</div>\n</div>\n</body>\n</html>"
+    "template_teaser": "<html>\n<head>\n<link href='http://fonts.googleapis.com/css?family=Quicksand' rel='stylesheet' type='text/css'><link href='http://fonts.googleapis.com/css?family=IM+Fell+French+Canon:400italic' rel='stylesheet' type='text/css'>\n</head>\n<style>\n.wax-tooltip {max-width: 600px !important;}\np {font-family: 'Quicksand', Gotham Rounded, Arial; font-size: 13px;}\ni {font-family: 'IM Fell French Canon', Garamond, Baskerville, Times New Roman; font-style: italic; font-size: 16px; font-weight: 400;}\n\n#teaserbox {border-top: 3px solid #333; }\n#icon {float: left;  margin: 2px 10px 0px 0px;}\n#info {float: left; margin: 7px 10px 0px 0px;)\n\n</style>\n<body>\n<div id=\"teaserbox\">\n<div id=\"icon\"><img src=\"http://jlord.us/map/bus.png\" height=\"75px\"/></div>\n<div id=\"info\">\n<p>\n\nstop number <b>{{{OBJECTID}}}</b><br/>\n<i>on</i> route <b>{{{Route}}}</b><br/>\n<i>at</i> <b>{{{Location}}}</b>\n</p>\n</div>\n</div>\n<script type=\"text/javascript\">\nvar url = \"http://transit2me.herokuapp.com/stopbyid?id={{{OBJECTID}}}\";\n$('#teaserbox').append(url)\n//$.get(url + \"&callback=?\", function done() {})\n</script>\n</body>\n</html>"
   },
   "minzoom": 11,
   "maxzoom": 17,
@@ -52,7 +52,7 @@
       "id": "parks",
       "class": "parks",
       "Datasource": {
-        "file": "/Users/jessicalord/Desktop/Macon Map Files/TotalMap.kml",
+        "file": "/Users/jessicalord/Desktop/Macon Map Files/MaconParks.kml",
         "id": "parks",
         "project": "mta",
         "srs": null
@@ -120,7 +120,10 @@
       "srs": "",
       "class": "stops",
       "Datasource": {
-        "file": "/Users/jessicalord/Desktop/Macon Map Files/Bus Stops/Route1stops.kml"
+        "file": "/Users/jessicalord/Desktop/Macon Map Files/Bus Stops/Route1stops.kml",
+        "id": "1stops",
+        "project": "mta",
+        "srs": null
       }
     },
     {
@@ -161,16 +164,6 @@
       "class": "stops",
       "Datasource": {
         "file": "/Users/jessicalord/Desktop/Macon Map Files/Bus Stops/Route6stops.kml"
-      }
-    },
-    {
-      "geometry": "point",
-      "name": "7stops",
-      "id": "7stops",
-      "srs": "",
-      "class": "stops",
-      "Datasource": {
-        "file": "/Users/jessicalord/Desktop/Macon Map Files/Bus Stops/Route7stops.kml"
       }
     },
     {
@@ -244,7 +237,7 @@
       "id": "stopssched",
       "class": "sched",
       "Datasource": {
-        "file": "/Users/jessicalord/Desktop/Macon Map Files/bus_stops_pointdata/bus_stops_pointdata.shp",
+        "file": "/Users/jessicalord/Desktop/Macon Map Files/newbusstops.shp",
         "id": "stopssched",
         "project": "mta",
         "srs": null
@@ -252,6 +245,28 @@
       "srs-name": "autodetect",
       "srs": "",
       "name": "stopssched"
+    },
+    {
+      "geometry": "linestring",
+      "id": "new1",
+      "class": "route",
+      "Datasource": {
+        "file": "/Users/jessicalord/Desktop/Macon Map Files/Route1Fitted.kml"
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "name": "new1"
+    },
+    {
+      "geometry": "linestring",
+      "id": "bird",
+      "class": "route",
+      "Datasource": {
+        "file": "/Users/jessicalord/Desktop/Macon Map Files/WR-BIRD.kml"
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "name": "bird"
     },
     {
       "geometry": "linestring",
@@ -280,43 +295,51 @@
       }
     },
     {
-      "geometry": "point",
-      "name": "pInterest",
-      "id": "pInterest",
-      "srs": "",
-      "class": "local",
+      "geometry": "polygon",
+      "id": "parknames",
+      "class": "parknames",
       "Datasource": {
-        "file": "/Users/jessicalord/Desktop/Macon Map Files/Macon Transit Map Points of Interest.kml",
+        "file": "/Users/jessicalord/Desktop/Macon Map Files/MaconParks.kml",
+        "id": "parknames",
+        "project": "mta",
+        "srs": null
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "name": "parknames"
+    },
+    {
+      "geometry": "point",
+      "id": "pInterest",
+      "class": "point",
+      "Datasource": {
+        "file": "/Users/jessicalord/Desktop/Macon Map Files/MaconPOI.csv",
         "id": "pInterest",
         "project": "mta",
         "srs": null
-      }
-    },
-    {
-      "geometry": "linestring",
-      "id": "real13",
-      "class": "rea13",
-      "Datasource": {
-        "file": "/Users/jessicalord/Desktop/Macon Map Files/Bus13.kml"
       },
       "srs-name": "autodetect",
       "srs": "",
-      "name": "real13"
+      "name": "pInterest"
     },
     {
-      "geometry": "linestring",
-      "id": "real1",
-      "class": "real1",
+      "geometry": "point",
+      "id": "birdend",
+      "class": "point",
       "Datasource": {
-        "file": "/Users/jessicalord/Desktop/Macon Map Files/RouteLessSimple (1).kml"
+        "file": "/Users/jessicalord/Desktop/Macon Map Files/BIRDend.csv",
+        "id": "birdend",
+        "project": "mta",
+        "srs": null
       },
       "srs-name": "autodetect",
       "srs": "",
-      "name": "real1"
+      "name": "birdend"
     }
   ],
   "name": "MTA Transit Map",
   "description": "Map of Macon Bus Routes,\ngithub: https://github.com/codeforamerica/Transit-Map-in-TileMill",
   "attribution": "",
-  "legend": ""
+  "legend": "",
+  "_basemap": "http://a.tiles.mapbox.com/v3/mapbox.mapbox-streets.jsonp"
 }
