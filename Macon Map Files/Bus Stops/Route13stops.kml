@@ -1,0 +1,555 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>Route13stops</name>
+<Schema name="Route13stops" id="Route13stops">
+	<SimpleField name="Name" type="string"></SimpleField>
+	<SimpleField name="Description" type="string"></SimpleField>
+	<SimpleField name="OBJECTID" type="int"></SimpleField>
+	<SimpleField name="Id" type="int"></SimpleField>
+	<SimpleField name="Location" type="string"></SimpleField>
+	<SimpleField name="Type" type="int"></SimpleField>
+	<SimpleField name="Sidewalk" type="string"></SimpleField>
+	<SimpleField name="Bike_Route" type="string"></SimpleField>
+	<SimpleField name="Route" type="string"></SimpleField>
+</Schema>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Route13stops">
+		<SimpleData name="OBJECTID">1</SimpleData>
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="Location">MLK and Riverside</SimpleData>
+		<SimpleData name="Type">2</SimpleData>
+		<SimpleData name="Sidewalk">Yes</SimpleData>
+		<SimpleData name="Bike_Route">Yes</SimpleData>
+		<SimpleData name="Route"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-83.621172624934985,32.837522525131746</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Route13stops">
+		<SimpleData name="OBJECTID">72</SimpleData>
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="Location">Spring Street and Riverside</SimpleData>
+		<SimpleData name="Type">3</SimpleData>
+		<SimpleData name="Sidewalk">Yes</SimpleData>
+		<SimpleData name="Bike_Route">No</SimpleData>
+		<SimpleData name="Route"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-83.630640242107532,32.843091535482614</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Route13stops">
+		<SimpleData name="OBJECTID">74</SimpleData>
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="Location">Spring Street and Riverside</SimpleData>
+		<SimpleData name="Type">2</SimpleData>
+		<SimpleData name="Sidewalk">Yes</SimpleData>
+		<SimpleData name="Bike_Route">No</SimpleData>
+		<SimpleData name="Route"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-83.630371720797896,32.843069768712596</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Route13stops">
+		<SimpleData name="OBJECTID">245</SimpleData>
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="Location">Riverside Drive and Spring Street</SimpleData>
+		<SimpleData name="Type">2</SimpleData>
+		<SimpleData name="Sidewalk">Yes</SimpleData>
+		<SimpleData name="Bike_Route">No</SimpleData>
+		<SimpleData name="Route">Ocmulgee</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-83.630810408201015,32.843673315638554</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Route13stops">
+		<SimpleData name="OBJECTID">246</SimpleData>
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="Location">Riverside Drive near Spring Street</SimpleData>
+		<SimpleData name="Type">2</SimpleData>
+		<SimpleData name="Sidewalk">Yes</SimpleData>
+		<SimpleData name="Bike_Route">No</SimpleData>
+		<SimpleData name="Route">Ocmulgee</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-83.630569576184755,32.843326244868756</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Route13stops">
+		<SimpleData name="OBJECTID">247</SimpleData>
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="Location">Riverside Drive near Franklin Street</SimpleData>
+		<SimpleData name="Type">3</SimpleData>
+		<SimpleData name="Sidewalk">Yes</SimpleData>
+		<SimpleData name="Bike_Route">No</SimpleData>
+		<SimpleData name="Route">Ocmulgee</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-83.63161205795619,32.844176578827536</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Route13stops">
+		<SimpleData name="OBJECTID">248</SimpleData>
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="Location">Riverside Drive and Franklin Street</SimpleData>
+		<SimpleData name="Type">1</SimpleData>
+		<SimpleData name="Sidewalk">Yes</SimpleData>
+		<SimpleData name="Bike_Route">No</SimpleData>
+		<SimpleData name="Route">Ocmulgee</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-83.632021974980987,32.844178330768948</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Route13stops">
+		<SimpleData name="OBJECTID">249</SimpleData>
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="Location">Riverside Drive and Jones Street</SimpleData>
+		<SimpleData name="Type">1</SimpleData>
+		<SimpleData name="Sidewalk">Yes</SimpleData>
+		<SimpleData name="Bike_Route">No</SimpleData>
+		<SimpleData name="Route">Ocmulgee</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-83.63270374796312,32.844808626121605</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Route13stops">
+		<SimpleData name="OBJECTID">250</SimpleData>
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="Location">Riverside Drive near Orange Street</SimpleData>
+		<SimpleData name="Type">3</SimpleData>
+		<SimpleData name="Sidewalk">Yes</SimpleData>
+		<SimpleData name="Bike_Route">No</SimpleData>
+		<SimpleData name="Route">Ocmulgee</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-83.634233208118005,32.845915335128232</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Route13stops">
+		<SimpleData name="OBJECTID">251</SimpleData>
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="Location">Riverside Drive and College Street</SimpleData>
+		<SimpleData name="Type">1</SimpleData>
+		<SimpleData name="Sidewalk">Yes</SimpleData>
+		<SimpleData name="Bike_Route">No</SimpleData>
+		<SimpleData name="Route">Ocmulgee</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-83.63583498276239,32.846609760159424</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Route13stops">
+		<SimpleData name="OBJECTID">252</SimpleData>
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="Location">Riverside Drive and Madison Street</SimpleData>
+		<SimpleData name="Type">1</SimpleData>
+		<SimpleData name="Sidewalk">Yes</SimpleData>
+		<SimpleData name="Bike_Route">No</SimpleData>
+		<SimpleData name="Route">Ocmulgee</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-83.637436900251814,32.847284518428076</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Route13stops">
+		<SimpleData name="OBJECTID">262</SimpleData>
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="Location">Riverside Drive near Wimbish Road</SimpleData>
+		<SimpleData name="Type">3</SimpleData>
+		<SimpleData name="Sidewalk">No</SimpleData>
+		<SimpleData name="Bike_Route">No</SimpleData>
+		<SimpleData name="Route">Ocmulgee</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-83.672875923805819,32.88546920086155</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Route13stops">
+		<SimpleData name="OBJECTID">263</SimpleData>
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="Location">Riverside Drive near Northside Drive</SimpleData>
+		<SimpleData name="Type">3</SimpleData>
+		<SimpleData name="Sidewalk">No</SimpleData>
+		<SimpleData name="Bike_Route">No</SimpleData>
+		<SimpleData name="Route">Ocmulgee</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-83.677070392926808,32.890632295456115</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Route13stops">
+		<SimpleData name="OBJECTID">281</SimpleData>
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="Location">Ingleside Avenue and Riverside Drive</SimpleData>
+		<SimpleData name="Type">1</SimpleData>
+		<SimpleData name="Sidewalk">Yes</SimpleData>
+		<SimpleData name="Bike_Route">No</SimpleData>
+		<SimpleData name="Route">Ocmulgee</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-83.645085478712573,32.85569318472276</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Route13stops">
+		<SimpleData name="OBJECTID">282</SimpleData>
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="Location">Riverside Drive near Bibb Co Vocational Complex</SimpleData>
+		<SimpleData name="Type">2</SimpleData>
+		<SimpleData name="Sidewalk">No</SimpleData>
+		<SimpleData name="Bike_Route">No</SimpleData>
+		<SimpleData name="Route">Ocmulgee</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-83.643859890524752,32.854453488064728</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Route13stops">
+		<SimpleData name="OBJECTID">292</SimpleData>
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="Location">Riverside Drive and Burrus Road</SimpleData>
+		<SimpleData name="Type">1</SimpleData>
+		<SimpleData name="Sidewalk">No</SimpleData>
+		<SimpleData name="Bike_Route">No</SimpleData>
+		<SimpleData name="Route">Ocmulgee</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-83.663866558309721,32.874867954389366</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Route13stops">
+		<SimpleData name="OBJECTID">293</SimpleData>
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="Location">Riverside Drive and Lee Road</SimpleData>
+		<SimpleData name="Type">2</SimpleData>
+		<SimpleData name="Sidewalk">No</SimpleData>
+		<SimpleData name="Bike_Route">No</SimpleData>
+		<SimpleData name="Route">Ocmulgee</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-83.666265666174823,32.877650500575271</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Route13stops">
+		<SimpleData name="OBJECTID">294</SimpleData>
+		<SimpleData name="Id">1</SimpleData>
+		<SimpleData name="Location">Riverside Drive</SimpleData>
+		<SimpleData name="Type">1</SimpleData>
+		<SimpleData name="Sidewalk">No</SimpleData>
+		<SimpleData name="Bike_Route">No</SimpleData>
+		<SimpleData name="Route">Ocmulgee</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-83.667055453637957,32.878872064383316</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Route13stops">
+		<SimpleData name="OBJECTID">295</SimpleData>
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="Location">Riverside Drive near Thornwood Drive</SimpleData>
+		<SimpleData name="Type">1</SimpleData>
+		<SimpleData name="Sidewalk">No</SimpleData>
+		<SimpleData name="Bike_Route">No</SimpleData>
+		<SimpleData name="Route">Ocmulgee</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-83.668836606513409,32.880895839018748</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Route13stops">
+		<SimpleData name="OBJECTID">296</SimpleData>
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="Location">Riverside Drive near Wimbish Road</SimpleData>
+		<SimpleData name="Type">1</SimpleData>
+		<SimpleData name="Sidewalk">No</SimpleData>
+		<SimpleData name="Bike_Route">No</SimpleData>
+		<SimpleData name="Route">Ocmulgee</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-83.673164193253399,32.886164738475188</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Route13stops">
+		<SimpleData name="OBJECTID">297</SimpleData>
+		<SimpleData name="Id">2</SimpleData>
+		<SimpleData name="Location">Riverside Drive</SimpleData>
+		<SimpleData name="Type">1</SimpleData>
+		<SimpleData name="Sidewalk">No</SimpleData>
+		<SimpleData name="Bike_Route">No</SimpleData>
+		<SimpleData name="Route">Ocmulgee</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-83.674401138988983,32.887598088892489</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Route13stops">
+		<SimpleData name="OBJECTID">298</SimpleData>
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="Location">Riverside Drive near Northside Drive</SimpleData>
+		<SimpleData name="Type">1</SimpleData>
+		<SimpleData name="Sidewalk">No</SimpleData>
+		<SimpleData name="Bike_Route">No</SimpleData>
+		<SimpleData name="Route">Ocmulgee</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-83.67687410714322,32.890653811347654</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Route13stops">
+		<SimpleData name="OBJECTID">303</SimpleData>
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="Location">Tom Hill Sr and Riverside Drive</SimpleData>
+		<SimpleData name="Type">1</SimpleData>
+		<SimpleData name="Sidewalk">No</SimpleData>
+		<SimpleData name="Bike_Route">No</SimpleData>
+		<SimpleData name="Route">Ocmulgee</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-83.686803226540093,32.900901695993745</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Route13stops">
+		<SimpleData name="OBJECTID">304</SimpleData>
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="Location">Riverside Drive and Holiday Drive</SimpleData>
+		<SimpleData name="Type">1</SimpleData>
+		<SimpleData name="Sidewalk">No</SimpleData>
+		<SimpleData name="Bike_Route">No</SimpleData>
+		<SimpleData name="Route">Ocmulgee</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-83.685785803232861,32.900246571414186</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Route13stops">
+		<SimpleData name="OBJECTID">305</SimpleData>
+		<SimpleData name="Id">3</SimpleData>
+		<SimpleData name="Location">Riverside Drive</SimpleData>
+		<SimpleData name="Type">1</SimpleData>
+		<SimpleData name="Sidewalk">No</SimpleData>
+		<SimpleData name="Bike_Route">No</SimpleData>
+		<SimpleData name="Route">Ocmulgee</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-83.684519729672047,32.899527459007444</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Route13stops">
+		<SimpleData name="OBJECTID">306</SimpleData>
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="Location">Riverside Drive near SS Office</SimpleData>
+		<SimpleData name="Type">1</SimpleData>
+		<SimpleData name="Sidewalk">No</SimpleData>
+		<SimpleData name="Bike_Route">No</SimpleData>
+		<SimpleData name="Route">Ocmulgee</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-83.683776813787645,32.898768341920658</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Route13stops">
+		<SimpleData name="OBJECTID">307</SimpleData>
+		<SimpleData name="Id">4</SimpleData>
+		<SimpleData name="Location">Riverside Drive</SimpleData>
+		<SimpleData name="Type">1</SimpleData>
+		<SimpleData name="Sidewalk">No</SimpleData>
+		<SimpleData name="Bike_Route">No</SimpleData>
+		<SimpleData name="Route">Ocmulgee</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-83.679150470026912,32.893267571659834</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Route13stops">
+		<SimpleData name="OBJECTID">557</SimpleData>
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="Location">Riverside Drive near SS Administration</SimpleData>
+		<SimpleData name="Type">2</SimpleData>
+		<SimpleData name="Sidewalk">No</SimpleData>
+		<SimpleData name="Bike_Route">No</SimpleData>
+		<SimpleData name="Route">Ocmulgee</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-83.682623140948849,32.897388936498395</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Route13stops">
+		<SimpleData name="OBJECTID">565</SimpleData>
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="Location">Sheraton Drive near Arkwright Road</SimpleData>
+		<SimpleData name="Type">1</SimpleData>
+		<SimpleData name="Sidewalk">No</SimpleData>
+		<SimpleData name="Bike_Route"></SimpleData>
+		<SimpleData name="Route">North Macon</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-83.688863620737465,32.906338665612026</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Route13stops">
+		<SimpleData name="OBJECTID">566</SimpleData>
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="Location">Sheraton Drive</SimpleData>
+		<SimpleData name="Type">1</SimpleData>
+		<SimpleData name="Sidewalk">No</SimpleData>
+		<SimpleData name="Bike_Route"></SimpleData>
+		<SimpleData name="Route">North Macon</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-83.690843508911982,32.908248797692842</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Route13stops">
+		<SimpleData name="OBJECTID">567</SimpleData>
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="Location">Sheraton Drive Near Apartments</SimpleData>
+		<SimpleData name="Type">1</SimpleData>
+		<SimpleData name="Sidewalk"></SimpleData>
+		<SimpleData name="Bike_Route">No</SimpleData>
+		<SimpleData name="Route">Ocmulgee</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-83.695285810904494,32.911197839099138</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Route13stops">
+		<SimpleData name="OBJECTID">568</SimpleData>
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="Location">Sheraton Drive</SimpleData>
+		<SimpleData name="Type">1</SimpleData>
+		<SimpleData name="Sidewalk">No</SimpleData>
+		<SimpleData name="Bike_Route"></SimpleData>
+		<SimpleData name="Route">North Macon</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-83.698853761350634,32.913942004419035</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Route13stops">
+		<SimpleData name="OBJECTID">569</SimpleData>
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="Location"></SimpleData>
+		<SimpleData name="Type">0</SimpleData>
+		<SimpleData name="Sidewalk"></SimpleData>
+		<SimpleData name="Bike_Route"></SimpleData>
+		<SimpleData name="Route"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-83.702182278346328,32.916841861311376</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Route13stops">
+		<SimpleData name="OBJECTID">570</SimpleData>
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="Location">Sheraton Drive Near Apartments</SimpleData>
+		<SimpleData name="Type">1</SimpleData>
+		<SimpleData name="Sidewalk">No</SimpleData>
+		<SimpleData name="Bike_Route"></SimpleData>
+		<SimpleData name="Route">North Macon</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-83.702182278346328,32.916841861311376</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Route13stops">
+		<SimpleData name="OBJECTID">571</SimpleData>
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="Location">Sheraton Drive at Groomes Transportation</SimpleData>
+		<SimpleData name="Type">1</SimpleData>
+		<SimpleData name="Sidewalk">No</SimpleData>
+		<SimpleData name="Bike_Route"></SimpleData>
+		<SimpleData name="Route">North Macon</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-83.703900218876996,32.918191230084787</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Route13stops">
+		<SimpleData name="OBJECTID">572</SimpleData>
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="Location">Sheraton Drive and Sheraton Blvd</SimpleData>
+		<SimpleData name="Type">1</SimpleData>
+		<SimpleData name="Sidewalk">No</SimpleData>
+		<SimpleData name="Bike_Route"></SimpleData>
+		<SimpleData name="Route">North Macon</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-83.705222112367139,32.919158597966167</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Route13stops">
+		<SimpleData name="OBJECTID">573</SimpleData>
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="Location">Sheraton Drive and Gateway Drive</SimpleData>
+		<SimpleData name="Type">0</SimpleData>
+		<SimpleData name="Sidewalk"></SimpleData>
+		<SimpleData name="Bike_Route"></SimpleData>
+		<SimpleData name="Route"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-83.709120835745821,32.924791133221284</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Route13stops">
+		<SimpleData name="OBJECTID">574</SimpleData>
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="Location">Sheraton Drive and Sheraton Blvd North</SimpleData>
+		<SimpleData name="Type">1</SimpleData>
+		<SimpleData name="Sidewalk">No</SimpleData>
+		<SimpleData name="Bike_Route"></SimpleData>
+		<SimpleData name="Route">North Macon</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-83.707150947083022,32.920799683390186</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Route13stops">
+		<SimpleData name="OBJECTID">575</SimpleData>
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="Location">Sheraton Drive and Gateway Drive</SimpleData>
+		<SimpleData name="Type">1</SimpleData>
+		<SimpleData name="Sidewalk">No</SimpleData>
+		<SimpleData name="Bike_Route"></SimpleData>
+		<SimpleData name="Route">North Macon</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-83.709094181411359,32.924813419284476</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Route13stops">
+		<SimpleData name="OBJECTID">576</SimpleData>
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="Location">Sheraton Drive and Riverside Drive</SimpleData>
+		<SimpleData name="Type">1</SimpleData>
+		<SimpleData name="Sidewalk">No</SimpleData>
+		<SimpleData name="Bike_Route"></SimpleData>
+		<SimpleData name="Route">North Macon</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-83.711247112461223,32.924194550405801</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Route13stops">
+		<SimpleData name="OBJECTID">577</SimpleData>
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="Location">Riverside Drive and Bass Road</SimpleData>
+		<SimpleData name="Type">1</SimpleData>
+		<SimpleData name="Sidewalk">No</SimpleData>
+		<SimpleData name="Bike_Route"></SimpleData>
+		<SimpleData name="Route">North Macon</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-83.717500650807324,32.936662273389864</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Route13stops">
+		<SimpleData name="OBJECTID">578</SimpleData>
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="Location">Riverside Drive and Hall Road</SimpleData>
+		<SimpleData name="Type">1</SimpleData>
+		<SimpleData name="Sidewalk">Yes</SimpleData>
+		<SimpleData name="Bike_Route"></SimpleData>
+		<SimpleData name="Route">North Macon</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-83.705667143450356,32.915220781124582</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Route13stops">
+		<SimpleData name="OBJECTID">579</SimpleData>
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="Location">Riverside Drive near Access Road</SimpleData>
+		<SimpleData name="Type">1</SimpleData>
+		<SimpleData name="Sidewalk">Yes</SimpleData>
+		<SimpleData name="Bike_Route"></SimpleData>
+		<SimpleData name="Route">North Macon</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-83.69934717764788,32.910944487477472</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Route13stops">
+		<SimpleData name="OBJECTID">580</SimpleData>
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="Location">Riverside Drive and Sue Drive</SimpleData>
+		<SimpleData name="Type">1</SimpleData>
+		<SimpleData name="Sidewalk">Yes</SimpleData>
+		<SimpleData name="Bike_Route"></SimpleData>
+		<SimpleData name="Route">North Macon</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-83.693979486258471,32.907342978294302</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Route13stops">
+		<SimpleData name="OBJECTID">581</SimpleData>
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="Location">Riverside Drive and North Crest Blvd</SimpleData>
+		<SimpleData name="Type">1</SimpleData>
+		<SimpleData name="Sidewalk">Yes</SimpleData>
+		<SimpleData name="Bike_Route"></SimpleData>
+		<SimpleData name="Route">Route</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-83.69080660197217,32.905226909874116</coordinates></Point>
+  </Placemark>
+</Folder></Document></kml>

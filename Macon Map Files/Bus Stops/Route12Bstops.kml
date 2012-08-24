@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>Route12Bstops</name>
+<Schema name="Route12Bstops" id="Route12Bstops">
+	<SimpleField name="Name" type="string"></SimpleField>
+	<SimpleField name="Description" type="string"></SimpleField>
+	<SimpleField name="OBJECTID" type="int"></SimpleField>
+	<SimpleField name="Id" type="int"></SimpleField>
+	<SimpleField name="Location" type="string"></SimpleField>
+	<SimpleField name="Type" type="int"></SimpleField>
+	<SimpleField name="Sidewalk" type="string"></SimpleField>
+	<SimpleField name="Bike_Route" type="string"></SimpleField>
+	<SimpleField name="Route" type="string"></SimpleField>
+</Schema>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Route12Bstops">
+		<SimpleData name="OBJECTID">168</SimpleData>
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="Location">Houston Avenue and Chattam Street</SimpleData>
+		<SimpleData name="Type">1</SimpleData>
+		<SimpleData name="Sidewalk">No</SimpleData>
+		<SimpleData name="Bike_Route">No</SimpleData>
+		<SimpleData name="Route"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-83.658452035539611,32.786682883965071</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Route12Bstops">
+		<SimpleData name="OBJECTID">171</SimpleData>
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="Location">Houston Avenue amd Putnam Street</SimpleData>
+		<SimpleData name="Type">1</SimpleData>
+		<SimpleData name="Sidewalk">No</SimpleData>
+		<SimpleData name="Bike_Route">No</SimpleData>
+		<SimpleData name="Route"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-83.658998038932012,32.78278451374679</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Route12Bstops">
+		<SimpleData name="OBJECTID">175</SimpleData>
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="Location">Marion Avenue and Carmen Place</SimpleData>
+		<SimpleData name="Type">1</SimpleData>
+		<SimpleData name="Sidewalk">No</SimpleData>
+		<SimpleData name="Bike_Route">No</SimpleData>
+		<SimpleData name="Route"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-83.649976837797325,32.784366548841014</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Route12Bstops">
+		<SimpleData name="OBJECTID">176</SimpleData>
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="Location">Marion Avenue and Shi Place</SimpleData>
+		<SimpleData name="Type">1</SimpleData>
+		<SimpleData name="Sidewalk">No</SimpleData>
+		<SimpleData name="Bike_Route">No</SimpleData>
+		<SimpleData name="Route"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-83.649752905379671,32.783340607763705</coordinates></Point>
+  </Placemark>
+</Folder></Document></kml>

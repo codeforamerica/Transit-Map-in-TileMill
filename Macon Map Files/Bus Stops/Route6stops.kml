@@ -1,0 +1,891 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>Route6stops</name>
+<Schema name="Route6stops" id="Route6stops">
+	<SimpleField name="Name" type="string"></SimpleField>
+	<SimpleField name="Description" type="string"></SimpleField>
+	<SimpleField name="OBJECTID" type="int"></SimpleField>
+	<SimpleField name="Id" type="int"></SimpleField>
+	<SimpleField name="Location" type="string"></SimpleField>
+	<SimpleField name="Type" type="int"></SimpleField>
+	<SimpleField name="Sidewalk" type="string"></SimpleField>
+	<SimpleField name="Bike_Route" type="string"></SimpleField>
+	<SimpleField name="Route" type="string"></SimpleField>
+</Schema>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Route6stops">
+		<SimpleData name="OBJECTID">130</SimpleData>
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="Location">Ogletorpe Street and 2nd Street</SimpleData>
+		<SimpleData name="Type">1</SimpleData>
+		<SimpleData name="Sidewalk">Yes</SimpleData>
+		<SimpleData name="Bike_Route">No</SimpleData>
+		<SimpleData name="Route"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-83.635141752317296,32.829347720458919</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Route6stops">
+		<SimpleData name="OBJECTID">131</SimpleData>
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="Location">2nd Street and Arch Street</SimpleData>
+		<SimpleData name="Type">1</SimpleData>
+		<SimpleData name="Sidewalk">Yes</SimpleData>
+		<SimpleData name="Bike_Route">No</SimpleData>
+		<SimpleData name="Route"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-83.6345508128598,32.830044617903923</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Route6stops">
+		<SimpleData name="OBJECTID">132</SimpleData>
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="Location">2nd Street and Hemlock Street</SimpleData>
+		<SimpleData name="Type">2</SimpleData>
+		<SimpleData name="Sidewalk">Yes</SimpleData>
+		<SimpleData name="Bike_Route">No</SimpleData>
+		<SimpleData name="Route"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-83.633438460246836,32.831351274918667</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Route6stops">
+		<SimpleData name="OBJECTID">133</SimpleData>
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="Location">2nd Street and Plum Street</SimpleData>
+		<SimpleData name="Type">1</SimpleData>
+		<SimpleData name="Sidewalk">Yes</SimpleData>
+		<SimpleData name="Bike_Route">No</SimpleData>
+		<SimpleData name="Route"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-83.631230916583831,32.833964632206282</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Route6stops">
+		<SimpleData name="OBJECTID">134</SimpleData>
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="Location">2nd and Pine Street</SimpleData>
+		<SimpleData name="Type">1</SimpleData>
+		<SimpleData name="Sidewalk">Yes</SimpleData>
+		<SimpleData name="Bike_Route">No</SimpleData>
+		<SimpleData name="Route"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-83.632343247117589,32.832672566531969</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Route6stops">
+		<SimpleData name="OBJECTID">135</SimpleData>
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="Location">2nd and Arch Street</SimpleData>
+		<SimpleData name="Type">2</SimpleData>
+		<SimpleData name="Sidewalk">Yes</SimpleData>
+		<SimpleData name="Bike_Route">No</SimpleData>
+		<SimpleData name="Route"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-83.634480997995666,32.830175460003659</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Route6stops">
+		<SimpleData name="OBJECTID">182</SimpleData>
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="Location">2nd Street and Hawthorne Street</SimpleData>
+		<SimpleData name="Type">1</SimpleData>
+		<SimpleData name="Sidewalk">Yes</SimpleData>
+		<SimpleData name="Bike_Route">No</SimpleData>
+		<SimpleData name="Route">Westgate</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-83.635789804258252,32.828149656889373</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Route6stops">
+		<SimpleData name="OBJECTID">183</SimpleData>
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="Location">2nd Street near Cynthia Avenue</SimpleData>
+		<SimpleData name="Type">1</SimpleData>
+		<SimpleData name="Sidewalk">Yes</SimpleData>
+		<SimpleData name="Bike_Route">No</SimpleData>
+		<SimpleData name="Route">Westgate</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-83.644451242055723,32.8192413280347</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Route6stops">
+		<SimpleData name="OBJECTID">184</SimpleData>
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="Location">2nd Street and Anderson Street</SimpleData>
+		<SimpleData name="Type">1</SimpleData>
+		<SimpleData name="Sidewalk">Yes</SimpleData>
+		<SimpleData name="Bike_Route">No</SimpleData>
+		<SimpleData name="Route">Westgate</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-83.642133783963047,32.82086859043882</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Route6stops">
+		<SimpleData name="OBJECTID">185</SimpleData>
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="Location">2nd Street and Wood Street</SimpleData>
+		<SimpleData name="Type">1</SimpleData>
+		<SimpleData name="Sidewalk">Yes</SimpleData>
+		<SimpleData name="Bike_Route">No</SimpleData>
+		<SimpleData name="Route">Westgate</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-83.6411821602114,32.821780512192561</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Route6stops">
+		<SimpleData name="OBJECTID">186</SimpleData>
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="Location">2nd Street and Prince Street</SimpleData>
+		<SimpleData name="Type">1</SimpleData>
+		<SimpleData name="Sidewalk">Yes</SimpleData>
+		<SimpleData name="Bike_Route">No</SimpleData>
+		<SimpleData name="Route">Westgate</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-83.640461310641228,32.822693396712722</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Route6stops">
+		<SimpleData name="OBJECTID">187</SimpleData>
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="Location">2nd Street and Edgewood Avenue</SimpleData>
+		<SimpleData name="Type">1</SimpleData>
+		<SimpleData name="Sidewalk">Yes</SimpleData>
+		<SimpleData name="Bike_Route">No</SimpleData>
+		<SimpleData name="Route">Westgate</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-83.639601507450735,32.823683642388005</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Route6stops">
+		<SimpleData name="OBJECTID">188</SimpleData>
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="Location">2nd Street and Elm Street</SimpleData>
+		<SimpleData name="Type">1</SimpleData>
+		<SimpleData name="Sidewalk">Yes</SimpleData>
+		<SimpleData name="Bike_Route">No</SimpleData>
+		<SimpleData name="Route">Westgate</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-83.638533160917405,32.824809413976261</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Route6stops">
+		<SimpleData name="OBJECTID">189</SimpleData>
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="Location">2nd Street and Ash Street</SimpleData>
+		<SimpleData name="Type">1</SimpleData>
+		<SimpleData name="Sidewalk">Yes</SimpleData>
+		<SimpleData name="Bike_Route">No</SimpleData>
+		<SimpleData name="Route">Westgate</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-83.637440551684492,32.826129949180135</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Route6stops">
+		<SimpleData name="OBJECTID">190</SimpleData>
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="Location">2nd Street and Hazel Street</SimpleData>
+		<SimpleData name="Type">1</SimpleData>
+		<SimpleData name="Sidewalk">Yes</SimpleData>
+		<SimpleData name="Bike_Route">No</SimpleData>
+		<SimpleData name="Route">Westgate</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-83.636626843247669,32.827120368356724</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Route6stops">
+		<SimpleData name="OBJECTID">191</SimpleData>
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="Location">2nd Street near Wyche Street</SimpleData>
+		<SimpleData name="Type">1</SimpleData>
+		<SimpleData name="Sidewalk">Yes</SimpleData>
+		<SimpleData name="Bike_Route">No</SimpleData>
+		<SimpleData name="Route">Westgate</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-83.64535448582609,32.818699441142897</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Route6stops">
+		<SimpleData name="OBJECTID">192</SimpleData>
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="Location">2nd Street and Bowden Street</SimpleData>
+		<SimpleData name="Type">1</SimpleData>
+		<SimpleData name="Sidewalk">Yes</SimpleData>
+		<SimpleData name="Bike_Route">No</SimpleData>
+		<SimpleData name="Route">Westgate</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-83.646142328664126,32.81815706877299</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Route6stops">
+		<SimpleData name="OBJECTID">193</SimpleData>
+		<SimpleData name="Id">1</SimpleData>
+		<SimpleData name="Location">2nd Street</SimpleData>
+		<SimpleData name="Type">1</SimpleData>
+		<SimpleData name="Sidewalk">Yes</SimpleData>
+		<SimpleData name="Bike_Route">No</SimpleData>
+		<SimpleData name="Route">Westgate</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-83.646122432523867,32.817611335496764</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Route6stops">
+		<SimpleData name="OBJECTID">194</SimpleData>
+		<SimpleData name="Id">1</SimpleData>
+		<SimpleData name="Location">Ell Street</SimpleData>
+		<SimpleData name="Type">1</SimpleData>
+		<SimpleData name="Sidewalk">Yes</SimpleData>
+		<SimpleData name="Bike_Route">No</SimpleData>
+		<SimpleData name="Route">Westgate</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-83.647144668477978,32.816446330584938</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Route6stops">
+		<SimpleData name="OBJECTID">195</SimpleData>
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="Location">2nd Street and Ell Street</SimpleData>
+		<SimpleData name="Type">1</SimpleData>
+		<SimpleData name="Sidewalk">Yes</SimpleData>
+		<SimpleData name="Bike_Route">No</SimpleData>
+		<SimpleData name="Route">Westgate</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-83.646221447126521,32.816461983609116</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Route6stops">
+		<SimpleData name="OBJECTID">196</SimpleData>
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="Location">Ell Street and Felton Avenue</SimpleData>
+		<SimpleData name="Type">1</SimpleData>
+		<SimpleData name="Sidewalk">Yes</SimpleData>
+		<SimpleData name="Bike_Route">No</SimpleData>
+		<SimpleData name="Route">Westgate</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-83.649475401670912,32.816475467932122</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Route6stops">
+		<SimpleData name="OBJECTID">197</SimpleData>
+		<SimpleData name="Id">1</SimpleData>
+		<SimpleData name="Location">A Street</SimpleData>
+		<SimpleData name="Type">1</SimpleData>
+		<SimpleData name="Sidewalk">Yes</SimpleData>
+		<SimpleData name="Bike_Route">No</SimpleData>
+		<SimpleData name="Route">Westgate</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-83.652253708991708,32.81492791112025</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Route6stops">
+		<SimpleData name="OBJECTID">198</SimpleData>
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="Location">A Street and B Street</SimpleData>
+		<SimpleData name="Type">1</SimpleData>
+		<SimpleData name="Sidewalk">Yes</SimpleData>
+		<SimpleData name="Bike_Route">No</SimpleData>
+		<SimpleData name="Route">Westgate</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-83.653775355727248,32.815187491493923</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Route6stops">
+		<SimpleData name="OBJECTID">199</SimpleData>
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="Location">A Street and Ell Street</SimpleData>
+		<SimpleData name="Type">1</SimpleData>
+		<SimpleData name="Sidewalk">Yes</SimpleData>
+		<SimpleData name="Bike_Route">No</SimpleData>
+		<SimpleData name="Route">Westgate</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-83.654575462970968,32.81651591976501</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Route6stops">
+		<SimpleData name="OBJECTID">200</SimpleData>
+		<SimpleData name="Id">1</SimpleData>
+		<SimpleData name="Location">A Street</SimpleData>
+		<SimpleData name="Type">1</SimpleData>
+		<SimpleData name="Sidewalk">Yes</SimpleData>
+		<SimpleData name="Bike_Route">No</SimpleData>
+		<SimpleData name="Route">Westgate</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-83.654861110700764,32.814997059310173</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Route6stops">
+		<SimpleData name="OBJECTID">201</SimpleData>
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="Location">Ell Street and Goodwin Street</SimpleData>
+		<SimpleData name="Type">1</SimpleData>
+		<SimpleData name="Sidewalk">No</SimpleData>
+		<SimpleData name="Bike_Route">No</SimpleData>
+		<SimpleData name="Route">Westgate</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-83.657552268951733,32.816567035136309</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Route6stops">
+		<SimpleData name="OBJECTID">204</SimpleData>
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="Location">Pio Nono and Holley Street</SimpleData>
+		<SimpleData name="Type">3</SimpleData>
+		<SimpleData name="Sidewalk">Yes</SimpleData>
+		<SimpleData name="Bike_Route">No</SimpleData>
+		<SimpleData name="Route">Westgate</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-83.662846094271117,32.814990471342242</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Route6stops">
+		<SimpleData name="OBJECTID">205</SimpleData>
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="Location">Ell Street and Adams Street</SimpleData>
+		<SimpleData name="Type">1</SimpleData>
+		<SimpleData name="Sidewalk">No</SimpleData>
+		<SimpleData name="Bike_Route">No</SimpleData>
+		<SimpleData name="Route">Westgate</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-83.66110591249921,32.816639897839863</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Route6stops">
+		<SimpleData name="OBJECTID">206</SimpleData>
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="Location">Ell Street and Monroe Avenue</SimpleData>
+		<SimpleData name="Type">1</SimpleData>
+		<SimpleData name="Sidewalk">No</SimpleData>
+		<SimpleData name="Bike_Route">No</SimpleData>
+		<SimpleData name="Route">Westgate</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-83.66027522297891,32.816617053237302</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Route6stops">
+		<SimpleData name="OBJECTID">208</SimpleData>
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="Location">Pio Nono Avenue near Home Depot</SimpleData>
+		<SimpleData name="Type">3</SimpleData>
+		<SimpleData name="Sidewalk">Yes</SimpleData>
+		<SimpleData name="Bike_Route">No</SimpleData>
+		<SimpleData name="Route">Westgate</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-83.663041046642661,32.813159424887345</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Route6stops">
+		<SimpleData name="OBJECTID">209</SimpleData>
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="Location">Pio Nono Avenue and Hightower Road</SimpleData>
+		<SimpleData name="Type">3</SimpleData>
+		<SimpleData name="Sidewalk">Yes</SimpleData>
+		<SimpleData name="Bike_Route">No</SimpleData>
+		<SimpleData name="Route">Westgate</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-83.663120498052308,32.811347401464786</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Route6stops">
+		<SimpleData name="OBJECTID">210</SimpleData>
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="Location">Pio Nono Avenue and  Rice Mill Road</SimpleData>
+		<SimpleData name="Type">1</SimpleData>
+		<SimpleData name="Sidewalk">Yes</SimpleData>
+		<SimpleData name="Bike_Route">No</SimpleData>
+		<SimpleData name="Route">Westgate</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-83.662996769857955,32.808735569478877</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Route6stops">
+		<SimpleData name="OBJECTID">211</SimpleData>
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="Location">Pio Nono Avenue and Williamson Road</SimpleData>
+		<SimpleData name="Type">1</SimpleData>
+		<SimpleData name="Sidewalk">Yes</SimpleData>
+		<SimpleData name="Bike_Route">No</SimpleData>
+		<SimpleData name="Route">Westgate</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-83.663104127020134,32.806066203401734</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Route6stops">
+		<SimpleData name="OBJECTID">212</SimpleData>
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="Location">Pio Nono Avenue and Newburg Avenue</SimpleData>
+		<SimpleData name="Type">3</SimpleData>
+		<SimpleData name="Sidewalk">No</SimpleData>
+		<SimpleData name="Bike_Route">No</SimpleData>
+		<SimpleData name="Route">Westgate</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-83.663285313300079,32.802578653743545</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Route6stops">
+		<SimpleData name="OBJECTID">213</SimpleData>
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="Location">Pio Nono Avenue and Spencer Circle</SimpleData>
+		<SimpleData name="Type">2</SimpleData>
+		<SimpleData name="Sidewalk">No</SimpleData>
+		<SimpleData name="Bike_Route">No</SimpleData>
+		<SimpleData name="Route">Westgate</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-83.665614919686092,32.798632014053013</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Route6stops">
+		<SimpleData name="OBJECTID">214</SimpleData>
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="Location">Pio Nono Avenue and Sherry Drive</SimpleData>
+		<SimpleData name="Type">2</SimpleData>
+		<SimpleData name="Sidewalk">No</SimpleData>
+		<SimpleData name="Bike_Route">No</SimpleData>
+		<SimpleData name="Route">Westgate</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-83.66412398679239,32.801159427856149</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Route6stops">
+		<SimpleData name="OBJECTID">215</SimpleData>
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="Location">Pio Nono Avenue near Spencer Circle</SimpleData>
+		<SimpleData name="Type">3</SimpleData>
+		<SimpleData name="Sidewalk">No</SimpleData>
+		<SimpleData name="Bike_Route">No</SimpleData>
+		<SimpleData name="Route">Westgate</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-83.665524047695456,32.798378311045148</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Route6stops">
+		<SimpleData name="OBJECTID">216</SimpleData>
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="Location">Pio Nono Avenue and South Plaza Shopping Center</SimpleData>
+		<SimpleData name="Type">2</SimpleData>
+		<SimpleData name="Sidewalk">No</SimpleData>
+		<SimpleData name="Bike_Route">No</SimpleData>
+		<SimpleData name="Route">Westgate</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-83.667875972750394,32.794529152394666</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Route6stops">
+		<SimpleData name="OBJECTID">217</SimpleData>
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="Location">Pio Nono Avenue and South Plaza Shopping Center</SimpleData>
+		<SimpleData name="Type">3</SimpleData>
+		<SimpleData name="Sidewalk">No</SimpleData>
+		<SimpleData name="Bike_Route">No</SimpleData>
+		<SimpleData name="Route">Westgate</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-83.66769291952491,32.794255597004934</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Route6stops">
+		<SimpleData name="OBJECTID">218</SimpleData>
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="Location">Pio Nono Avenue and Rocky Creek Road</SimpleData>
+		<SimpleData name="Type">1</SimpleData>
+		<SimpleData name="Sidewalk">No</SimpleData>
+		<SimpleData name="Bike_Route">No</SimpleData>
+		<SimpleData name="Route">Westgate</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-83.668585407736501,32.791433443462545</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Route6stops">
+		<SimpleData name="OBJECTID">219</SimpleData>
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="Location">Rocky Creek Road</SimpleData>
+		<SimpleData name="Type">1</SimpleData>
+		<SimpleData name="Sidewalk">Yes</SimpleData>
+		<SimpleData name="Bike_Route">No</SimpleData>
+		<SimpleData name="Route">Westgate</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-83.671678689615902,32.791133904140302</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Route6stops">
+		<SimpleData name="OBJECTID">220</SimpleData>
+		<SimpleData name="Id">1</SimpleData>
+		<SimpleData name="Location">Rocky Creek Road</SimpleData>
+		<SimpleData name="Type">2</SimpleData>
+		<SimpleData name="Sidewalk">Yes</SimpleData>
+		<SimpleData name="Bike_Route">No</SimpleData>
+		<SimpleData name="Route">Westgate</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-83.672467099386949,32.790415974912428</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Route6stops">
+		<SimpleData name="OBJECTID">221</SimpleData>
+		<SimpleData name="Id">2</SimpleData>
+		<SimpleData name="Location">Rocky Creek Road</SimpleData>
+		<SimpleData name="Type">2</SimpleData>
+		<SimpleData name="Sidewalk">Yes</SimpleData>
+		<SimpleData name="Bike_Route">No</SimpleData>
+		<SimpleData name="Route">Westgate</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-83.673930353621287,32.788648364284391</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Route6stops">
+		<SimpleData name="OBJECTID">222</SimpleData>
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="Location">Rocky Creek Road and South View Drive</SimpleData>
+		<SimpleData name="Type">1</SimpleData>
+		<SimpleData name="Sidewalk">Yes</SimpleData>
+		<SimpleData name="Bike_Route">No</SimpleData>
+		<SimpleData name="Route">Westgate</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-83.6780542869312,32.785488031411496</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Route6stops">
+		<SimpleData name="OBJECTID">224</SimpleData>
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="Location">Rocky Creek Road and Bloomfield Drive</SimpleData>
+		<SimpleData name="Type">2</SimpleData>
+		<SimpleData name="Sidewalk">Yes</SimpleData>
+		<SimpleData name="Bike_Route">No</SimpleData>
+		<SimpleData name="Route">Westgate</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-83.688296869003352,32.785605517219643</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Route6stops">
+		<SimpleData name="OBJECTID">225</SimpleData>
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="Location">Rocky Creek Road and Bloomfield Drive</SimpleData>
+		<SimpleData name="Type">3</SimpleData>
+		<SimpleData name="Sidewalk">No</SimpleData>
+		<SimpleData name="Bike_Route">No</SimpleData>
+		<SimpleData name="Route">Westgate</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-83.688574436654619,32.785470163022026</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Route6stops">
+		<SimpleData name="OBJECTID">227</SimpleData>
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="Location">Rocky Creek Road and Thrasher Avenue</SimpleData>
+		<SimpleData name="Type">1</SimpleData>
+		<SimpleData name="Sidewalk">Yes</SimpleData>
+		<SimpleData name="Bike_Route">No</SimpleData>
+		<SimpleData name="Route">Westgate</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-83.69851376392738,32.786228749495791</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Route6stops">
+		<SimpleData name="OBJECTID">228</SimpleData>
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="Location">Rocky Creek Road Bethesda Avenue</SimpleData>
+		<SimpleData name="Type">2</SimpleData>
+		<SimpleData name="Sidewalk">Yes</SimpleData>
+		<SimpleData name="Bike_Route">No</SimpleData>
+		<SimpleData name="Route">Westgate</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-83.702895154545985,32.786615315226278</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Route6stops">
+		<SimpleData name="OBJECTID">229</SimpleData>
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="Location">Rocky Creek Plaza</SimpleData>
+		<SimpleData name="Type">1</SimpleData>
+		<SimpleData name="Sidewalk">Yes</SimpleData>
+		<SimpleData name="Bike_Route">No</SimpleData>
+		<SimpleData name="Route">Westgate</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-83.706561505994813,32.78697961486268</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Route6stops">
+		<SimpleData name="OBJECTID">230</SimpleData>
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="Location">Debb Drive and Deborah Drive</SimpleData>
+		<SimpleData name="Type">1</SimpleData>
+		<SimpleData name="Sidewalk">No</SimpleData>
+		<SimpleData name="Bike_Route">No</SimpleData>
+		<SimpleData name="Route">Westgate</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-83.710628836783769,32.785630350204151</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Route6stops">
+		<SimpleData name="OBJECTID">231</SimpleData>
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="Location">Debb Drive and Federica Place</SimpleData>
+		<SimpleData name="Type">1</SimpleData>
+		<SimpleData name="Sidewalk">No</SimpleData>
+		<SimpleData name="Bike_Route">No</SimpleData>
+		<SimpleData name="Route">Westgate</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-83.709752279025309,32.785607668216265</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Route6stops">
+		<SimpleData name="OBJECTID">232</SimpleData>
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="Location">Debb Drive and Sterling Place</SimpleData>
+		<SimpleData name="Type">1</SimpleData>
+		<SimpleData name="Sidewalk">No</SimpleData>
+		<SimpleData name="Bike_Route">No</SimpleData>
+		<SimpleData name="Route">Westgate</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-83.711551534721437,32.785653193712911</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Route6stops">
+		<SimpleData name="OBJECTID">233</SimpleData>
+		<SimpleData name="Id">1</SimpleData>
+		<SimpleData name="Location">Debb Drive</SimpleData>
+		<SimpleData name="Type">1</SimpleData>
+		<SimpleData name="Sidewalk">No</SimpleData>
+		<SimpleData name="Bike_Route">No</SimpleData>
+		<SimpleData name="Route">Westgate</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-83.712428193645934,32.785656375877579</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Route6stops">
+		<SimpleData name="OBJECTID">234</SimpleData>
+		<SimpleData name="Id">2</SimpleData>
+		<SimpleData name="Location">Debb Drive</SimpleData>
+		<SimpleData name="Type">1</SimpleData>
+		<SimpleData name="Sidewalk">No</SimpleData>
+		<SimpleData name="Bike_Route">No</SimpleData>
+		<SimpleData name="Route">Westgate</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-83.713696942249413,32.785680458018348</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Route6stops">
+		<SimpleData name="OBJECTID">235</SimpleData>
+		<SimpleData name="Id">3</SimpleData>
+		<SimpleData name="Location">Debb Drive</SimpleData>
+		<SimpleData name="Type">1</SimpleData>
+		<SimpleData name="Sidewalk">No</SimpleData>
+		<SimpleData name="Bike_Route">No</SimpleData>
+		<SimpleData name="Route">Westgate</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-83.715057971109147,32.78570486005043</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Route6stops">
+		<SimpleData name="OBJECTID">236</SimpleData>
+		<SimpleData name="Id">4</SimpleData>
+		<SimpleData name="Location">Debb Drive</SimpleData>
+		<SimpleData name="Type">1</SimpleData>
+		<SimpleData name="Sidewalk">No</SimpleData>
+		<SimpleData name="Bike_Route">No</SimpleData>
+		<SimpleData name="Route">Westgate</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-83.717642005032232,32.785675174618035</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Route6stops">
+		<SimpleData name="OBJECTID">237</SimpleData>
+		<SimpleData name="Id">5</SimpleData>
+		<SimpleData name="Location">Debb Drive</SimpleData>
+		<SimpleData name="Type">1</SimpleData>
+		<SimpleData name="Sidewalk">No</SimpleData>
+		<SimpleData name="Bike_Route">No</SimpleData>
+		<SimpleData name="Route">Westgate</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-83.716816292119475,32.784717313666135</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Route6stops">
+		<SimpleData name="OBJECTID">238</SimpleData>
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="Location">Bloomfield Road and Anderson Drive</SimpleData>
+		<SimpleData name="Type">1</SimpleData>
+		<SimpleData name="Sidewalk">No</SimpleData>
+		<SimpleData name="Bike_Route">No</SimpleData>
+		<SimpleData name="Route">Westgate</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-83.7076857450988,32.788191975551399</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Route6stops">
+		<SimpleData name="OBJECTID">239</SimpleData>
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="Location">Bloomfield Road and Wallace Drive</SimpleData>
+		<SimpleData name="Type">1</SimpleData>
+		<SimpleData name="Sidewalk">No</SimpleData>
+		<SimpleData name="Bike_Route">No</SimpleData>
+		<SimpleData name="Route">Westgate</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-83.707679439586926,32.789419676774948</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Route6stops">
+		<SimpleData name="OBJECTID">240</SimpleData>
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="Location">Bloomfield Road and Robinhood Road</SimpleData>
+		<SimpleData name="Type">1</SimpleData>
+		<SimpleData name="Sidewalk">No</SimpleData>
+		<SimpleData name="Bike_Route">No</SimpleData>
+		<SimpleData name="Route">Westgate</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-83.70758589870411,32.794154839818084</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Route6stops">
+		<SimpleData name="OBJECTID">241</SimpleData>
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="Location">Bloomfield Road and Greenwod Road</SimpleData>
+		<SimpleData name="Type">1</SimpleData>
+		<SimpleData name="Sidewalk">No</SimpleData>
+		<SimpleData name="Bike_Route">No</SimpleData>
+		<SimpleData name="Route">Westgate</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-83.707568633238864,32.793024491906301</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Route6stops">
+		<SimpleData name="OBJECTID">242</SimpleData>
+		<SimpleData name="Id">1</SimpleData>
+		<SimpleData name="Location">Bloomfield Road</SimpleData>
+		<SimpleData name="Type">1</SimpleData>
+		<SimpleData name="Sidewalk">No</SimpleData>
+		<SimpleData name="Bike_Route">No</SimpleData>
+		<SimpleData name="Route">Westgate</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-83.707533745089947,32.795323909091337</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Route6stops">
+		<SimpleData name="OBJECTID">243</SimpleData>
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="Location">Bloomfield Road and Pine Forest Road</SimpleData>
+		<SimpleData name="Type">1</SimpleData>
+		<SimpleData name="Sidewalk">No</SimpleData>
+		<SimpleData name="Bike_Route">No</SimpleData>
+		<SimpleData name="Route">Westgate</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-83.707449603232476,32.798227262761095</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Route6stops">
+		<SimpleData name="OBJECTID">314</SimpleData>
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="Location">2nd Street and Pine Street</SimpleData>
+		<SimpleData name="Type">2</SimpleData>
+		<SimpleData name="Sidewalk">Yes</SimpleData>
+		<SimpleData name="Bike_Route">No</SimpleData>
+		<SimpleData name="Route">Houston</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-83.632537844948587,32.832830546740553</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Route6stops">
+		<SimpleData name="OBJECTID">595</SimpleData>
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="Location">Pio Nono and Ell Street</SimpleData>
+		<SimpleData name="Type">1</SimpleData>
+		<SimpleData name="Sidewalk">Yes</SimpleData>
+		<SimpleData name="Bike_Route"></SimpleData>
+		<SimpleData name="Route">Macon Mall</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-83.66294833729178,32.81663779055647</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Route6stops">
+		<SimpleData name="OBJECTID">598</SimpleData>
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="Location">Walmar Street</SimpleData>
+		<SimpleData name="Type">1</SimpleData>
+		<SimpleData name="Sidewalk">No</SimpleData>
+		<SimpleData name="Bike_Route"></SimpleData>
+		<SimpleData name="Route">Westgate</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-83.713699700892207,32.783399924631105</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Route6stops">
+		<SimpleData name="OBJECTID">599</SimpleData>
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="Location">Bloomfield Road and Thrasher Circle</SimpleData>
+		<SimpleData name="Type">1</SimpleData>
+		<SimpleData name="Sidewalk">No</SimpleData>
+		<SimpleData name="Bike_Route"></SimpleData>
+		<SimpleData name="Route">Westgate</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-83.707808534139389,32.783499849082077</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Route6stops">
+		<SimpleData name="OBJECTID">600</SimpleData>
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="Location">Bloomfield Road and Leone Dr</SimpleData>
+		<SimpleData name="Type">1</SimpleData>
+		<SimpleData name="Sidewalk">No</SimpleData>
+		<SimpleData name="Bike_Route"></SimpleData>
+		<SimpleData name="Route">Westgate</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-83.707765523525424,32.782548992155228</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Route6stops">
+		<SimpleData name="OBJECTID">601</SimpleData>
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="Location">Bloomfield Road near Village Green Drive</SimpleData>
+		<SimpleData name="Type">1</SimpleData>
+		<SimpleData name="Sidewalk">No</SimpleData>
+		<SimpleData name="Bike_Route"></SimpleData>
+		<SimpleData name="Route">Westgate</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-83.707771234799125,32.781436491555006</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Route6stops">
+		<SimpleData name="OBJECTID">602</SimpleData>
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="Location">Rocky Creek Road near Apartments</SimpleData>
+		<SimpleData name="Type">2</SimpleData>
+		<SimpleData name="Sidewalk">No</SimpleData>
+		<SimpleData name="Bike_Route"></SimpleData>
+		<SimpleData name="Route">Westgate</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-83.676520506096679,32.786213194085192</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Route6stops">
+		<SimpleData name="OBJECTID">603</SimpleData>
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="Location">Pio Nono Avenue near Rice Mill Road</SimpleData>
+		<SimpleData name="Type">1</SimpleData>
+		<SimpleData name="Sidewalk">No</SimpleData>
+		<SimpleData name="Bike_Route"></SimpleData>
+		<SimpleData name="Route">Westgate</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-83.668343703645192,32.792491936406314</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Route6stops">
+		<SimpleData name="OBJECTID">604</SimpleData>
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="Location">Pio Nono Avenue near Pio Nono Circle</SimpleData>
+		<SimpleData name="Type">1</SimpleData>
+		<SimpleData name="Sidewalk">No</SimpleData>
+		<SimpleData name="Bike_Route"></SimpleData>
+		<SimpleData name="Route">Westgate</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-83.66458920207036,32.800062274664349</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Route6stops">
+		<SimpleData name="OBJECTID">605</SimpleData>
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="Location">Mason Street and Ell Street</SimpleData>
+		<SimpleData name="Type">1</SimpleData>
+		<SimpleData name="Sidewalk">No</SimpleData>
+		<SimpleData name="Bike_Route"></SimpleData>
+		<SimpleData name="Route">Westgate</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-83.661957037335782,32.816597799236234</coordinates></Point>
+  </Placemark>
+</Folder></Document></kml>

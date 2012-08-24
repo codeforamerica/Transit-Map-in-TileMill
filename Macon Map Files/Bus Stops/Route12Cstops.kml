@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>Route12Cstops</name>
+<Schema name="Route12Cstops" id="Route12Cstops">
+	<SimpleField name="Name" type="string"></SimpleField>
+	<SimpleField name="Description" type="string"></SimpleField>
+	<SimpleField name="OBJECTID" type="int"></SimpleField>
+	<SimpleField name="Id" type="int"></SimpleField>
+	<SimpleField name="Location" type="string"></SimpleField>
+	<SimpleField name="Type" type="int"></SimpleField>
+	<SimpleField name="Sidewalk" type="string"></SimpleField>
+	<SimpleField name="Bike_Route" type="string"></SimpleField>
+	<SimpleField name="Route" type="string"></SimpleField>
+</Schema>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Route12Cstops">
+		<SimpleData name="OBJECTID">173</SimpleData>
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="Location">Marion Avenue</SimpleData>
+		<SimpleData name="Type">1</SimpleData>
+		<SimpleData name="Sidewalk">No</SimpleData>
+		<SimpleData name="Bike_Route">No</SimpleData>
+		<SimpleData name="Route"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-83.646696424472111,32.7896813230942</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Route12Cstops">
+		<SimpleData name="OBJECTID">177</SimpleData>
+		<SimpleData name="Id">1</SimpleData>
+		<SimpleData name="Location">San Carlos Place</SimpleData>
+		<SimpleData name="Type">1</SimpleData>
+		<SimpleData name="Sidewalk">No</SimpleData>
+		<SimpleData name="Bike_Route">No</SimpleData>
+		<SimpleData name="Route"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-83.642902843599003,32.790163056034118</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Route12Cstops">
+		<SimpleData name="OBJECTID">178</SimpleData>
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="Location">San Carlos Drive and Melvin Place</SimpleData>
+		<SimpleData name="Type">1</SimpleData>
+		<SimpleData name="Sidewalk">No</SimpleData>
+		<SimpleData name="Bike_Route">No</SimpleData>
+		<SimpleData name="Route"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-83.642915410191222,32.788018933523965</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Route12Cstops">
+		<SimpleData name="OBJECTID">179</SimpleData>
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="Location">Albert Street and San Carlos Drive</SimpleData>
+		<SimpleData name="Type">1</SimpleData>
+		<SimpleData name="Sidewalk">No</SimpleData>
+		<SimpleData name="Bike_Route">No</SimpleData>
+		<SimpleData name="Route"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-83.642990958049069,32.785692034317663</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Route12Cstops">
+		<SimpleData name="OBJECTID">180</SimpleData>
+		<SimpleData name="Id">1</SimpleData>
+		<SimpleData name="Location">Mead Road</SimpleData>
+		<SimpleData name="Type">1</SimpleData>
+		<SimpleData name="Sidewalk">No</SimpleData>
+		<SimpleData name="Bike_Route">No</SimpleData>
+		<SimpleData name="Route"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-83.639788107973857,32.788136559772163</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Route12Cstops">
+		<SimpleData name="OBJECTID">181</SimpleData>
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="Location">Mead Road</SimpleData>
+		<SimpleData name="Type">1</SimpleData>
+		<SimpleData name="Sidewalk">No</SimpleData>
+		<SimpleData name="Bike_Route">No</SimpleData>
+		<SimpleData name="Route"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-83.640300495506978,32.790492076805691</coordinates></Point>
+  </Placemark>
+</Folder></Document></kml>

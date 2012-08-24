@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>RouteLessSimple</name>
+<Schema name="RouteLessSimple" id="RouteLessSimple">
+	<SimpleField name="Name" type="string"></SimpleField>
+	<SimpleField name="Description" type="string"></SimpleField>
+	<SimpleField name="name" type="string"></SimpleField>
+	<SimpleField name="cmt" type="string"></SimpleField>
+	<SimpleField name="desc" type="string"></SimpleField>
+	<SimpleField name="src" type="string"></SimpleField>
+	<SimpleField name="link1_href" type="string"></SimpleField>
+	<SimpleField name="link1_text" type="string"></SimpleField>
+	<SimpleField name="link1_type" type="string"></SimpleField>
+	<SimpleField name="link2_href" type="string"></SimpleField>
+	<SimpleField name="link2_text" type="string"></SimpleField>
+	<SimpleField name="link2_type" type="string"></SimpleField>
+	<SimpleField name="number" type="int"></SimpleField>
+	<SimpleField name="type" type="string"></SimpleField>
+	<SimpleField name="topografix" type="string"></SimpleField>
+</Schema>
+  <Placemark>
+	<name>Route1</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#RouteLessSimple">
+		<SimpleData name="Name">Route1</SimpleData>
+		<SimpleData name="cmt"></SimpleData>
+		<SimpleData name="desc">Route 1 bus 4:05pm departure</SimpleData>
+		<SimpleData name="src"></SimpleData>
+		<SimpleData name="link1_href"></SimpleData>
+		<SimpleData name="link1_text"></SimpleData>
+		<SimpleData name="link1_type"></SimpleData>
+		<SimpleData name="link2_href"></SimpleData>
+		<SimpleData name="link2_text"></SimpleData>
+		<SimpleData name="link2_type"></SimpleData>
+		<SimpleData name="number">0</SimpleData>
+		<SimpleData name="type"></SimpleData>
+		<SimpleData name="topografix">c0c0c0</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-83.62594,32.83479 -83.62676,32.83367 -83.62652,32.8334 -83.62703,32.83349 -83.62954,32.83482 -83.62996,32.83531 -83.62955,32.83553 -83.62976,32.83507 -83.63147,32.83627 -83.63172,32.83594 -83.63142,32.83632 -83.63442,32.83796 -83.63679,32.83827 -83.64262,32.84032 -83.64905,32.84149 -83.65423,32.84482 -83.65736,32.84627 -83.66129,32.84632 -83.66147,32.8459 -83.66171,32.8466 -83.66255,32.84586 -83.66612,32.846 -83.66927,32.84702 -83.67059,32.8477 -83.67045,32.84807 -83.67238,32.84856 -83.67479,32.8505 -83.67992,32.85522 -83.68014,32.85592 -83.68082,32.85564 -83.68063,32.85616 -83.68202,32.85715 -83.68164,32.85726 -83.68242,32.85766 -83.68233,32.85806 -83.68272,32.85784 -83.68267,32.85862 -83.68268,32.85768 -83.68331,32.85884 -83.68476,32.85954 -83.68599,32.86107 -83.68718,32.86131 -83.68826,32.8627 -83.69124,32.86418 -83.6929,32.86557 -83.7017,32.87022 -83.70251,32.87109 -83.70372,32.8712 -83.70571,32.87254 -83.70824,32.87345 -83.71022,32.87492 -83.71163,32.87462 -83.71125,32.87486 -83.71162,32.87537 -83.71504,32.87652 -83.71534,32.87702 -83.71642,32.87679 -83.72071,32.87881 -83.72372,32.87951 -83.72351,32.87978 -83.72419,32.88013 -83.73244,32.87944 -83.7584,32.87974 -83.75806,32.87997 -83.75899,32.87941 -83.75893,32.8779 -83.76208,32.87608 -83.76183,32.87658 -83.76228,32.87617 -83.7619,32.87639 -83.76407,32.87796 -83.76424,32.87968 -83.73265,32.87939 -83.72589,32.87979 -83.72476,32.88023 -83.70607,32.87279 -83.70535,32.87204 -83.69409,32.86618 -83.69319,32.86789 -83.69414,32.86933 -83.6947,32.86929 -83.69385,32.87085 -83.6945,32.8713 -83.69227,32.87188 -83.69115,32.87083 -83.69019,32.87101 -83.68992,32.87037 -83.6895,32.86908 -83.69028,32.8679 -83.68901,32.86289 -83.68475,32.86001 -83.68506,32.86008 -83.67244,32.84858 -83.66898,32.84675 -83.66611,32.84604 -83.66325,32.84607 -83.66371,32.84556 -83.66254,32.84616 -83.66292,32.84587 -83.66009,32.84627 -83.65662,32.84607 -83.65022,32.84232 -83.64368,32.83774 -83.64229,32.8403 -83.63988,32.83961 -83.63944,32.83909</coordinates></LineString>
+  </Placemark>
+</Folder></Document></kml>

@@ -1,0 +1,599 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<metadata>
+	<idinfo>
+		<citation>
+			<citeinfo>
+				<origin>U.S. Department of Commerce, U.S. Census Bureau, Geography Division</origin>
+				<pubdate>2008</pubdate>
+				<title>TIGER/Line Shapefile, 2008,  county, Bibb County, GA, Feature Names</title>
+				<edition>2008</edition>
+				<geoform>tabular digital data</geoform>
+				<onlink>http://www.census.gov/geo/www/tiger</onlink>
+			</citeinfo>
+		</citation>
+		<descript>
+			<abstract>The TIGER/Line relationship files are an extract of selected geographic information from the Census MAF/TIGER database.  Each TIGER/Line relationship file is designed to stand alone as an independent data set or can be used jointly with the shapefiles.</abstract>
+			<purpose>In order for others to use the information in the Census MAF/TIGER database in a geographic information system (GIS) or for other geographic applications, the Census Bureau releases to the public extracts of the database in the form of TIGER/Line relationship files.</purpose>
+			<Subject_Entity>Bibb, GA, (13021)</Subject_Entity>
+		</descript>
+		<timeperd>
+			<timeinfo>
+				<rngdates>
+					<begdate>200801</begdate>
+					<enddate>200807</enddate>
+				</rngdates>
+			</timeinfo>
+			<current>Publication Date</current>
+		</timeperd>
+		<status>
+			<progress>Complete</progress>
+			<update>TIGER/Line relationship files are extracted from the Census MAF/TIGER database.  No changes or updates will be made to this version of the TIGER/Line relationship files.  Future releases of TIGER/Line relationship files will reflect updates made to the Census MAF/TIGER database.</update>
+		</status>
+		<spdom>
+			<bounding>
+				<westbc>-83.893037</westbc>
+				<eastbc>-83.48943</eastbc>
+				<northbc>32.952792</northbc>
+				<southbc>32.660643</southbc>
+			</bounding>
+		</spdom>
+		<keywords>
+			<theme>
+				<themekt>ISO 19115 Topic Categories</themekt>
+				<themekey>transportation</themekey>
+			</theme>
+			<theme>
+				<themekt>None</themekt>
+				
+				<themekey>County or equivalent entity</themekey>
+				<themekey>Table</themekey>
+				<themekey>Feature Names</themekey>
+				<themekey>State FIPS Code</themekey>
+				<themekey>County FIPS Code</themekey>
+				<themekey>State ANSI Code</themekey>
+				<themekey>County ANSI Code</themekey>
+				<themekey>Permanent edge ID</themekey>
+				<themekey>Name</themekey>
+				<themekey>Prefix direction code</themekey>
+				<themekey>Prefix type code description</themekey>
+				<themekey>Prefix Qualifier code</themekey>
+				<themekey>Suffix direction code</themekey>
+				<themekey>Suffix type code</themekey>
+				<themekey>Suffix Qualifier code</themekey>
+				<themekey>MAFTIGER feature class code</themekey>
+				<themekey>PrimaryAlternate code</themekey>
+			</theme>
+			<place>
+				<placekt>FIPS Publication 5-2, FIPS Publication 6-4, FIPS Publication 8-6, FIPS Publication 9-1,FIPS Publication55-4</placekt>
+				<placekey>United States</placekey>
+				<placekey>U.S.</placekey>
+				<placekey>County or Equivalent Entity</placekey>
+				<placekey>Bibb</placekey>
+				<placekey>13021</placekey>	
+			</place>
+		</keywords>
+		<accconst>None</accconst>
+		<useconst>The TIGER/Line Shapefile products are not copyrighted however TIGER/Line and Census TIGER are registered trademarks of the U.S. Census Bureau.  These products are free to use in a product or publication, however acknowledgement must be given to the U.S. Census Bureau as the source.</useconst>
+		<Title_13_Restrictions>Yes, the data are free from Title 13 restrictions</Title_13_Restrictions>
+		<ptcontac>
+			<cntinfo>
+				<cntorgp>
+					<cntorg>U.S. Department of Commerce, U.S. Census Bureau, Geography Division, Geographic Products Branch</cntorg>
+				</cntorgp>
+				<cntaddr>
+					<addrtype>Mailing address</addrtype>
+					<address>4600 Silver Hill Road, Stop 7400</address>
+					<city>Washington</city>
+					<state>DC</state>
+					<postal>20233-7400</postal>
+					<country>United States</country>
+				</cntaddr>
+				<cntvoice>301-763-1128</cntvoice>
+				<cntfax>301-763-4710</cntfax>
+				<cntemail>tiger@census.gov</cntemail>
+			</cntinfo>
+		</ptcontac>
+	</idinfo>
+	<Data_Set_Character_Set>8859part1</Data_Set_Character_Set>
+	<Data_Set_Language>eng</Data_Set_Language>
+	<dataqual>
+		<attracc>
+			<attraccr>Accurate against Federal Information Processing Standards (FIPS), FIPS Publication 6-4, and FIPS-55 at the 100% level for the codes and base names.  The remaining attribute information has been examined but has not been fully tested for accuracy.</attraccr>
+		</attracc>
+		<logic>The Census Bureau performed automated tests to ensure logical consistency and limits of relationship files.  Tabular data has been tested for proper domain and format.
+The Census Bureau uses its internally developed geographic update system to enhance and modify spatial and attribute data in the Census MAF/TIGER database.  Standard geographic codes, such as FIPS codes for states, counties, municipalities, county subdivisions, places, American Indian/Alaska Native/Native Hawaiian areas, and congressional districts are used when encoding spatial entities.  The Census Bureau performed spatial data tests for logical consistency of the codes during the compilation of the original Census MAF/TIGER database files.  Most of the codes for geographic entities except states, counties, urban areas, Core Based Statistical Areas (CBSAs), American Indian Areas (AIAs), and congressional districts were provided to the Census Bureau by the USGS, the agency responsible for maintaining FIPS 55.  Feature attribute information has been examined but has not been fully tested for consistency.</logic>
+		<complete>Tabular data has been tested for proper domain and format.</complete>
+		<lineage>
+			<srcinfo>
+				<srccite>
+					<citeinfo>
+						<origin>U.S. Department of Commerce, U.S. Census Bureau, Geography Division</origin>
+						<pubdate>Unpublished material</pubdate>
+						<title>Census MAF/TIGER database</title>
+					</citeinfo>
+				</srccite>
+				<typesrc>online</typesrc>
+				<srctime>
+					<timeinfo>
+						<rngdates>
+							<begdate>200801</begdate>
+							<enddate>200807</enddate>
+						</rngdates>
+					</timeinfo>
+					<srccurr>Publication Date</srccurr>
+				</srctime>
+				<srccitea>MAF/TIGER</srccitea>
+				<srccontr>The tabular data are derived from the U.S. Census Bureau&apos;s Master Address File Topologically Integrated Geographic Encoding and Referencing (MAF/TIGER) database.</srccontr>
+			</srcinfo>
+			<procstep>
+				<procdesc>TIGER/Line relationship files are extracted from the Census MAF/TIGER database by county. </procdesc>
+				<srcused>Census MAF/TIGER</srcused>
+				<procdate>2008</procdate>
+			</procstep>
+		</lineage>
+	</dataqual>
+	<eainfo>
+		<detailed>
+			<enttyp>
+				<enttypl>FEATNAMES.dbf</enttypl>
+				<enttypd>Current Feature Names Relationship File</enttypd>
+				<enttypds>U.S. Census Bureau</enttypds>
+			</enttyp>
+			<attr>
+				<attrlabl>TLID</attrlabl>
+				<attrdef>Permanent edge ID</attrdef>
+				<attrdefs>U.S. Census Bureau</attrdefs>
+				<attrdomv>
+					<rdom>
+						<rdommin>100001</rdommin>
+						<rdommax>9999999999</rdommax>
+					</rdom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>FULLNAME</attrlabl>
+				<attrdef>Concatenation of expanded text for prefix qualifier, prefix direction, prefix type, base name, suffix type, suffix direction, and suffix qualifier (as available) with a space between each expanded text field</attrdef>
+				<attrdefs>U.S. Census Bureau</attrdefs>
+				<attrdomv>
+					<udom>data are unavailable</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>NAME</attrlabl>
+				<attrdef>Base name portion of the standardized name</attrdef>
+				<attrdefs>U.S. Census Bureau</attrdefs>
+				<attrdomv>
+					<udom>data are unavailable</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>PREDIRABRV</attrlabl>
+				<attrdef>Prefix direction description component of the feature name</attrdef>
+				<attrdefs>U.S. Census Bureau</attrdefs>
+				<attrdomv>
+					<udom>data are unavailable</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>PRETYPABRV</attrlabl>
+				<attrdef>Prefix type description component of the feature name</attrdef>
+				<attrdefs>U.S. Census Bureau</attrdefs>
+				<attrdomv>
+					<udom>data are unavailable</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>PREQUALABR</attrlabl>
+				<attrdef>Prefix qualifier description component of the feature name</attrdef>
+				<attrdefs>U.S. Census Bureau</attrdefs>
+				<attrdomv>
+					<udom>data are unavailable</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>SUFDIRABRV</attrlabl>
+				<attrdef>Suffix direction description component of the feature name</attrdef>
+				<attrdefs>U.S. Census Bureau</attrdefs>
+				<attrdomv>
+					<udom>data are unavailable</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>SUFTYPABRV</attrlabl>
+				<attrdef>Suffix type description component of the feature name</attrdef>
+				<attrdefs>U.S. Census Bureau</attrdefs>
+				<attrdomv>
+					<udom>data are unavailable</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>SUFQUALABR</attrlabl>
+				<attrdef>Suffix qualifier description component of the feature name</attrdef>
+				<attrdefs>U.S. Census Bureau</attrdefs>
+				<attrdomv>
+					<udom>data are unavailable</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>PREDIR</attrlabl>
+				<attrdef>Prefix direction code component of the feature name</attrdef>
+				<attrdefs>U.S. Census Bureau</attrdefs>
+				<attrdomv>
+					<edom>
+						<edomv>10 to 99</edomv>
+						<edomvd>Numeric code indicating the Direction stored in the Feature Name Standardizer Direction table</edomvd>
+						<edomvds>U.S. Census Bureau</edomvds>
+					</edom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>PRETYP</attrlabl>
+				<attrdef>Prefix type code description component of the feature name</attrdef>
+				<attrdefs>U.S. Census Bureau</attrdefs>
+				<attrdomv>
+					<edom>
+						<edomv>100 to 999</edomv>
+						<edomvd>Numeric code indicating the Feature Type stored in the Feature Name Standardizer FEATURETYPES table</edomvd>
+						<edomvds>U.S. Census Bureau</edomvds>
+					</edom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>PREQUAL</attrlabl>
+				<attrdef>Prefix qualifier code component of the feature name</attrdef>
+				<attrdefs>U.S. Census Bureau</attrdefs>
+				<attrdomv>
+					<edom>
+						<edomv>10 to 99</edomv>
+						<edomvd>Numeric code indicating the Qualifier stored in the Feature Name Standardizer QUALIFIER table</edomvd>
+						<edomvds>U.S. Census Bureau</edomvds>
+					</edom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>SUFDIR</attrlabl>
+				<attrdef>Suffix direction code component of the feature name</attrdef>
+				<attrdefs>U.S. Census Bureau</attrdefs>
+				<attrdomv>
+					<edom>
+						<edomv>10 to 99</edomv>
+						<edomvd>Numeric code indicating the Direction stored in the Feature Name Standardizer DIRECTION table</edomvd>
+						<edomvds>U.S. Census Bureau</edomvds>
+					</edom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>SUFTYP</attrlabl>
+				<attrdef>Suffix type code description component of the feature name</attrdef>
+				<attrdefs>U.S. Census Bureau</attrdefs>
+				<attrdomv>
+					<edom>
+						<edomv>100 to 999</edomv>
+						<edomvd>Numeric code indicating the Feature Type stored in the Feature Name Standardizer FEATURETYPES table</edomvd>
+						<edomvds>U.S. Census Bureau</edomvds>
+					</edom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>SUFQUAL</attrlabl>
+				<attrdef>Suffix qualifier code component of the feature name</attrdef>
+				<attrdefs>U.S. Census Bureau</attrdefs>
+				<attrdomv>
+					<edom>
+						<edomv>10 to 99</edomv>
+						<edomvd>Numeric code indicating the Direction stored in the Feature Name Standardizer DIRECTION table</edomvd>
+						<edomvds>U.S. Census Bureau</edomvds>
+					</edom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>LINEARID</attrlabl>
+				<attrdef>Linear feature identifier</attrdef>
+				<attrdefs>U.S. Census Bureau</attrdefs>
+				<attrdomv>
+					<udom>data are unavailable</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>MTFCC</attrlabl>
+				<attrdef>MAF/TIGER feature class code</attrdef>
+				<attrdefs>U.S. Census Bureau</attrdefs>
+				<attrdomv>
+					<edom>
+						<edomv>C3023</edomv>
+						<edomvd>Island</edomvd>
+						<edomvds>U.S. Census Bureau</edomvds>
+					</edom>
+					<edom>
+						<edomv>C3024</edomv>
+						<edomvd>Levee</edomvd>
+						<edomvds>U.S. Census Bureau</edomvds>
+					</edom>
+					<edom>
+						<edomv>C3027</edomv>
+						<edomvd>Dam</edomvd>
+						<edomvds>U.S. Census Bureau</edomvds>
+					</edom>
+					<edom>
+						<edomv>H1100</edomv>
+						<edomvd>Connector</edomvd>
+						<edomvds>U.S. Census Bureau</edomvds>
+					</edom>
+					<edom>
+						<edomv>H3010</edomv>
+						<edomvd>Stream/River</edomvd>
+						<edomvds>U.S. Census Bureau</edomvds>
+					</edom>
+					<edom>
+						<edomv>H3013</edomv>
+						<edomvd>Braided Stream</edomvd>
+						<edomvds>U.S. Census Bureau</edomvds>
+					</edom>
+					<edom>
+						<edomv>H3020</edomv>
+						<edomvd>Canal, Ditch or Aqueduct</edomvd>
+						<edomvds>U.S. Census Bureau</edomvds>
+					</edom>
+					<edom>
+						<edomv>K2432</edomv>
+						<edomvd>Pier/Dock</edomvd>
+						<edomvds>U.S. Census Bureau</edomvds>
+					</edom>
+					<edom>
+						<edomv>K2451</edomv>
+						<edomvd>Airport or Airfield</edomvd>
+						<edomvds>U.S. Census Bureau</edomvds>
+					</edom>
+					<edom>
+						<edomv>K2459</edomv>
+						<edomvd>Runway/Taxiway</edomvd>
+						<edomvds>U.S. Census Bureau</edomvds>
+					</edom>
+					<edom>
+						<edomv>L4010</edomv>
+						<edomvd>Pipeline</edomvd>
+						<edomvds>U.S. Census Bureau</edomvds>
+					</edom>
+					<edom>
+						<edomv>L4020</edomv>
+						<edomvd>Powerline</edomvd>
+						<edomvds>U.S. Census Bureau</edomvds>
+					</edom>
+					<edom>
+						<edomv>L4031</edomv>
+						<edomvd>Aerial Tramway/Ski Lift</edomvd>
+						<edomvds>U.S. Census Bureau</edomvds>
+					</edom>
+					<edom>
+						<edomv>L4040</edomv>
+						<edomvd>Conveyor</edomvd>
+						<edomvds>U.S. Census Bureau</edomvds>
+					</edom>
+					<edom>
+						<edomv>L4110</edomv>
+						<edomvd>Fence Line</edomvd>
+						<edomvds>U.S. Census Bureau</edomvds>
+					</edom>
+					<edom>
+						<edomv>L4121</edomv>
+						<edomvd>Ridge Line</edomvd>
+						<edomvds>U.S. Census Bureau</edomvds>
+					</edom>
+					<edom>
+						<edomv>L4125</edomv>
+						<edomvd>Cliff/Escarpment</edomvd>
+						<edomvds>U.S. Census Bureau</edomvds>
+					</edom>
+					<edom>
+						<edomv>L4130</edomv>
+						<edomvd>Point-to-Point Line</edomvd>
+						<edomvds>U.S. Census Bureau</edomvds>
+					</edom>
+					<edom>
+						<edomv>L4140</edomv>
+						<edomvd>Property/Parcel Line (Including PLSS)</edomvd>
+						<edomvds>U.S. Census Bureau</edomvds>
+					</edom>
+					<edom>
+						<edomv>L4165</edomv>
+						<edomvd>Ferry Crossing</edomvd>
+						<edomvds>U.S. Census Bureau</edomvds>
+					</edom>
+					<edom>
+						<edomv>R1011</edomv>
+						<edomvd>Railroad Feature (Main, Spur, or Yard)</edomvd>
+						<edomvds>U.S. Census Bureau</edomvds>
+					</edom>
+					<edom>
+						<edomv>R1051</edomv>
+						<edomvd>Carline, Streetcar Track, Monorail, Other Mass Transit Rail</edomvd>
+						<edomvds>U.S. Census Bureau</edomvds>
+					</edom>
+					<edom>
+						<edomv>R1052</edomv>
+						<edomvd>Cog Rail Line, Incline Rail Line, Tram</edomvd>
+						<edomvds>U.S. Census Bureau</edomvds>
+					</edom>
+					<edom>
+						<edomv>S1100</edomv>
+						<edomvd>Primary Road</edomvd>
+						<edomvds>U.S. Census Bureau</edomvds>
+					</edom>
+					<edom>
+						<edomv>R1011</edomv>
+						<edomvd>Railroad Feature (Main, Spur, or Yard)</edomvd>
+						<edomvds>U.S. Census Bureau</edomvds>
+					</edom>
+					<edom>
+						<edomv>R1051</edomv>
+						<edomvd>Carline, Streetcar Track, Monorail, Other Mass Transit Rail)</edomvd>
+						<edomvds>U.S. Census Bureau</edomvds>
+					</edom>
+					<edom>
+						<edomv>R1052</edomv>
+						<edomvd>Cog Rail Line, Incline Rail Line, Tram</edomvd>
+						<edomvds>U.S. Census Bureau</edomvds>
+					</edom>
+					<edom>
+						<edomv>S1100</edomv>
+						<edomvd>Primary Road</edomvd>
+						<edomvds>U.S. Census Bureau</edomvds>
+					</edom>
+					<edom>
+						<edomv>S1200</edomv>
+						<edomvd>Secondary Road</edomvd>
+						<edomvds>U.S. Census Bureau</edomvds>
+					</edom>
+					<edom>
+						<edomv>S1400</edomv>
+						<edomvd>Local Neighborhood Road, Rural Road, City Street</edomvd>
+						<edomvds>U.S. Census Bureau</edomvds>
+					</edom>
+					<edom>
+						<edomv>S1500</edomv>
+						<edomvd>Vehicular Trail (4WD)</edomvd>
+						<edomvds>U.S. Census Bureau</edomvds>
+					</edom>
+					<edom>
+						<edomv>S1630</edomv>
+						<edomvd>Ramp</edomvd>
+						<edomvds>U.S. Census Bureau</edomvds>
+					</edom>
+					<edom>
+						<edomv>S1640</edomv>
+						<edomvd>Service Drive usually along a limited access highway</edomvd>
+						<edomvds>U.S. Census Bureau</edomvds>
+					</edom>
+					<edom>
+						<edomv>S1710</edomv>
+						<edomvd>Walkway/Pedestrian Trail</edomvd>
+						<edomvds>U.S. Census Bureau</edomvds>
+					</edom>
+					<edom>
+						<edomv>S1720</edomv>
+						<edomvd>Stairway</edomvd>
+						<edomvds>U.S. Census Bureau</edomvds>
+					</edom>
+					<edom>
+						<edomv>S1730</edomv>
+						<edomvd>Alley</edomvd>
+						<edomvds>U.S. Census Bureau</edomvds>
+					</edom>
+					<edom>
+						<edomv>S1740</edomv>
+						<edomvd>Private Road for service vehicles (logging, oil, fields, ranches, etc.)</edomvd>
+						<edomvds>U.S. Census Bureau</edomvds>
+					</edom>
+					<edom>
+						<edomv>S1750</edomv>
+						<edomvd>Private Driveway</edomvd>
+						<edomvds>U.S. Census Bureau</edomvds>
+					</edom>
+					<edom>
+						<edomv>S1780</edomv>
+						<edomvd>Parking Lot Road</edomvd>
+						<edomvds>U.S. Census Bureau</edomvds>
+					</edom>
+					<edom>
+						<edomv>S1820</edomv>
+						<edomvd>Bike Path or Trail</edomvd>
+						<edomvds>U.S. Census Bureau</edomvds>
+					</edom>
+					<edom>
+						<edomv>S1830</edomv>
+						<edomvd>Bridle Path</edomvd>
+						<edomvds>U.S. Census Bureau</edomvds>
+					</edom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>PAFLAG</attrlabl>
+				<attrdef>Primary/alternate flag</attrdef>
+				<attrdefs>U.S. Census Bureau</attrdefs>
+				<attrdomv>
+					<edom>
+						<edomv>P</edomv>
+						<edomvd>Primary</edomvd>
+						<edomvds>U.S. Census Bureau</edomvds>
+					</edom>
+					<edom>
+						<edomv>A</edomv>
+						<edomvd>Alternate</edomvd>
+						<edomvds>U.S. Census Bureau</edomvds>
+					</edom>
+				</attrdomv>
+			</attr>
+		</detailed>
+	</eainfo>
+	<distinfo>
+		<distrib>
+			<cntinfo>
+				<cntorgp>
+					<cntorg>U.S. Department of Commerce, U.S. Census Bureau, Geography Division, Geographic Products Branch</cntorg>
+				</cntorgp>
+				<cntaddr>
+					<addrtype>Mailing address</addrtype>
+					<address>4600 Silver Hill Road, Stop 7400</address>
+					<city>Washington</city>
+					<state>DC</state>
+					<postal>20233-7400</postal>
+					<country>United States</country>
+				</cntaddr>
+				<cntvoice>301-763-1128</cntvoice>
+				<cntfax>301-763-4710</cntfax>
+				<cntemail>tiger@census.gov</cntemail>
+			</cntinfo>
+		</distrib>
+		<distliab>No warranty, expressed or implied is made with regard to the accuracy of these data, and no liability is assumed by the U.S. Government in general or the U.S. Census Bureau in specific as to the spatial or attribute accuracy of the data.  The act of distribution shall not constitute any such warranty and no responsibility is assumed by the U.S. government in the use of these files.  The boundary information in the TIGER/Line Shapefiles is for statistical data collection and tabulation purposes only; their depiction and designation for statistical purposes do not constitute a determination of jurisdictional authority or rights of ownership or entitlement and they are not legal land descriptions.</distliab>
+		<stdorder>
+			<digform>
+				<digtinfo>
+					<formname>TGRSHP (compressed)</formname>
+					<filedec>PK-ZIP, version 1.93 A or higher</filedec>
+				</digtinfo>
+				<digtopt>
+					<onlinopt>
+						<computer>
+							<networka>
+								<networkr>http://www.census.gov/geo/www/tiger</networkr>
+							</networka>
+						</computer>
+					</onlinopt>
+					<offoptn>
+						<offmedia>DVD-ROM (Only if offered offline)</offmedia>
+						<recfmt>ISO 9660</recfmt>
+					</offoptn>
+				</digtopt>
+			</digform>
+			<fees>The online copy of the TIGER/Line files may be accessed without charge.</fees>
+			<ordering>To obtain more information about ordering TIGER/Line shapefiles visit http://www.census.gov/geo/www/tiger </ordering>
+		</stdorder>
+		<techpreq>The TIGER/Line shapefiles contain geographic data only and do not include display mapping software or statistical data.  For information on how to use the TIGER/Line shapefile data with specific software package users shall contact the company that produced the software.</techpreq>
+	</distinfo>
+	<metainfo>
+		<metd>2008</metd>
+		<metc>
+			<cntinfo>
+				<cntorgp>
+					<cntorg>U.S. Department of Commerce, U.S. Census Bureau, Geography Division, Geographic Products Branch</cntorg>
+				</cntorgp>
+				<cntaddr>
+					<addrtype>Mailing address</addrtype>
+					<address>4600 Silver Hill Road, Stop 7400</address>
+					<city>Washington</city>
+					<state>DC</state>
+					<postal>20233-7400</postal>
+					<country>United States</country>
+				</cntaddr>
+				<cntvoice>301-763-1128</cntvoice>
+				<cntfax>301-763-4710</cntfax>
+				<cntemail>tiger@census.gov</cntemail>
+			</cntinfo>
+		</metc>
+		<metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+		<metstdv>FGDC-STD-001-1998</metstdv>
+		<Metadata_Character_Set>8859part1</Metadata_Character_Set>
+		<Metadata_File_Identifier>tl_2008_13021_featnames.dbf.xml</Metadata_File_Identifier>
+		<Metadata_Language>eng</Metadata_Language>
+	</metainfo>
+</metadata>

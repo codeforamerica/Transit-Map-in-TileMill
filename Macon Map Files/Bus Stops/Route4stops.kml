@@ -1,0 +1,639 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>Route4stops</name>
+<Schema name="Route4stops" id="Route4stops">
+	<SimpleField name="Name" type="string"></SimpleField>
+	<SimpleField name="Description" type="string"></SimpleField>
+	<SimpleField name="OBJECTID" type="int"></SimpleField>
+	<SimpleField name="Id" type="int"></SimpleField>
+	<SimpleField name="Location" type="string"></SimpleField>
+	<SimpleField name="Type" type="int"></SimpleField>
+	<SimpleField name="Sidewalk" type="string"></SimpleField>
+	<SimpleField name="Bike_Route" type="string"></SimpleField>
+	<SimpleField name="Route" type="string"></SimpleField>
+</Schema>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Route4stops">
+		<SimpleData name="OBJECTID">72</SimpleData>
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="Location">Spring Street and Riverside</SimpleData>
+		<SimpleData name="Type">3</SimpleData>
+		<SimpleData name="Sidewalk">Yes</SimpleData>
+		<SimpleData name="Bike_Route">No</SimpleData>
+		<SimpleData name="Route"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-83.630640242107532,32.843091535482614</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Route4stops">
+		<SimpleData name="OBJECTID">74</SimpleData>
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="Location">Spring Street and Riverside</SimpleData>
+		<SimpleData name="Type">2</SimpleData>
+		<SimpleData name="Sidewalk">Yes</SimpleData>
+		<SimpleData name="Bike_Route">No</SimpleData>
+		<SimpleData name="Route"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-83.630371720797896,32.843069768712596</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Route4stops">
+		<SimpleData name="OBJECTID">75</SimpleData>
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="Location">Emery Highway near Chi-Chesters</SimpleData>
+		<SimpleData name="Type">2</SimpleData>
+		<SimpleData name="Sidewalk">Yes</SimpleData>
+		<SimpleData name="Bike_Route">No</SimpleData>
+		<SimpleData name="Route"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-83.62467506589563,32.84809631664865</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Route4stops">
+		<SimpleData name="OBJECTID">76</SimpleData>
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="Location">Bibb County Health Department</SimpleData>
+		<SimpleData name="Type">3</SimpleData>
+		<SimpleData name="Sidewalk">No</SimpleData>
+		<SimpleData name="Bike_Route">No</SimpleData>
+		<SimpleData name="Route"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-83.622284700844929,32.847570523620185</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Route4stops">
+		<SimpleData name="OBJECTID">77</SimpleData>
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="Location">2nd Street near Gray Highway</SimpleData>
+		<SimpleData name="Type">1</SimpleData>
+		<SimpleData name="Sidewalk">No</SimpleData>
+		<SimpleData name="Bike_Route">No</SimpleData>
+		<SimpleData name="Route"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-83.620739208529642,32.84867709066868</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Route4stops">
+		<SimpleData name="OBJECTID">78</SimpleData>
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="Location">Hall Street and Lexington Street</SimpleData>
+		<SimpleData name="Type">1</SimpleData>
+		<SimpleData name="Sidewalk">No</SimpleData>
+		<SimpleData name="Bike_Route">No</SimpleData>
+		<SimpleData name="Route"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-83.6177846259896,32.852519482892191</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Route4stops">
+		<SimpleData name="OBJECTID">79</SimpleData>
+		<SimpleData name="Id">1</SimpleData>
+		<SimpleData name="Location">Hall Street</SimpleData>
+		<SimpleData name="Type">1</SimpleData>
+		<SimpleData name="Sidewalk">No</SimpleData>
+		<SimpleData name="Bike_Route">No</SimpleData>
+		<SimpleData name="Route"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-83.616856357825839,32.852536023800056</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Route4stops">
+		<SimpleData name="OBJECTID">80</SimpleData>
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="Location">Hall Street and Center Street</SimpleData>
+		<SimpleData name="Type">1</SimpleData>
+		<SimpleData name="Sidewalk">No</SimpleData>
+		<SimpleData name="Bike_Route">No</SimpleData>
+		<SimpleData name="Route"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-83.615976938106186,32.8525527737145</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Route4stops">
+		<SimpleData name="OBJECTID">81</SimpleData>
+		<SimpleData name="Id">2</SimpleData>
+		<SimpleData name="Location">Hall Street</SimpleData>
+		<SimpleData name="Type">1</SimpleData>
+		<SimpleData name="Sidewalk">No</SimpleData>
+		<SimpleData name="Bike_Route">No</SimpleData>
+		<SimpleData name="Route"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-83.615170920869701,32.852549223793844</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Route4stops">
+		<SimpleData name="OBJECTID">82</SimpleData>
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="Location">Emery Highway near Chi-Chesters</SimpleData>
+		<SimpleData name="Type">1</SimpleData>
+		<SimpleData name="Sidewalk">Yes</SimpleData>
+		<SimpleData name="Bike_Route">No</SimpleData>
+		<SimpleData name="Route"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-83.625407523289027,32.848140720492914</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Route4stops">
+		<SimpleData name="OBJECTID">83</SimpleData>
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="Location">Hall Street and Womack Street</SimpleData>
+		<SimpleData name="Type">1</SimpleData>
+		<SimpleData name="Sidewalk">No</SimpleData>
+		<SimpleData name="Bike_Route">No</SimpleData>
+		<SimpleData name="Route"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-83.614267204289447,32.852545237404179</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Route4stops">
+		<SimpleData name="OBJECTID">84</SimpleData>
+		<SimpleData name="Id">3</SimpleData>
+		<SimpleData name="Location">Hall Street</SimpleData>
+		<SimpleData name="Type">1</SimpleData>
+		<SimpleData name="Sidewalk">No</SimpleData>
+		<SimpleData name="Bike_Route">No</SimpleData>
+		<SimpleData name="Route"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-83.613461443225191,32.852500444120253</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Route4stops">
+		<SimpleData name="OBJECTID">85</SimpleData>
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="Location">Hall Street and Maynard Street</SimpleData>
+		<SimpleData name="Type">1</SimpleData>
+		<SimpleData name="Sidewalk">Yes</SimpleData>
+		<SimpleData name="Bike_Route">No</SimpleData>
+		<SimpleData name="Route"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-83.610969733795102,32.852551252840342</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Route4stops">
+		<SimpleData name="OBJECTID">86</SimpleData>
+		<SimpleData name="Id">4</SimpleData>
+		<SimpleData name="Location">Hall Street</SimpleData>
+		<SimpleData name="Type">1</SimpleData>
+		<SimpleData name="Sidewalk">Yes</SimpleData>
+		<SimpleData name="Bike_Route">No</SimpleData>
+		<SimpleData name="Route"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-83.611775878800358,32.852534214104118</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Route4stops">
+		<SimpleData name="OBJECTID">87</SimpleData>
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="Location">Hall Street and Ft Hill Street</SimpleData>
+		<SimpleData name="Type">1</SimpleData>
+		<SimpleData name="Sidewalk">Yes</SimpleData>
+		<SimpleData name="Bike_Route">Yes</SimpleData>
+		<SimpleData name="Route"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-83.612581895438879,32.852537785892167</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Route4stops">
+		<SimpleData name="OBJECTID">88</SimpleData>
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="Location">Maynard Street and Taylor Street</SimpleData>
+		<SimpleData name="Type">1</SimpleData>
+		<SimpleData name="Sidewalk">Yes</SimpleData>
+		<SimpleData name="Bike_Route">No</SimpleData>
+		<SimpleData name="Route"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-83.610878591954602,32.855416561692337</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Route4stops">
+		<SimpleData name="OBJECTID">89</SimpleData>
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="Location">Maynard Street and Williams Street</SimpleData>
+		<SimpleData name="Type">1</SimpleData>
+		<SimpleData name="Sidewalk">Yes</SimpleData>
+		<SimpleData name="Bike_Route">No</SimpleData>
+		<SimpleData name="Route"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-83.610845296417551,32.856838961987741</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Route4stops">
+		<SimpleData name="OBJECTID">90</SimpleData>
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="Location">Maynard Street and Morrow Avenue</SimpleData>
+		<SimpleData name="Type">1</SimpleData>
+		<SimpleData name="Sidewalk">Yes</SimpleData>
+		<SimpleData name="Bike_Route">No</SimpleData>
+		<SimpleData name="Route"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-83.610787315354784,32.858302485710034</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Route4stops">
+		<SimpleData name="OBJECTID">91</SimpleData>
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="Location">Maynard Street and Shurling Drive</SimpleData>
+		<SimpleData name="Type">3</SimpleData>
+		<SimpleData name="Sidewalk">Yes</SimpleData>
+		<SimpleData name="Bike_Route">No</SimpleData>
+		<SimpleData name="Route"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-83.6107563313155,32.859353795630717</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Route4stops">
+		<SimpleData name="OBJECTID">92</SimpleData>
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="Location">Shurling Drive and Kitchens Street</SimpleData>
+		<SimpleData name="Type">2</SimpleData>
+		<SimpleData name="Sidewalk">Yes</SimpleData>
+		<SimpleData name="Bike_Route">Yes</SimpleData>
+		<SimpleData name="Route"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-83.607530078892111,32.85964866827635</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Route4stops">
+		<SimpleData name="OBJECTID">93</SimpleData>
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="Location">Kitchens Street</SimpleData>
+		<SimpleData name="Type">2</SimpleData>
+		<SimpleData name="Sidewalk">Yes</SimpleData>
+		<SimpleData name="Bike_Route">No</SimpleData>
+		<SimpleData name="Route"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-83.607381577501769,32.859957253800992</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Route4stops">
+		<SimpleData name="OBJECTID">94</SimpleData>
+		<SimpleData name="Id">1</SimpleData>
+		<SimpleData name="Location">Haywood Road</SimpleData>
+		<SimpleData name="Type">1</SimpleData>
+		<SimpleData name="Sidewalk">No</SimpleData>
+		<SimpleData name="Bike_Route">No</SimpleData>
+		<SimpleData name="Route"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-83.606553855377015,32.863396526036034</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Route4stops">
+		<SimpleData name="OBJECTID">96</SimpleData>
+		<SimpleData name="Id">1</SimpleData>
+		<SimpleData name="Location">Kitchens Street and Haywood Road</SimpleData>
+		<SimpleData name="Type">1</SimpleData>
+		<SimpleData name="Sidewalk">No</SimpleData>
+		<SimpleData name="Bike_Route">No</SimpleData>
+		<SimpleData name="Route"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-83.607384397885795,32.863400241722061</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Route4stops">
+		<SimpleData name="OBJECTID">97</SimpleData>
+		<SimpleData name="Id">2</SimpleData>
+		<SimpleData name="Location">Kitchens Street and Haywood Road</SimpleData>
+		<SimpleData name="Type">1</SimpleData>
+		<SimpleData name="Sidewalk">No</SimpleData>
+		<SimpleData name="Bike_Route">No</SimpleData>
+		<SimpleData name="Route"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-83.604501537926893,32.863449170345632</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Route4stops">
+		<SimpleData name="OBJECTID">98</SimpleData>
+		<SimpleData name="Id">1</SimpleData>
+		<SimpleData name="Location">Kitchens Street</SimpleData>
+		<SimpleData name="Type">1</SimpleData>
+		<SimpleData name="Sidewalk">No</SimpleData>
+		<SimpleData name="Bike_Route">No</SimpleData>
+		<SimpleData name="Route"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-83.60505492928867,32.864791734855679</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Route4stops">
+		<SimpleData name="OBJECTID">99</SimpleData>
+		<SimpleData name="Id">2</SimpleData>
+		<SimpleData name="Location">Kitchens Street</SimpleData>
+		<SimpleData name="Type">1</SimpleData>
+		<SimpleData name="Sidewalk">No</SimpleData>
+		<SimpleData name="Bike_Route">No</SimpleData>
+		<SimpleData name="Route"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-83.606683707804493,32.866056649246907</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Route4stops">
+		<SimpleData name="OBJECTID">100</SimpleData>
+		<SimpleData name="Id">3</SimpleData>
+		<SimpleData name="Location">Kitchens Street</SimpleData>
+		<SimpleData name="Type">1</SimpleData>
+		<SimpleData name="Sidewalk">No</SimpleData>
+		<SimpleData name="Bike_Route">No</SimpleData>
+		<SimpleData name="Route"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-83.607685274425492,32.866061128523647</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Route4stops">
+		<SimpleData name="OBJECTID">101</SimpleData>
+		<SimpleData name="Id">4</SimpleData>
+		<SimpleData name="Location">Kitchens Street</SimpleData>
+		<SimpleData name="Type">1</SimpleData>
+		<SimpleData name="Sidewalk">No</SimpleData>
+		<SimpleData name="Bike_Route">No</SimpleData>
+		<SimpleData name="Route"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-83.608210029700118,32.864187360838002</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Route4stops">
+		<SimpleData name="OBJECTID">102</SimpleData>
+		<SimpleData name="Id">5</SimpleData>
+		<SimpleData name="Location">Kitchens</SimpleData>
+		<SimpleData name="Type">1</SimpleData>
+		<SimpleData name="Sidewalk">No</SimpleData>
+		<SimpleData name="Bike_Route">No</SimpleData>
+		<SimpleData name="Route"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-83.607487282852276,32.862576037304358</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Route4stops">
+		<SimpleData name="OBJECTID">103</SimpleData>
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="Location">Shurling Drive and Gray Highway</SimpleData>
+		<SimpleData name="Type">1</SimpleData>
+		<SimpleData name="Sidewalk">Yes</SimpleData>
+		<SimpleData name="Bike_Route">No</SimpleData>
+		<SimpleData name="Route"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-83.614736212454019,32.859639432849384</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Route4stops">
+		<SimpleData name="OBJECTID">104</SimpleData>
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="Location">Shurling Drive and Gray Highway</SimpleData>
+		<SimpleData name="Type">3</SimpleData>
+		<SimpleData name="Sidewalk">No</SimpleData>
+		<SimpleData name="Bike_Route">No</SimpleData>
+		<SimpleData name="Route"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-83.614979969090072,32.859722973911815</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Route4stops">
+		<SimpleData name="OBJECTID">105</SimpleData>
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="Location">Shurling Drive and Clinton Road</SimpleData>
+		<SimpleData name="Type">1</SimpleData>
+		<SimpleData name="Sidewalk">Yes</SimpleData>
+		<SimpleData name="Bike_Route">No</SimpleData>
+		<SimpleData name="Route"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-83.617789044368592,32.859735329037655</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Route4stops">
+		<SimpleData name="OBJECTID">108</SimpleData>
+		<SimpleData name="Id">3</SimpleData>
+		<SimpleData name="Location">Clinton Road</SimpleData>
+		<SimpleData name="Type">1</SimpleData>
+		<SimpleData name="Sidewalk">No</SimpleData>
+		<SimpleData name="Bike_Route">No</SimpleData>
+		<SimpleData name="Route"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-83.615661270889618,32.86805509075397</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Route4stops">
+		<SimpleData name="OBJECTID">109</SimpleData>
+		<SimpleData name="Id">4</SimpleData>
+		<SimpleData name="Location">Clinton Road</SimpleData>
+		<SimpleData name="Type">1</SimpleData>
+		<SimpleData name="Sidewalk">No</SimpleData>
+		<SimpleData name="Bike_Route">No</SimpleData>
+		<SimpleData name="Route"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-83.61460226302907,32.869431734066588</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Route4stops">
+		<SimpleData name="OBJECTID">110</SimpleData>
+		<SimpleData name="Id">5</SimpleData>
+		<SimpleData name="Location">Clinton Road</SimpleData>
+		<SimpleData name="Type">1</SimpleData>
+		<SimpleData name="Sidewalk">No</SimpleData>
+		<SimpleData name="Bike_Route">No</SimpleData>
+		<SimpleData name="Route"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-83.613296620516309,32.87117837554996</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Route4stops">
+		<SimpleData name="OBJECTID">112</SimpleData>
+		<SimpleData name="Id">1</SimpleData>
+		<SimpleData name="Location">Gray Highway</SimpleData>
+		<SimpleData name="Type">2</SimpleData>
+		<SimpleData name="Sidewalk">No</SimpleData>
+		<SimpleData name="Bike_Route">No</SimpleData>
+		<SimpleData name="Route"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-83.612999059986862,32.864023097252243</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Route4stops">
+		<SimpleData name="OBJECTID">113</SimpleData>
+		<SimpleData name="Id">2</SimpleData>
+		<SimpleData name="Location">Gray Highway</SimpleData>
+		<SimpleData name="Type">2</SimpleData>
+		<SimpleData name="Sidewalk">No</SimpleData>
+		<SimpleData name="Bike_Route">No</SimpleData>
+		<SimpleData name="Route"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-83.613522796490557,32.862293618808579</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Route4stops">
+		<SimpleData name="OBJECTID">114</SimpleData>
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="Location">Gray Highway near McAffee Towers</SimpleData>
+		<SimpleData name="Type">2</SimpleData>
+		<SimpleData name="Sidewalk">No</SimpleData>
+		<SimpleData name="Bike_Route">No</SimpleData>
+		<SimpleData name="Route"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-83.616265151551019,32.857772280530703</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Route4stops">
+		<SimpleData name="OBJECTID">115</SimpleData>
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="Location">Clinton Road near McAffee Towers</SimpleData>
+		<SimpleData name="Type">1</SimpleData>
+		<SimpleData name="Sidewalk">Yes</SimpleData>
+		<SimpleData name="Bike_Route">No</SimpleData>
+		<SimpleData name="Route"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-83.618695390417017,32.85711640671051</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Route4stops">
+		<SimpleData name="OBJECTID">116</SimpleData>
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="Location">Clinton Road and Curry Place</SimpleData>
+		<SimpleData name="Type">1</SimpleData>
+		<SimpleData name="Sidewalk">Yes</SimpleData>
+		<SimpleData name="Bike_Route">No</SimpleData>
+		<SimpleData name="Route"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-83.619135484099417,32.856165386155169</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Route4stops">
+		<SimpleData name="OBJECTID">117</SimpleData>
+		<SimpleData name="Id">6</SimpleData>
+		<SimpleData name="Location">Clinton Road</SimpleData>
+		<SimpleData name="Type">1</SimpleData>
+		<SimpleData name="Sidewalk">Yes</SimpleData>
+		<SimpleData name="Bike_Route">No</SimpleData>
+		<SimpleData name="Route"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-83.619576694073871,32.855031109910506</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Route4stops">
+		<SimpleData name="OBJECTID">118</SimpleData>
+		<SimpleData name="Id">7</SimpleData>
+		<SimpleData name="Location">Clinton Road</SimpleData>
+		<SimpleData name="Type">1</SimpleData>
+		<SimpleData name="Sidewalk">Yes</SimpleData>
+		<SimpleData name="Bike_Route">No</SimpleData>
+		<SimpleData name="Route"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-83.62044067978357,32.852642326644478</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Route4stops">
+		<SimpleData name="OBJECTID">119</SimpleData>
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="Location">Clinton Road and Gray Highway</SimpleData>
+		<SimpleData name="Type">1</SimpleData>
+		<SimpleData name="Sidewalk">Yes</SimpleData>
+		<SimpleData name="Bike_Route">No</SimpleData>
+		<SimpleData name="Route"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-83.620867229168653,32.85134857662851</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Route4stops">
+		<SimpleData name="OBJECTID">120</SimpleData>
+		<SimpleData name="Id">2</SimpleData>
+		<SimpleData name="Location">Gray Highway</SimpleData>
+		<SimpleData name="Type">1</SimpleData>
+		<SimpleData name="Sidewalk">Yes</SimpleData>
+		<SimpleData name="Bike_Route">No</SimpleData>
+		<SimpleData name="Route"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-83.622024164101759,32.850411353597543</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Route4stops">
+		<SimpleData name="OBJECTID">121</SimpleData>
+		<SimpleData name="Id">3</SimpleData>
+		<SimpleData name="Location">Gray Highway</SimpleData>
+		<SimpleData name="Type">1</SimpleData>
+		<SimpleData name="Sidewalk">Yes</SimpleData>
+		<SimpleData name="Bike_Route">No</SimpleData>
+		<SimpleData name="Route"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-83.623353519471991,32.849798772242586</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Route4stops">
+		<SimpleData name="OBJECTID">122</SimpleData>
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="Location">2nd Street and Mulberry Street</SimpleData>
+		<SimpleData name="Type">1</SimpleData>
+		<SimpleData name="Sidewalk">Yes</SimpleData>
+		<SimpleData name="Bike_Route">Yes</SimpleData>
+		<SimpleData name="Route"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-83.628169073753284,32.837823179083621</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Route4stops">
+		<SimpleData name="OBJECTID">124</SimpleData>
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="Location">Mulberry Street and New Street</SimpleData>
+		<SimpleData name="Type">1</SimpleData>
+		<SimpleData name="Sidewalk">Yes</SimpleData>
+		<SimpleData name="Bike_Route">Yes</SimpleData>
+		<SimpleData name="Route"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-83.630926336350868,32.839814768843205</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Route4stops">
+		<SimpleData name="OBJECTID">125</SimpleData>
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="Location">Mulberry Street and 1st Street</SimpleData>
+		<SimpleData name="Type">1</SimpleData>
+		<SimpleData name="Sidewalk">Yes</SimpleData>
+		<SimpleData name="Bike_Route">No</SimpleData>
+		<SimpleData name="Route"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-83.629435298550618,32.838839560013135</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Route4stops">
+		<SimpleData name="OBJECTID">126</SimpleData>
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="Location">Spring Street</SimpleData>
+		<SimpleData name="Type">1</SimpleData>
+		<SimpleData name="Sidewalk">Yes</SimpleData>
+		<SimpleData name="Bike_Route">No</SimpleData>
+		<SimpleData name="Route"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-83.631964552900499,32.841419862063894</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Route4stops">
+		<SimpleData name="OBJECTID">127</SimpleData>
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="Location">Sping Street and Walnut Street</SimpleData>
+		<SimpleData name="Type">1</SimpleData>
+		<SimpleData name="Sidewalk">Yes</SimpleData>
+		<SimpleData name="Bike_Route">No</SimpleData>
+		<SimpleData name="Route"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-83.631412149444714,32.842007215614842</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Route4stops">
+		<SimpleData name="OBJECTID">246</SimpleData>
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="Location">Riverside Drive near Spring Street</SimpleData>
+		<SimpleData name="Type">2</SimpleData>
+		<SimpleData name="Sidewalk">Yes</SimpleData>
+		<SimpleData name="Bike_Route">No</SimpleData>
+		<SimpleData name="Route">Ocmulgee</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-83.630569576184755,32.843326244868756</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Route4stops">
+		<SimpleData name="OBJECTID">606</SimpleData>
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="Location">Clinton Road and Pitts Street</SimpleData>
+		<SimpleData name="Type">1</SimpleData>
+		<SimpleData name="Sidewalk">Yes</SimpleData>
+		<SimpleData name="Bike_Route"></SimpleData>
+		<SimpleData name="Route">North Highland</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-83.617794890046099,32.862352434058579</coordinates></Point>
+  </Placemark>
+</Folder></Document></kml>

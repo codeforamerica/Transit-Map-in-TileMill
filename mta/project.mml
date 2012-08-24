@@ -28,24 +28,54 @@
   ],
   "Layer": [
     {
+      "geometry": "point",
+      "id": "stopssched",
+      "class": "sched",
+      "Datasource": {
+        "file": "/Users/jessicalord/Desktop/Macon Map Files/newbusstops.shp",
+        "id": "stopssched",
+        "project": "mta",
+        "srs": null
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "name": "stopssched"
+    },
+    {
       "geometry": "polygon",
       "name": "bibb",
       "id": "bibb",
       "srs": "",
       "class": "coBoundry",
       "Datasource": {
-        "file": "/Users/jessicalord/Desktop/Macon Map Files/Bib County Census 2010/tl_2010_13021_tract10.shp"
-      }
+        "file": "/Users/jessicalord/Desktop/Macon Map Files/Bib County Census 2010/bibb_co.shp"
+      },
+      "extent": [
+        -83.89205,
+        32.660643,
+        -83.48943,
+        32.952791999999995
+      ],
+      "srs-name": "autodetect",
+      "advanced": {}
     },
     {
-      "geometry": "multipolygon",
+      "geometry": "polygon",
       "name": "macon",
       "id": "macon",
       "srs": "",
       "class": "ciBoundry",
       "Datasource": {
-        "file": "/Users/jessicalord/Desktop/Macon Map Files/From Water/MaconCityLimits.shp"
-      }
+        "file": "/Users/jessicalord/Desktop/Macon Map Files/Macon and Pane City/MaconCityLimits.shp"
+      },
+      "extent": [
+        -83.73941133706816,
+        32.76581710724734,
+        -83.54777338631513,
+        32.89917896687462
+      ],
+      "srs-name": "autodetect",
+      "advanced": {}
     },
     {
       "geometry": "polygon",
@@ -233,53 +263,18 @@
       }
     },
     {
-      "geometry": "point",
-      "id": "stopssched",
-      "class": "sched",
+      "geometry": "linestring",
+      "id": "mta_routes",
+      "class": "route",
       "Datasource": {
-        "file": "/Users/jessicalord/Desktop/Macon Map Files/newbusstops.shp",
-        "id": "stopssched",
+        "file": "/Users/jessicalord/Desktop/Macon Map Files/busRoutes/CombinedBuses.shp",
+        "id": "mta_routes",
         "project": "mta",
         "srs": null
       },
       "srs-name": "autodetect",
       "srs": "",
-      "name": "stopssched"
-    },
-    {
-      "geometry": "linestring",
-      "id": "new1",
-      "class": "route",
-      "Datasource": {
-        "file": "/Users/jessicalord/Desktop/Macon Map Files/Route1Fitted.kml"
-      },
-      "srs-name": "autodetect",
-      "srs": "",
-      "name": "new1"
-    },
-    {
-      "geometry": "linestring",
-      "id": "bird",
-      "class": "route",
-      "Datasource": {
-        "file": "/Users/jessicalord/Desktop/Macon Map Files/WR-BIRD.kml"
-      },
-      "srs-name": "autodetect",
-      "srs": "",
-      "name": "bird"
-    },
-    {
-      "geometry": "linestring",
-      "name": "busRoutes",
-      "id": "busRoutes",
-      "srs": "",
-      "class": "routes",
-      "Datasource": {
-        "file": "/Users/jessicalord/Desktop/Macon Map Files/transit_routes/transit_routes.shp",
-        "id": "busRoutes",
-        "project": "mta",
-        "srs": null
-      }
+      "name": "mta_routes"
     },
     {
       "geometry": "linestring",
@@ -337,9 +332,10 @@
       "name": "birdend"
     }
   ],
+  "scale": 1,
+  "metatile": 2,
   "name": "MTA Transit Map",
   "description": "Map of Macon Bus Routes,\ngithub: https://github.com/codeforamerica/Transit-Map-in-TileMill",
   "attribution": "",
-  "legend": "",
-  "_basemap": "http://a.tiles.mapbox.com/v3/mapbox.mapbox-streets.jsonp"
+  "legend": ""
 }

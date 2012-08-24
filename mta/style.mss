@@ -5,6 +5,7 @@ Map {
   background-image: url(furley_bg.png);
 }
 
+
 #macon {
     ::shadow1, ::shadow2, ::shadow3 {
     line-color: #333;
@@ -231,6 +232,7 @@ Map {
 
 
 
+
 /* ----- POINTS OF INTEREST ----- */
 
 #pInterest[zoom > 15] {
@@ -247,7 +249,7 @@ Map {
      text-fill: #333;
      text-size: 12;
 } 
-   point-allow-overlap: true;
+   /*point-allow-overlap: true; */
 }
  
  #pInterest[type="civic"][zoom >= 14] 
@@ -288,13 +290,12 @@ Map {
 @rt9color: #BD1B40;
 @rt11color: #85568D;
 @rt12color: #DD83A7;
-@rt13color: #000; 
+@rt13color: #000000; 
 
 
-#busRoutes {
+#mta_routes {
   line-width:1.5;
   line-cap: round;
-  
   ::labels {
     text-name: "[Route_No]";
     text-face-name: "Trebuchet MS Regular";
@@ -304,31 +305,15 @@ Map {
     text-halo-radius: 2.5px; 
   }
 }
-/* so that the route # doesn't still show up on map: */ 
-#busRoutes[Route_No="7"]{
 
-  ::labels {
-  text-opacity: 0; 
-  }
-}
-
-#busRoutes[Route_No="7"]{
-  line-opacity: 0;
-}
-
-#new1[zoom = 11] {
-    line-width: 1;
-  }
-
-#busRoutes[zoom = 11] {
+#mta_routes[zoom = 11] {
   line-width: 1;
   ::labels {
     text-opacity: 0; 
   }
 }
 
-#new1[zoom = 12],
-#busRoutes[zoom = 12] {
+#mta_routes[zoom = 12] {
   ::labels {
     text-name: "[Route_No]";
     text-face-name: "Trebuchet MS Regular";
@@ -338,33 +323,32 @@ Map {
     text-halo-radius: 2px; 
   }
 }
-#new1[zoom >= 14],
-#busRoutes[zoom >= 14] {
+
+#mta_routes[zoom >= 14] {
   line-width: 2;
 }
-#new1[zoom >= 16],
-#busRoutes[zoom >= 16] {
+#mta_routes[zoom >= 16] {
   line-width: 3;
 }
 
 /* ------ coloring routes -------- */
 
-#busRoutes[Route_No="1"]{
-  line-opacity: 0;
-  
+
+#mta_routes[Route_No="1"]{
+  line-color: @rt1color;
   ::labels {
   text-halo-fill: @rt1color;
   }
 }
 
-#busRoutes[Route_No="2"]{
+#mta_routes[Route_No="2"]{
   line-color: @rt2color;
   ::labels {
   text-halo-fill: @rt2color;
   }
 }
 
-#busRoutes[Route_No="2B"]{
+#mta_routes[Route_No="2B"]{
   line-color: @rt2color;
   line-dasharray: 3,3;
   ::labels {
@@ -372,73 +356,77 @@ Map {
   }
 }
 
-#busRoutes[Route_No="3"]{
+#mta_routes[Route_No="3"]{
   line-color: @rt3color;
   ::labels {
   text-halo-fill: @rt3color;
   }
 }
 
-#busRoutes[Route_No="4"]{
+#mta_routes[Route_No="4"]{
   line-color: @rt4color;
   ::labels {
   text-halo-fill: @rt4color;
   }
 }
 
-#busRoutes[Route_No="5"]{
+#mta_routes[Route_No="5"]{
   line-color: @rt5color;
   ::labels {
   text-halo-fill: @rt5color;
   }
 }
-#busRoutes[Route_No="6"]{
+#mta_routes[Route_No="6"]{
   line-color: @rt6color;
   ::labels {
   text-halo-fill: @rt6color;
   }
 }
 
-#busRoutes[Route_No="9"]{
+#mta_routes[Route_No="9"]{
   line-color: @rt9color;
   ::labels {
   text-halo-fill: @rt9color;
    }
 }
-#busRoutes[Route_No="11"]{
+#mta_routes[Route_No="11"]{
   line-color: @rt11color;
   ::labels {
   text-halo-fill: @rt11color;
   }
 }
-#busRoutes[Route_No="12"]{
+#mta_routes[Route_No="12"]{
   line-color: @rt12color;
   ::labels {
   text-halo-fill: @rt12color;
   }
 }
-#busRoutes[Route_No="12B"]{
+#mta_routes[Route_No="12B"]{
   line-color: @rt12color;
   line-dasharray: 3,3;
   ::labels {
   text-halo-fill: @rt12color;
   }
 }
-#busRoutes[Route_No="12C"]{
+#mta_routes[Route_No="12C"]{
   line-color: @rt12color;
   line-dasharray: 5,5;
   ::labels {
   text-halo-fill: @rt12color;
   }
 }
-
-#busRoutes[Route_No="13"]{
+#mta_routes[Route_No="13"]{
   line-color: @rt13color;
   ::labels {
   text-halo-fill: @rt13color;
   }
 } 
-
+#mta_routes[Route_No="20"]{
+  line-color: #031177;
+  ::labels {
+  text-halo-fill: #031177;
+  }
+} 
 
 
 /* -----BUS STOPS----- */
@@ -447,7 +435,6 @@ Map {
 #1stops, #2Bstops, #2stops, #3stops, #4stops, #5stops,
 #6stops, #9stops, #11stops, #12stops, #12Bstops,
 #12Cstops, #13stops {marker-line-color: #fff; marker-allow-overlap: true;}
-
 
 #1stops[zoom > 13] {marker-fill: @rt1color;}
 #2Bstops[zoom > 13] {marker-fill: @rt2color;}
@@ -470,50 +457,17 @@ Map {
 .stops[zoom = 17] {marker-width: 13;}
 .stops {marker-fill: #acacac;}
 
-#stopssched[zoom > 13] {
-  marker-fill: #3CD895;
-  marker-line-color: #fff;
-  marker-width: 20;
-}
-
-
-
-
-
-
-#new1 {
-  line-color: @rt1color;
-}
-
-
-#bird {
-  line-width:2;
-  line-color:#168;
-}
-
 #birdend[zoom < 14] {
-  point-opacity: 0;
+ /* point-opacity: 0; */
 }
 
 #birdend[zoom >= 14] {
-  ::labels {
-    text-name: "[route name]";
-    text-face-name: "Trebuchet MS Regular";
-    text-placement: line;
-    text-size: 14px;
-    text-fill: #333;
-    text-wrap-width: 200px;
-    text-halo-fill: #fff;
-    text-halo-radius: 3px;
-    text-allow-overlap: true;
-  }
   point-allow-overlap: true;
   point-file: url(bird15.png);
 }
 
 #birdend[zoom > 15] {
   /* do this if you don't want to use an image
-  
 ::labels {
     text-name: "[description]";
     text-face-name: "Trebuchet MS Regular";
@@ -526,7 +480,28 @@ Map {
     text-allow-overlap: true;
     text-align: left;
   }*/
-  
-   point-allow-overlap: true;
+  point-allow-overlap: true;
   point-file: url(bird17.png); 
+}
+
+#stopssched[zoom > 13] {
+  marker-fill: #3CD895;
+  marker-line-color: #fff;
+  marker-width: 20;
+}
+
+#stopssched {
+  marker-width:6;
+  marker-fill:#f45;
+  marker-line-color:#813;
+  marker-allow-overlap:true;
+}
+
+
+
+#historic {
+  marker-width:6;
+  marker-fill:#f45;
+  marker-line-color:#813;
+  marker-allow-overlap:true;
 }

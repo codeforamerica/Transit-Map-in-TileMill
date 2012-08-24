@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.2">
+<Document>
+  <name>Vineville Neighborhood Facade Loan Program</name>
+  <description><![CDATA[Funded by the Vineville Neighborhood Association and the Trustees of Historic Macon Foundation, eligible building owners in Vineville can borrow $5,000 or $10,000 to improve the exteriors of their buildings on five year repayment terms at 2% interest.  This map shows the borders of the neighborhood for eligibility for this program.]]></description>
+  <Style id="style1">
+    <LineStyle>
+      <color>40000000</color>
+      <width>3</width>
+    </LineStyle>
+    <PolyStyle>
+      <color>7300CC33</color>
+      <fill>1</fill>
+      <outline>1</outline>
+    </PolyStyle>
+  </Style>
+  <Placemark>
+    <name>Vineville Neighborhood Borders</name>
+    <description><![CDATA[<div dir="ltr">If your building is within the borders of this map, you are eligible to apply for a facade loan from Historic Macon Foundation.</div>]]></description>
+    <styleUrl>#style1</styleUrl>
+    <Polygon>
+      <outerBoundaryIs>
+        <LinearRing>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -83.652740,32.840359,0.000000
+            -83.652687,32.840431,0.000000
+            -83.652557,32.840420,0.000000
+            -83.652451,32.840580,0.000000
+            -83.652672,32.840328,0.000000
+            -83.652283,32.840649,0.000000
+            -83.650688,32.842560,0.000000
+            -83.651443,32.842960,0.000000
+            -83.652351,32.843502,0.000000
+            -83.653656,32.844349,0.000000
+            -83.655563,32.845570,0.000000
+            -83.655220,32.851631,0.000000
+            -83.656700,32.851650,0.000000
+            -83.656738,32.853722,0.000000
+            -83.662453,32.853790,0.000000
+            -83.662521,32.848888,0.000000
+            -83.665932,32.848621,0.000000
+            -83.666382,32.848740,0.000000
+            -83.667458,32.846882,0.000000
+            -83.668617,32.847252,0.000000
+            -83.669388,32.846210,0.000000
+            -83.667053,32.844181,0.000000
+            -83.666618,32.843750,0.000000
+            -83.665138,32.842628,0.000000
+            -83.662483,32.842159,0.000000
+            -83.661209,32.841839,0.000000
+            -83.658371,32.841499,0.000000
+            -83.656609,32.841190,0.000000
+            -83.652992,32.840328,0.000000
+            -83.652901,32.840271,0.000000
+            -83.652580,32.840359,0.000000
+            -83.652534,32.840481,0.000000
+            -83.652473,32.840519,0.000000
+            -83.652657,32.840363,0.000000
+            -83.652534,32.840439,0.000000
+            -83.652451,32.840599,0.000000
+            -83.652550,32.840416,0.000000
+            -83.652740,32.840359,0.000000
+          </coordinates>
+        </LinearRing>
+      </outerBoundaryIs>
+    </Polygon>
+  </Placemark>
+</Document>
+</kml>
