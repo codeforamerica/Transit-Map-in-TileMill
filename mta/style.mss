@@ -5,27 +5,27 @@ Map {
   background-image: url(furley_bg.png);
 }
 
-
 #macon {
-    ::shadow1, ::shadow2, ::shadow3 {
+  ::shadow1, ::shadow2, ::shadow3 {
     line-color: #333;
     line-join: round;
-  }
+}
   ::shadow1 {
     line-opacity: 0.03;
     line-width: 9;
-  }
+}
   ::shadow2 {
     line-opacity: 0.06;
     line-width: 4;
-  }
+}
   ::shadow3 {
     line-opacity: 0.12;
     line-width: 2;
-    }
- ::polygon {
-  polygon-pattern-file: url(greybg.png);
-    }
+}
+   ::polygon {
+     polygon-pattern-file: url(greybg.png);
+}
+  
   line-color: #333;
   line-width:2;
   line-dasharray: 2, 2, 4;
@@ -59,38 +59,32 @@ Map {
 } 
 }
 
-#water {
-  line-color:#b8dee6;
-  line-width:0.5;
-  polygon-opacity:1;
-  polygon-fill:#b8dee6;
-}
+#water {line-color:#b8dee6; line-width:0.5; polygon-opacity:.5; polygon-fill:#b8dee6;}
 
 #bibb{
-    ::shadow1, ::shadow2, ::shadow3 {
+  ::shadow1, ::shadow2, ::shadow3 {
     line-color: #333;
     line-join: round;
-  }
+}
   ::shadow1 {
     line-opacity: 0.03;
     line-width: 9;
-  }
+}
   ::shadow2 {
     line-opacity: 0.06;
     line-width: 4;
-  }
+}
   ::shadow3 {
     line-opacity: 0.12;
     line-width: 2;
-    }
- ::polygon {
-  polygon-pattern-file: url(greybg.png);
-    }
-  line-color:#333;
-  line-width: .5; 
-
-  polygon-opacity:1;
-  polygon-fill:#E0E0E0                                                                
+}
+  ::polygon {
+    polygon-pattern-file: url(greybg.png);
+}
+    line-color:#333;
+    line-width: .5; 
+    polygon-opacity:1;
+    polygon-fill:#E0E0E0;                                                               
 }
 
 /* -----STREETS----- */
@@ -120,7 +114,6 @@ Map {
     line-width: 2;
     line-color: #fff;
 }
-
 #bibbSts[TYPE="primary"][zoom >= 14] {
   ::outline {
     line-width: 4.5;
@@ -129,7 +122,6 @@ Map {
     line-width: 4;
     line-color: #fff;
 }
-
 #bibbSts[TYPE="residential"][zoom >= 14] {
   ::outline {
     line-width: 3;
@@ -159,7 +151,6 @@ Map {
     line-width: 7.5;
     line-color: #fff;
 }
-
 #bibbSts[TYPE="residential"][zoom >= 16] {
   ::outline {
     line-width: 4.5;
@@ -230,13 +221,10 @@ Map {
     }
 }
 
-
-
-
 /* ----- POINTS OF INTEREST ----- */
 
 #pInterest[zoom > 15] {
-::labels {
+     ::labels {
      text-name: "[name]";
      text-face-name: "Trebuchet MS Regular";
      text-placement: point;
@@ -248,37 +236,45 @@ Map {
      text-halo-fill: #ecece6;
      text-fill: #333;
      text-size: 12;
-} 
-   /*point-allow-overlap: true; */
+   }
 }
+// set blank point file to make overlap apply to all points
+.point[zoom > 15] {
+  point-file: url();
+  point-allow-overlap: true;
+  }
  
  #pInterest[type="civic"][zoom >= 14] 
-    {point-file: url(maki/town-hall-12.png); }
+    {point-file: url(maki/town-hall-12.png);}
  #pInterest[type="civic"][zoom >= 16] 
-    {point-file: url(maki/town-hall-18.png); }
-
+    {point-file: url(maki/town-hall-18.png);}
  #pInterest[type="shopping"][zoom >= 14] 
-    {point-file: url(maki/grocery-12.png); }
+    {point-file: url(maki/grocery-12.png);}
  #pInterest[type="shopping"][zoom >= 16] 
-    {point-file: url(maki/grocery-18.png); }
+    {point-file: url(maki/grocery-18.png);}
 
  #pInterest[type="residence"][zoom >= 14] 
-    {point-file: url(maki/commercial-12.png); }
+    {point-file: url(maki/commercial-12.png);}
  #pInterest[type="residence"][zoom >= 16] 
-    {point-file: url(maki/commercial-18.png); }
+    {point-file: url(maki/commercial-18.png);}
 
  #pInterest[type="tourist"][zoom >= 14] 
-    {point-file: url(maki/star-12.png); }
+    {point-file: url(maki/star-12.png);}
  #pInterest[type="tourist"][zoom >= 16] 
-    {point-file: url(maki/star-18.png); }
+    {point-file: url(maki/star-18.png);}
 
  #pInterest[type="healthcare"][zoom >= 14] 
-    {point-file: url(maki/hospital-12.png); }
+    {point-file: url(maki/hospital-12.png);}
  #pInterest[type="healthcare"][zoom >= 16] 
-    {point-file: url(maki/hospital-18.png); }
+    {point-file: url(maki/hospital-18.png);}
+
+ #pInterest[type="institution"][zoom >= 14] 
+    {point-file: url(maki/town-hall-12.png);}
+ #pInterest[type="institution"][zoom >= 16] 
+    {point-file: url(maki/town-hall-18.png);}
 
 
-/* ---- BUS ROUTES ---- */
+/* ---- BUS COLORS ---- */
 
 @rt1color: #E99A3D;
 @rt2color: #048FC8;
@@ -291,143 +287,7 @@ Map {
 @rt11color: #85568D;
 @rt12color: #DD83A7;
 @rt13color: #000000; 
-
-
-#mta_routes {
-  line-width:1.5;
-  line-cap: round;
-  ::labels {
-    text-name: "[Route_No]";
-    text-face-name: "Trebuchet MS Regular";
-    text-placement: line;
-    text-size: 14px;
-    text-fill: #ffffff;
-    text-halo-radius: 2.5px; 
-  }
-}
-
-#mta_routes[zoom = 11] {
-  line-width: 1;
-  ::labels {
-    text-opacity: 0; 
-  }
-}
-
-#mta_routes[zoom = 12] {
-  ::labels {
-    text-name: "[Route_No]";
-    text-face-name: "Trebuchet MS Regular";
-    text-placement: line;
-    text-size: 12px;
-    text-fill: #ffffff;
-    text-halo-radius: 2px; 
-  }
-}
-
-#mta_routes[zoom >= 14] {
-  line-width: 2;
-}
-#mta_routes[zoom >= 16] {
-  line-width: 3;
-}
-
-/* ------ coloring routes -------- */
-
-
-#mta_routes[Route_No="1"]{
-  line-color: @rt1color;
-  ::labels {
-  text-halo-fill: @rt1color;
-  }
-}
-
-#mta_routes[Route_No="2"]{
-  line-color: @rt2color;
-  ::labels {
-  text-halo-fill: @rt2color;
-  }
-}
-
-#mta_routes[Route_No="2B"]{
-  line-color: @rt2color;
-  line-dasharray: 3,3;
-  ::labels {
-  text-halo-fill: @rt2color; 
-  }
-}
-
-#mta_routes[Route_No="3"]{
-  line-color: @rt3color;
-  ::labels {
-  text-halo-fill: @rt3color;
-  }
-}
-
-#mta_routes[Route_No="4"]{
-  line-color: @rt4color;
-  ::labels {
-  text-halo-fill: @rt4color;
-  }
-}
-
-#mta_routes[Route_No="5"]{
-  line-color: @rt5color;
-  ::labels {
-  text-halo-fill: @rt5color;
-  }
-}
-#mta_routes[Route_No="6"]{
-  line-color: @rt6color;
-  ::labels {
-  text-halo-fill: @rt6color;
-  }
-}
-
-#mta_routes[Route_No="9"]{
-  line-color: @rt9color;
-  ::labels {
-  text-halo-fill: @rt9color;
-   }
-}
-#mta_routes[Route_No="11"]{
-  line-color: @rt11color;
-  ::labels {
-  text-halo-fill: @rt11color;
-  }
-}
-#mta_routes[Route_No="12"]{
-  line-color: @rt12color;
-  ::labels {
-  text-halo-fill: @rt12color;
-  }
-}
-#mta_routes[Route_No="12B"]{
-  line-color: @rt12color;
-  line-dasharray: 3,3;
-  ::labels {
-  text-halo-fill: @rt12color;
-  }
-}
-#mta_routes[Route_No="12C"]{
-  line-color: @rt12color;
-  line-dasharray: 5,5;
-  ::labels {
-  text-halo-fill: @rt12color;
-  }
-}
-#mta_routes[Route_No="13"]{
-  line-color: @rt13color;
-  ::labels {
-  text-halo-fill: @rt13color;
-  }
-} 
-#mta_routes[Route_No="20"]{
-  line-color: #031177;
-  ::labels {
-  text-halo-fill: #031177;
-  }
-} 
-
+@birdcolor: #092580;
 
 /* -----BUS STOPS----- */
 /* Bus stops do not appear below zoom 13. */
@@ -436,38 +296,14 @@ Map {
 #6stops, #9stops, #11stops, #12stops, #12Bstops,
 #12Cstops, #13stops {marker-line-color: #fff; marker-allow-overlap: true;}
 
-#1stops[zoom > 13] {marker-fill: @rt1color;}
-#2Bstops[zoom > 13] {marker-fill: @rt2color;}
-#2stops[zoom > 13] {marker-fill: @rt2color;}
-#1stops[zoom > 13] {marker-fill: @rt1color;}
-#3stops[zoom > 13] {marker-fill: @rt3color;}
-#4stops[zoom > 13] {marker-fill: @rt4color;}
-#5stops[zoom > 13] {marker-fill: @rt5color;}
-#6stops[zoom > 13] {marker-fill: @rt6color;}
-#9stops[zoom > 13] {marker-fill: @rt9color;}
-#11stops[zoom > 13] {marker-fill: @rt11color;}
-#12stops[zoom > 13] {marker-fill: @rt12color;}
-#12Bstops[zoom > 13] {marker-fill: @rt12color;}
-#12Cstops[zoom > 13] {marker-fill: @rt12color;}
-#13stops.stops[zoom > 13] {marker-fill: @rt13color;}
-
-.stops[zoom <= 13] {marker-width: 0;} 
-.stops[zoom > 13] {marker-width: 5.5;} 
-.stops[zoom > 15] {marker-width: 10;}
-.stops[zoom = 17] {marker-width: 13;}
-.stops {marker-fill: #acacac;}
-
-#birdend[zoom < 14] {
- /* point-opacity: 0; */
-}
-
+/* Label describing route past Bibb Co border */
 #birdend[zoom >= 14] {
   point-allow-overlap: true;
-  point-file: url(bird15.png);
+  point-file: url(bird15.png); 
 }
 
 #birdend[zoom > 15] {
-  /* do this if you don't want to use an image
+/* do this if you don't want to use an image
 ::labels {
     text-name: "[description]";
     text-face-name: "Trebuchet MS Regular";
@@ -479,29 +315,99 @@ Map {
     text-halo-radius: 3px;
     text-allow-overlap: true;
     text-align: left;
-  }*/
-  point-allow-overlap: true;
-  point-file: url(bird17.png); 
+  } */
+   point-allow-overlap: true;
+  point-file: url(bird17.png);
 }
 
-#stopssched[zoom > 13] {
-  marker-fill: #3CD895;
-  marker-line-color: #fff;
-  marker-width: 20;
+
+#mtaRoutes {
+  line-width:1.5;
+  line-cap: round;
+  ::labels {
+    text-name: "[Route_No]";
+    text-face-name: "Trebuchet MS Regular";
+    text-placement: line;
+    text-opacity: 0;
+  }
 }
 
-#stopssched {
-  marker-width:6;
-  marker-fill:#f45;
-  marker-line-color:#813;
+#mtaRoutes[zoom >= 15] {
+  line-width: 2;
+   ::labels {
+    text-name: "[Route_No]";
+    text-face-name: "Trebuchet MS Regular";
+    text-placement: line;
+    text-size: 14px;
+    text-fill: #ffffff;
+    text-halo-radius: 2.5px; 
+  }
+}
+#mtaRoutes[zoom = 17] {
+  line-width: 6;
+}
+
+#mtaRoutes[zoom >= 16] {line-width:3;}
+
+#mtaRoutes[Route_No="1"]       {line-color: @rt1color; ::labels {text-halo-fill: @rt1color}}
+#mtaRoutes[Route_No="2B"]      {line-color: @rt2color; line-dasharray: 3,3; ::labels {text-halo-fill: @rt2color}}
+#mtaRoutes[Route_No="2"]       {line-color: @rt2color; ::labels {text-halo-fill: @rt2color}}
+#mtaRoutes[Route_No="3"]       {line-color: @rt3color; ::labels {text-halo-fill: @rt3color}}
+#mtaRoutes[Route_No="4"]       {line-color: @rt4color; ::labels {text-halo-fill: @rt4color}}
+#mtaRoutes[Route_No="5"]       {line-color: @rt5color; ::labels {text-halo-fill: @rt5color}}
+#mtaRoutes[Route_No="6"]       {line-color: @rt6color; ::labels {text-halo-fill: @rt6color}}
+#mtaRoutes[Route_No="9"]       {line-color: @rt9color; ::labels {text-halo-fill: @rt9color}}
+#mtaRoutes[Route_No="11"]      {line-color: @rt11color; ::labels {text-halo-fill: @rt11color}}
+#mtaRoutes[Route_No="12"]      {line-color: @rt12color; ::labels {text-halo-fill: @rt12color}}
+#mtaRoutes[Route_No="12B"]     {line-color: @rt12color; line-dasharray: 3,3; ::labels {text-halo-fill: @rt12color}}
+#mtaRoutes[Route_No="12C"]     {line-color: @rt12color; line-dasharray: 5,5; ::labels {text-halo-fill: @rt12color}}
+#mtaRoutes[Route_No="13"]      {line-color: @rt13color; ::labels {text-halo-fill: @rt13color}}
+#mtaRoutes[Route_No="WR BIRD"] {line-color: @birdcolor; ::labels {text-halo-fill: @birdcolor;}}
+
+#mtaStops[Route="Vineville/ Charter Hospital"] {
+ marker-fill: @rt1color;}
+#mtaStops[Route="Houston/Peach Orchard"] {
+ marker-fill: @rt12color;}
+#mtaStops[Route="East Macon"] {
+ marker-fill: @rt11color;}
+#mtaStops[Route="North Highland"] {
+ marker-fill: @rt4color;}
+#mtaStops[Route="Bellevue/ Log Cabin"] {
+ marker-fill: @rt2color;}
+#mtaStops[Route="Ocmulgee"] {
+ marker-fill: @rt5color;}
+#mtaStops[Route="Westgate"] {
+ marker-fill: @rt6color;}
+#mtaStops[Route="Macon Mall"] {
+ marker-fill: @rt9color;}
+#mtaStops[Route="West Macon"] {
+ marker-fill: @rt3color;}
+
+#mtaStops[zoom = 14] {
+  marker-width:5; 
+  marker-line-width: 0;
   marker-allow-overlap:true;
 }
 
+#mtaStops[zoom >= 15] {
+  marker-width: 7;
+  marker-line-width: 0;
+  marker-allow-overlap:true;
+}
 
+#mtaStops[zoom = 17] {
+  marker-width: 9;
+  marker-line-width: 0;
+  marker-allow-overlap:true;
+}
 
-#historic {
-  marker-width:6;
-  marker-fill:#f45;
-  marker-line-color:#813;
+#mtaStops[zoom < 14] {
+  marker-opacity: 0;
+}
+
+#hiddenStops[zoom >= 14] {
+  marker-width:15; 
+  marker-fill:#333;
+  marker-line-width: 0;
   marker-allow-overlap:true;
 }
