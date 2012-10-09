@@ -2,7 +2,7 @@
 
 These are the style and data files that make up the transit map built for Macon, Georgia during its 2012 [Code for America](http://www.codeforamerica.org) partnership. The Macon Transit Athority now uses it on their [website](http://www.mta-mac.com/map.html).
 
-You can also view a large version [here](http://tiles.mapbox.com/jllord/map/mta). You can view a medium-sized version with a fun CSS legend [here](http://www.jlord.us/map). So many options.
+You can also view a large version [here](http://tiles.mapbox.com/jllord/map/mta). You can view a medium-sized version with a fun CSS legend [here](http://codeforamerica.github.com/Transit-Map-in-TileMill/). So many options.
 
 ##We <3 Open Source
 
