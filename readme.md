@@ -16,3 +16,5 @@ Everything we do is open source, so take it and use it! If you have a city that 
 If have more questions - let [jllord](http://www.twitter.com/jllord) know.
 
 Also, the extra javascript and bustimes awesomeness that [Nick](http://www.github.com/mapmeld) made for the final map on the City's website is on [this repo](http://www.github.com/codeforamerica/Transit2Me).
+
+The slides from my talk at State of the Map US in 2012 are in this repo. 
